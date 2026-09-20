@@ -7,33 +7,38 @@
   <a href="#featured-project-gallery">Featured projects</a> ·
   <a href="#all-44-projects">All 44 projects</a> ·
   <a href="./data/projects.json">JSON catalogue</a> ·
-  <a href="./README.zh-CN.md">中文说明</a>
+  <a href="./README.zh-CN.md">简体中文</a> ·
+  <a href="./README.ja.md">日本語</a>
 </p>
 
-# Awesome JEV
+<h1 align="center">Awesome JEV</h1>
 
-**A source-reviewed gallery of JEV projects, integrations, tools, open models,
-and experiments—with primary discovery links and fixed-commit evidence kept together.**
+<p align="center"><strong>A source-reviewed gallery of JEV projects, integrations, tools, open models, and experiments.</strong></p>
 
-JEV is most useful when it handles a bounded judgment—**choose, score, route, or
-filter**—while ordinary code keeps control of thresholds, execution, and
-fallbacks. This collection makes those system boundaries inspectable.
+<p align="center">See where JEV chooses, scores, routes, or filters—while application code keeps control of execution.</p>
 
-## At a glance
+<h2 align="center">At a glance</h2>
 
 | Source-reviewed projects | Repositories ≥1K stars | Use-case groups | Snapshot |
-| ---: | ---: | ---: | :--- |
+| :---: | :---: | :---: | :---: |
 | **44** | **29** | **10** | **2026-09-20** |
 
-Stars and views are discovery snapshots, not independent validation of runtime
-or benchmark claims. For a filterable experience, open the
-**[live gallery on BeatAPI](https://beatapi.io/awesome-jev)**.
+<h2 align="center">Browse by category</h2>
+
+<p align="center">
+  <a href="#browser--computer-use-3">Browser & Computer Use · 3</a> ·
+  <a href="#sdk-integrations-9">SDK Integrations · 9</a> ·
+  <a href="#routing--optimization-4">Routing · 4</a> ·
+  <a href="#open-models-8">Open Models · 8</a> ·
+  <a href="#search--data-4">Search & Data · 4</a><br>
+  <a href="#safety--review-5">Safety & Review · 5</a> ·
+  <a href="#agent-workflows-3">Agent Workflows · 3</a> ·
+  <a href="#interfaces--automation-3">Interfaces · 3</a> ·
+  <a href="#developer-tools-2">Developer Tools · 2</a> ·
+  <a href="#domain-tools-3">Domain Tools · 3</a>
+</p>
 
 ## Featured project gallery
-
-Like the [MiniMax H3 prompt gallery](https://github.com/BeatAPI/awesome-minimax-h3-prompts),
-this README puts concrete examples first. Each project below links to its repository,
-the exact source revision reviewed, and—when available—the original discovery case.
 
 |  |  |
 | --- | --- |
@@ -48,7 +53,7 @@ the exact source revision reviewed, and—when available—the original discover
 | [![NewsJack repository preview](https://opengraph.githubassets.com/awesome-jev-20260920/elvisun/newsjack)](https://github.com/elvisun/newsjack) | [![QuantDinger repository preview](https://opengraph.githubassets.com/awesome-jev-20260920/OpenByteInc/QuantDinger)](https://github.com/OpenByteInc/QuantDinger) |
 | **[NewsJack](https://github.com/elvisun/newsjack)** · Agent workflow · 1.2K stars<br>Filters hundreds of live news items before an agent handles the selected opportunities.<br>[Original case · 583K views](https://x.com/elvissun/status/2100951347080421409) · [Fixed-commit evidence](https://github.com/elvisun/newsjack/tree/092d882fc69912622f620c50eb493afe625f99dc/demos/news-desk-dealer) | **[QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger)** · Domain tool · 11.8K stars<br>Adds an evidence and risk gate before selected live-trading entries.<br>[Fixed-commit evidence](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py) |
 
-**[Explore these projects with filters and full descriptions →](https://beatapi.io/awesome-jev)**
+<p align="center"><strong><a href="https://beatapi.io/awesome-jev">Explore with filters and full descriptions →</a></strong></p>
 
 ## All 44 projects
 
@@ -92,75 +97,25 @@ the exact source revision reviewed, and—when available—the original discover
 
 [AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund) · [QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger) · [JEV Trader](https://github.com/jarrodwatts/jev-trader)
 
-## Why these projects matter
+<details>
+<summary><strong>Data, evidence, and selection notes</strong></summary>
 
-```text
-noisy state + bounded options
-              │
-              ▼
-     JEV: choose · score · route · filter
-              │
-              ▼
- local policy: threshold · fallback · approval
-              │
-              ▼
-       tool, model, search, or action
-```
+- Every entry keeps a public repository, a fixed-commit evidence link, and a concrete JEV decision role.
+- Directly related repositories at or above 1,000 stars are included after source review; smaller projects remain when they add a distinct pattern.
+- Stars and views are discovery snapshots. `source-reviewed` does not mean BeatAPI reproduced benchmarks, audited security, or received maintainer endorsement.
+- Machine-readable data: [`data/projects.json`](./data/projects.json)
+- Corrections and additions: [`CONTRIBUTING.md`](./CONTRIBUTING.md)
 
-The recurring pattern is not “replace the whole agent.” It is to move one
-frequent, well-bounded judgment onto a faster decision path and leave the final
-action under explicit application policy.
-
-## Use the catalogue
-
-```bash
-curl -s https://raw.githubusercontent.com/BeatAPI/awesome-jev/main/data/projects.json \
-  | jq '.projects[] | {name, category, repoUrl, source, evidenceUrl}'
-```
-
-Each record includes its primary discovery source, repository metadata, localized
-summaries, the JEV decision point, and a permalink to the exact source version reviewed.
-
-## Selection standard
-
-A project enters the main catalogue only when it has:
-
-- a public repository with a clear JEV or JEV-compatible implementation;
-- an original X case, GitHub source match, or another primary discovery source;
-- fixed-commit evidence that future readers can inspect;
-- a concrete, bounded decision role rather than a generic AI claim;
-- one canonical entry per project after deduplication.
-
-Every directly related repository at or above **1,000 stars** found by the source
-audit is included after review. Smaller entries such as `jegrep` can still be
-included when they add a distinct implementation pattern.
-
-`source-reviewed` does **not** mean we ran the project, reproduced its benchmark,
-audited its security, or received an endorsement from its maintainers.
-
-## Contributing
-
-Additions and evidence corrections are welcome. Read
-[`CONTRIBUTING.md`](./CONTRIBUTING.md) before opening a pull request.
+</details>
 
 ## BeatAPI
 
-[BeatAPI](https://beatapi.io) is the professional capability layer for any
-agent. One platform key gives developers access to the BeatAPI capabilities
-available today.
+**[Browse the live gallery](https://beatapi.io/awesome-jev)** ·
+**[Create a BeatAPI key](https://beatapi.io/dashboard/apikeys)** ·
+**[Contribute](./CONTRIBUTING.md)**
 
-**[Browse Awesome JEV on BeatAPI](https://beatapi.io/awesome-jev)** ·
-**[Create a BeatAPI key](https://beatapi.io/dashboard/apikeys)**
-
-This repository does not claim that JEV is currently live in BeatAPI. JEV access
-will be announced only after its endpoint, model ID, pricing, and a real response
-are verified.
-
-## License
-
-BeatAPI-authored catalogue text and repository assets are MIT licensed. Listed
-projects retain their own licenses. See [`NOTICE.md`](./NOTICE.md).
+JEV is not claimed as a live BeatAPI endpoint until its model ID, pricing, and real response are verified.
 
 ---
 
-<sub>Curated and maintained by <a href="https://github.com/BeatAPI"><b>BeatAPI</b></a> · <a href="https://beatapi.io/awesome-jev">Live gallery</a> · <a href="https://beatapi.io">beatapi.io</a></sub>
+<sub>Curated by <a href="https://github.com/BeatAPI"><b>BeatAPI</b></a> · <a href="https://beatapi.io/awesome-jev">Live gallery</a> · <a href="./NOTICE.md">License & notices</a></sub>

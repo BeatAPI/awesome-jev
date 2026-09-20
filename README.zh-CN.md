@@ -7,31 +7,38 @@
   <a href="#精选项目-gallery">精选项目</a> ·
   <a href="#全部-44-个项目">全部 44 个项目</a> ·
   <a href="./data/projects.json">JSON 目录</a> ·
-  <a href="./README.md">English</a>
+  <a href="./README.md">English</a> ·
+  <a href="./README.ja.md">日本語</a>
 </p>
 
-# Awesome JEV
+<h1 align="center">Awesome JEV</h1>
 
-**经过源码核对的 JEV 项目、集成、工具、开放模型与实验 Gallery。每个条目都保留
-一手发现来源、公开仓库和固定 commit 源码证据。**
+<p align="center"><strong>经过源码核对的 JEV 项目、集成、工具、开放模型与实验 Gallery。</strong></p>
 
-JEV 最适合处理有明确边界的判断：**选择、评分、路由、过滤**。最终阈值、
-执行动作和失败回退仍由本地代码控制，这个项目库重点展示的正是这种系统分工。
+<p align="center">看看 JEV 如何完成选择、评分、路由与过滤，同时由应用代码掌控执行。</p>
 
-## 当前规模
+<h2 align="center">当前规模</h2>
 
 | 已核对源码项目 | 1K+ Star 仓库 | 实践方向 | 数据快照 |
-| ---: | ---: | ---: | :--- |
+| :---: | :---: | :---: | :---: |
 | **44** | **29** | **10** | **2026-09-20** |
 
-Star 和浏览量只是发现快照，不代表本站独立复现了运行结果或 Benchmark。需要筛选、
-搜索和完整中文说明，可以打开 **[BeatAPI 主站 Gallery](https://beatapi.io/zh/awesome-jev)**。
+<h2 align="center">按分类浏览</h2>
+
+<p align="center">
+  <a href="#浏览器与电脑操作3">浏览器与电脑操作 · 3</a> ·
+  <a href="#sdk-与框架集成9">SDK 与框架集成 · 9</a> ·
+  <a href="#路由与优化4">路由与优化 · 4</a> ·
+  <a href="#开放模型8">开放模型 · 8</a> ·
+  <a href="#搜索与数据4">搜索与数据 · 4</a><br>
+  <a href="#安全与审查5">安全与审查 · 5</a> ·
+  <a href="#agent-工作流3">Agent 工作流 · 3</a> ·
+  <a href="#界面与自动化3">界面与自动化 · 3</a> ·
+  <a href="#开发者工具2">开发者工具 · 2</a> ·
+  <a href="#垂直工具3">垂直工具 · 3</a>
+</p>
 
 ## 精选项目 Gallery
-
-参考 [MiniMax H3 Prompt Gallery](https://github.com/BeatAPI/awesome-minimax-h3-prompts)
-的案例展示方式，先让项目本身可见。每个案例都提供仓库、固定版本源码证据，能找到
-原始传播案例的同时保留原链接。
 
 |  |  |
 | --- | --- |
@@ -46,7 +53,7 @@ Star 和浏览量只是发现快照，不代表本站独立复现了运行结果
 | [![NewsJack 仓库预览](https://opengraph.githubassets.com/awesome-jev-20260920/elvisun/newsjack)](https://github.com/elvisun/newsjack) | [![QuantDinger 仓库预览](https://opengraph.githubassets.com/awesome-jev-20260920/OpenByteInc/QuantDinger)](https://github.com/OpenByteInc/QuantDinger) |
 | **[NewsJack](https://github.com/elvisun/newsjack)** · Agent 工作流 · 1.2K Star<br>先筛选数百条实时新闻，再让 Agent 继续处理少量入选机会。<br>[原始案例 · 58.3 万浏览](https://x.com/elvissun/status/2100951347080421409) · [固定版本源码](https://github.com/elvisun/newsjack/tree/092d882fc69912622f620c50eb493afe625f99dc/demos/news-desk-dealer) | **[QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger)** · 垂直工具 · 11.8K Star<br>在部分真实交易入场前增加证据质量与风险判断闸门。<br>[固定版本源码](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py) |
 
-**[在主站筛选并查看完整项目说明 →](https://beatapi.io/zh/awesome-jev)**
+<p align="center"><strong><a href="https://beatapi.io/zh/awesome-jev">在主站筛选并查看完整项目说明 →</a></strong></p>
 
 ## 全部 44 个项目
 
@@ -90,59 +97,25 @@ Star 和浏览量只是发现快照，不代表本站独立复现了运行结果
 
 [AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund) · [QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger) · [JEV Trader](https://github.com/jarrodwatts/jev-trader)
 
-## JEV 在系统里的位置
+<details>
+<summary><strong>数据、证据与收录说明</strong></summary>
 
-```text
-复杂状态 + 有限选项
-        │
-        ▼
-JEV：选择 · 评分 · 路由 · 过滤
-        │
-        ▼
-本地策略：阈值 · 回退 · 人工确认
-        │
-        ▼
-工具、模型、搜索或实际动作
-```
+- 每个条目都保留公开仓库、固定 commit 证据和明确的 JEV 判断职责。
+- 源码搜索发现的直接相关 1K+ Star 仓库经核对后纳入；实践模式独特的小项目也会保留。
+- Star 和浏览量只是发现快照；`source-reviewed` 不代表 BeatAPI 已复现性能、完成安全审计或获得作者背书。
+- 机器可读数据：[`data/projects.json`](./data/projects.json)
+- 补充与纠错：[`CONTRIBUTING.md`](./CONTRIBUTING.md)
 
-这些项目共同的思路不是“让 JEV 替代整个 Agent”，而是把一个高频、明确、
-有边界的判断放到更短的决策链路里。
-
-## 收录标准
-
-- 有公开仓库并能定位 JEV 或 JEV 兼容实现；
-- 有 X 原案例、GitHub 源码命中或其他一手发现来源；
-- 保留可长期核对的固定 commit 证据；
-- 能明确说明 JEV 在系统中负责哪一个有限判断；
-- 完成项目级去重。
-
-源码搜索发现的直接相关 1K+ Star 仓库，经核对后全部纳入；像 `jegrep` 这样
-Star 较低但实践模式独特的项目也会作为精选案例保留。
-
-`source-reviewed` 只代表核对过公开源码，不代表 BeatAPI 已经运行项目、复现
-性能、完成安全审计或获得作者背书。
-
-## 参与维护
-
-欢迎补充项目或修正证据。提交前请阅读
-[`CONTRIBUTING.md`](./CONTRIBUTING.md)。
+</details>
 
 ## BeatAPI
 
-[BeatAPI](https://beatapi.io) 是 **The professional capability layer for any
-agent**。开发者可以用一个平台 Key 使用 BeatAPI 当前已经上线的能力。
+**[浏览主站 Gallery](https://beatapi.io/zh/awesome-jev)** ·
+**[创建 BeatAPI Key](https://beatapi.io/zh/dashboard/apikeys)** ·
+**[参与维护](./CONTRIBUTING.md)**
 
-**[浏览 Awesome JEV 主站 Gallery](https://beatapi.io/zh/awesome-jev)** ·
-**[创建 BeatAPI Key](https://beatapi.io/zh/dashboard/apikeys)**
-
-本仓库不宣称 JEV 已经在 BeatAPI 上线。只有端点、模型 ID、价格和真实返回完成
-核验后，才会正式公布 JEV 的接入方式。
-
-## License
-
-BeatAPI 编写的目录文字和仓库资产采用 MIT License；被收录项目保留各自许可证。
-详见 [`NOTICE.md`](./NOTICE.md)。
+在模型 ID、价格和真实返回完成核验前，本仓库不宣称 JEV 已经作为 BeatAPI 端点上线。
 
 ---
 
-<sub>由 <a href="https://github.com/BeatAPI"><b>BeatAPI</b></a> 策展与维护 · <a href="https://beatapi.io/zh/awesome-jev">主站 Gallery</a> · <a href="https://beatapi.io">beatapi.io</a></sub>
+<sub>由 <a href="https://github.com/BeatAPI"><b>BeatAPI</b></a> 策展 · <a href="https://beatapi.io/zh/awesome-jev">主站 Gallery</a> · <a href="./NOTICE.md">许可证与声明</a></sub>
