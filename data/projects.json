@@ -633,23 +633,23 @@
     {
       "id": "laya",
       "name": "Laya",
-      "owner": "convaiinnovations",
+      "owner": "NandhaKishorM",
       "category": "open-models",
       "repoUrl": "https://github.com/NandhaKishorM/laya",
       "evidenceUrl": "https://github.com/NandhaKishorM/laya/blob/d113dca2512fb3eaca313534bc54c7162d87c1d4/README.md",
       "modelUrl": "https://huggingface.co/convaiinnovations/laya",
       "language": "Python",
       "license": "Apache-2.0",
-      "starsAtCapture": 1795,
+      "starsAtCapture": 2820,
       "summary": {
-        "en": "An Apache-2.0 open-weight decision model with English, multilingual, and typed-decision checkpoints.",
-        "zh": "采用 Apache-2.0 的开放权重决策模型，提供英文、多语言与 typed-decision 检查点。",
-        "ja": "英語、多言語、型付き意思決定チェックポイントを備えた Apache-2.0 オープンウェイト意思決定モデル。"
+        "en": "Multilingual non-autoregressive System 1 decision engine: typed choice/score/noul in one forward pass, with a router across checkpoints.",
+        "zh": "多语言非自回归 System 1 决策引擎：单次前向完成类型化 choice/score/noul，并由路由在检查点间选型。",
+        "ja": "多言語・非自己回帰の System 1 意思決定エンジン。1 回の前向き計算で型付き choice/score/noul を出し、ルータがチェックポイントを選びます。"
       },
       "decision": {
-        "en": "Produces typed choice, score, and noul outputs locally; benchmark comparisons are author-reported.",
-        "zh": "在本地输出类型化 choice、score 与 noul；对比数据均按作者披露处理。",
-        "ja": "型指定された選択肢、スコア、および noul 出力をローカルに生成します。ベンチマークの比較は著者によって報告されています。"
+        "en": "Answers typed questions over text or structured state without generating free-form text to parse.",
+        "zh": "对文本或结构化状态回答类型化问题，不生成再解析自由文本。",
+        "ja": "テキストや構造化状態に対する型付き質問に答え、自由文を生成してパースしません。"
       },
       "source": {
         "type": "github",
