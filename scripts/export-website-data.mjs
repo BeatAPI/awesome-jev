@@ -34,8 +34,8 @@ export type JevProject = {
   language: string;
   license: string;
   starsAtCapture: number;
-  summary: { en: string; zh: string };
-  decision: { en: string; zh: string };
+  summary: { en: string; zh: string; ja: string };
+  decision: { en: string; zh: string; ja: string };
   verification: 'source-reviewed';
   runtimeVerified: false;
 };

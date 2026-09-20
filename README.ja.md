@@ -5,7 +5,7 @@
 <p align="center">
   <strong><a href="https://beatapi.io/ja/awesome-jev">Awesome JEV ギャラリーを見る</a></strong> ·
   <a href="#注目プロジェクト">注目プロジェクト</a> ·
-  <a href="#全-44-プロジェクト">全 100 プロジェクト</a> ·
+  <a href="#全-44-プロジェクト">全 125 プロジェクト</a> ·
   <a href="./data/projects.json">JSON カタログ</a> ·
   <a href="./README.md">English</a> ·
   <a href="./README.zh-CN.md">简体中文</a>
@@ -31,7 +31,7 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>100</strong></td>
+      <td align="center"><strong>125</strong></td>
       <td align="center"><strong>29</strong></td>
       <td align="center"><strong>10</strong></td>
       <td align="center"><strong>2026-09-20</strong></td>
@@ -72,58 +72,133 @@
 
 <p align="center"><strong><a href="https://beatapi.io/ja/awesome-jev">フィルターと詳しい説明付きで見る →</a></strong></p>
 
-## 全 100 プロジェクト
+## 全 125 プロジェクト
 
-### ブラウザ・コンピューター操作（3）
-
-[Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) · [Cua · JEV Use](https://github.com/trycua/cua) · [Agent Desktop · JEV Skill](https://github.com/lahfir/agent-desktop)
-
-### SDK・フレームワーク連携（9）
-
-[LangChain · TypeSafe](https://github.com/langchain-ai/langchain) · [Composio · TypeSafe Provider](https://github.com/ComposioHQ/composio) · [Vercel AI SDK · TypeSafe](https://github.com/vercel/ai) · [Pydantic AI · TypeSafe](https://github.com/pydantic/pydantic-ai) · [Eliza · TypeSafe Client](https://github.com/elizaOS/eliza) · [LangChain.js · TypeSafe](https://github.com/langchain-ai/langchainjs) · [Rig · TypeSafe Crate](https://github.com/0xPlaygrounds/rig) · [Ax · TypeSafe Client](https://github.com/ax-llm/ax) · [Vellum Assistant · JEV](https://github.com/vellum-ai/vellum-assistant)
-
-### ルーティング・最適化（4）
-
-[LiteLLM · JEV Router](https://github.com/BerriAI/litellm) · [Oh My Pi · JEV Judgments](https://github.com/can1357/oh-my-pi) · [OpenChamber · JEV Router](https://github.com/openchamber/openchamber) · [Firstmate · JEV Dispatch](https://github.com/kunchenguid/firstmate)
-
-### オープンモデル（8）
-
-[SemIf](https://github.com/TheoLeeCJ/SemIf) · [Laya](https://github.com/NandhaKishorM/laya) · [NanoJev](https://github.com/TianyuCodings/NanoJev) · [Jevlike](https://github.com/vinnylarouge/jevlike) · [Kev 0.5B](https://github.com/jaredpalmer/kev) · [Nimble](https://github.com/bespokelabsai/nimble) · [LocalJev](https://github.com/githubnext/localjev) · [Jeff](https://github.com/logan-markewich/jeff)
-
-### 検索・データ（4）
-
-[Jev Experiments](https://github.com/dabit3/jev-experiments) · [Tax Document Classifier](https://github.com/kyotofin/tax-doc-classifier) · [jev-semgrep](https://github.com/uehaj/jev-semgrep) · [jegrep](https://github.com/can1357/jegrep)
-
-### 安全性・レビュー（5）
-
-[Agentgateway · JEV Guardrail](https://github.com/agentgateway/agentgateway) · [Latitude · JEV Preclassifier](https://github.com/latitude-dev/latitude-llm) · [Abide](https://github.com/coldteadotai/abide) · [jev-align](https://github.com/sutro-sh/jev-align) · [Jev Reviewer](https://github.com/choxos/jev-reviewer)
-
-### Agent ワークフロー（3）
-
-[Jev Model Router](https://github.com/davila7/claude-code-templates) · [NewsJack](https://github.com/elvisun/newsjack) · [jev-gateway](https://github.com/vinilana/jev-gateway)
-
-### UI・自動化（3）
-
-[json-render · JEV Compose](https://github.com/vercel-labs/json-render) · [TipTour macOS](https://github.com/milind-soni/tiptour-macos) · [Live Jev](https://github.com/okinaaudio/live-jev)
-
-### 開発者ツール（2）
-
-[Fast Jev Compaction](https://github.com/tamaratran/fast-jev-compaction) · [Hono Jev Router](https://github.com/yusukebe/hono-jev-router)
-
-### 業務特化ツール（3）
-
-[AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund) · [QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger) · [JEV Trader](https://github.com/jarrodwatts/jev-trader)
-
-<details>
-<summary><strong>データ、根拠、選定基準</strong></summary>
-
-- 各項目には公開リポジトリ、固定コミットの根拠、JEV が担う具体的な判断を記録しています。
-- ソース確認で見つかった直接関連の 1K+ Star リポジトリを収録し、独自性のある小規模プロジェクトも残しています。
-- Star と表示回数は発見時点のスナップショットです。`source-reviewed` は性能再現、セキュリティ監査、開発者による推薦を意味しません。
-- 機械可読データ：[`data/projects.json`](./data/projects.json)
-- 追加・修正：[`CONTRIBUTING.md`](./CONTRIBUTING.md)
-
-</details>
+- [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) · 9,549 stars
+- [LangChain · TypeSafe](https://github.com/langchain-ai/langchain) · 146,702 stars
+- [AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund) · 63,571 stars
+- [LiteLLM · JEV Router](https://github.com/BerriAI/litellm) · 59,192 stars
+- [Oh My Pi · JEV Judgments](https://github.com/can1357/oh-my-pi) · 32,024 stars
+- [Jev Model Router](https://github.com/davila7/claude-code-templates) · 30,822 stars
+- [Composio · TypeSafe Provider](https://github.com/ComposioHQ/composio) · 30,258 stars
+- [Vercel AI SDK · TypeSafe](https://github.com/vercel/ai) · 26,858 stars
+- [Cua · JEV Use](https://github.com/trycua/cua) · 24,683 stars
+- [Pydantic AI · TypeSafe](https://github.com/pydantic/pydantic-ai) · 20,066 stars
+- [Eliza · TypeSafe Client](https://github.com/elizaOS/eliza) · 19,382 stars
+- [LangChain.js · TypeSafe](https://github.com/langchain-ai/langchainjs) · 18,213 stars
+- [json-render · JEV Compose](https://github.com/vercel-labs/json-render) · 16,898 stars
+- [QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger) · 11,763 stars
+- [OpenChamber · JEV Router](https://github.com/openchamber/openchamber) · 10,100 stars
+- [Rig · TypeSafe Crate](https://github.com/0xPlaygrounds/rig) · 8,679 stars
+- [Firstmate · JEV Dispatch](https://github.com/kunchenguid/firstmate) · 6,771 stars
+- [Agentgateway · JEV Guardrail](https://github.com/agentgateway/agentgateway) · 4,936 stars
+- [Latitude · JEV Preclassifier](https://github.com/latitude-dev/latitude-llm) · 4,661 stars
+- [Fast Jev Compaction](https://github.com/tamaratran/fast-jev-compaction) · 4,463 stars
+- [Ax · TypeSafe Client](https://github.com/ax-llm/ax) · 2,927 stars
+- [SemIf](https://github.com/TheoLeeCJ/SemIf) · 2,047 stars
+- [Laya](https://github.com/NandhaKishorM/laya) · 1,795 stars
+- [JEV Trader](https://github.com/jarrodwatts/jev-trader) · 1,364 stars
+- [Agent Desktop · JEV Skill](https://github.com/lahfir/agent-desktop) · 1,310 stars
+- [Vellum Assistant · JEV](https://github.com/vellum-ai/vellum-assistant) · 1,292 stars
+- [NewsJack](https://github.com/elvisun/newsjack) · 1,181 stars
+- [NanoJev](https://github.com/TianyuCodings/NanoJev) · 1,104 stars
+- [Jevlike](https://github.com/vinnylarouge/jevlike) · 1,018 stars
+- [TipTour macOS](https://github.com/milind-soni/tiptour-macos) · 600 stars
+- [Kev 0.5B](https://github.com/jaredpalmer/kev) · 591 stars
+- [Nimble](https://github.com/bespokelabsai/nimble) · 573 stars
+- [LocalJev](https://github.com/githubnext/localjev) · 484 stars
+- [Jev Experiments](https://github.com/dabit3/jev-experiments) · 312 stars
+- [Tax Document Classifier](https://github.com/kyotofin/tax-doc-classifier) · 270 stars
+- [Abide](https://github.com/coldteadotai/abide) · 169 stars
+- [jev-align](https://github.com/sutro-sh/jev-align) · 158 stars
+- [Jeff](https://github.com/logan-markewich/jeff) · 120 stars
+- [jev-semgrep](https://github.com/uehaj/jev-semgrep) · 92 stars
+- [jev-gateway](https://github.com/vinilana/jev-gateway) · 57 stars
+- [Hono Jev Router](https://github.com/yusukebe/hono-jev-router) · 39 stars
+- [Live Jev](https://github.com/okinaaudio/live-jev) · 32 stars
+- [jegrep](https://github.com/can1357/jegrep) · 31 stars
+- [Jev Reviewer](https://github.com/choxos/jev-reviewer) · 19 stars
+- [Celesto](https://github.com/CelestoAI/celesto) · 943 stars
+- [Atomic](https://github.com/bastani-inc/atomic) · 806 stars
+- [Aiavatarkit](https://github.com/uezo/aiavatarkit) · 676 stars
+- [Kody](https://github.com/kentcdodds/kody) · 654 stars
+- [Agent](https://github.com/AgentiLoop/Agent) · 616 stars
+- [Req LLM](https://github.com/agentjido/req_llm) · 577 stars
+- [Omg.dev](https://github.com/BennyKok/omg.dev) · 531 stars
+- [Vexjoy Agent](https://github.com/notque/vexjoy-agent) · 420 stars
+- [Foreman](https://github.com/thruwire/foreman) · 344 stars
+- [WrongStack](https://github.com/WrongStack/WrongStack) · 329 stars
+- [Instructor Php](https://github.com/cognesy/instructor-php) · 327 stars
+- [TypeSafe Computer Use](https://github.com/awlevin/typesafe-computer-use) · 302 stars
+- [Jev Review](https://github.com/devagrawal09/jev-review) · 284 stars
+- [Orchestkit](https://github.com/yonatangross/orchestkit) · 278 stars
+- [TypeSafe Mario](https://github.com/fhshaik/typesafe-mario) · 266 stars
+- [Openai Scala Client](https://github.com/cequence-io/openai-scala-client) · 248 stars
+- [Pi Fabric](https://github.com/monotykamary/pi-fabric) · 236 stars
+- [OpenWhisper](https://github.com/Knuckles92/OpenWhisper) · 185 stars
+- [Pg JEV](https://github.com/realZachi/pg-jev) · 179 stars
+- [Interlinked CLI](https://github.com/QuentinCody/interlinked-cli) · 177 stars
+- [JEV Router](https://github.com/gargpratyush/jev-router) · 174 stars
+- [Skillbox](https://github.com/kitze/skillbox) · 165 stars
+- [Mobile JEV](https://github.com/droidrun/mobile-jev) · 162 stars
+- [Runline](https://github.com/Michaelliv/runline) · 162 stars
+- [JEV Search](https://github.com/superagents-lab/jev-search) · 146 stars
+- [JEV Browser Use](https://github.com/wy-coliney/jev-browser-use) · 136 stars
+- [JEV Review](https://github.com/NiazMorshed2007/jev-review) · 126 stars
+- [Effect Agent](https://github.com/danieljvdm/effect-agent) · 119 stars
+- [JEV Browser](https://github.com/jkudish/jev-browser) · 117 stars
+- [Unclutter](https://github.com/kitze/unclutter) · 110 stars
+- [TypeSafe SDK Python](https://github.com/typesafe-ai/typesafe-sdk-python) · 101 stars
+- [JEV Eval Agent](https://github.com/vinilana/jev-eval-agent) · 87 stars
+- [Bluenoise](https://github.com/rokcso/bluenoise) · 83 stars
+- [TypeSafe MCP](https://github.com/itsmostafa/typesafe-mcp) · 80 stars
+- [JEV Shell History](https://github.com/mrnugget/jev-shell-history) · 57 stars
+- [JEV Codex Router](https://github.com/0xNatoshi/jev-codex-router) · 53 stars
+- [TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock) · 50 stars
+- [JEV Skip](https://github.com/valentynkit/jev-skip) · 1 stars
+- [JEV Commit](https://github.com/valentynkit/jev-commit) · 0 stars
+- [Jev.nvim](https://github.com/valentynkit/jev.nvim) · 0 stars
+- [Jevpilot](https://github.com/standardagents/jevpilot) · 77 stars
+- [JEV Drone](https://github.com/RomanSlack/jev-drone) · 66 stars
+- [Youtube Sponsor Detection](https://github.com/trungdq88/youtube-sponsor-detection) · 61 stars
+- [Jevmeter](https://github.com/ChetasLua/jevmeter) · 58 stars
+- [Captaincore](https://github.com/CaptainCore/captaincore) · 71 stars
+- [Pg TypeSafe](https://github.com/giuliosmall/pg_typesafe) · 76 stars
+- [Simple JEV](https://github.com/featherless-ai/simple-jev) · 168 stars
+- [TypeSafe SDK Js](https://github.com/typesafe-ai/typesafe-sdk-js) · 139 stars
+- [AI](https://github.com/hackclub/ai) · 133 stars
+- [Taskuary](https://github.com/ldbumble/taskuary) · 105 stars
+- [JEV Voice Browser](https://github.com/moritzkremb/jev-voice-browser) · 84 stars
+- [JEV MCP](https://github.com/jkudish/jev-mcp) · 75 stars
+- [Advocaat](https://github.com/pithings/advocaat) · 75 stars
+- [Pi JEV](https://github.com/y0usaf/pi-jev) · 70 stars
+- [Pi Warden](https://github.com/DevMortimer/pi-warden) · 67 stars
+- [Openjev](https://github.com/razorback16/openjev) · 50 stars
+- [Openwork](https://github.com/different-ai/openwork) · 23,660 stars
+- [Eve](https://github.com/vercel/eve) · 5,278 stars
+- [AI CLI](https://github.com/vercel-labs/ai-cli) · 807 stars
+- [TypeSafe Skills](https://github.com/typesafe-ai/skills) · 880 stars
+- [Awesome JEV by TypeSafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) · 661 stars
+- [Smithers](https://github.com/smithersai/smithers) · 417 stars
+- [Jev CU](https://github.com/Sac-Y/Jev-cu) · 406 stars
+- [Splash](https://github.com/incoai/splash) · 381 stars
+- [Awesome TypeSafe](https://github.com/AbdelStark/awesome-typesafe) · 369 stars
+- [Awesome JEV (cobanov)](https://github.com/cobanov/awesome-jev) · 238 stars
+- [OpenJEV SGLang](https://github.com/ekzhang/openjev-sglang) · 207 stars
+- [Notra](https://github.com/usenotra/notra) · 192 stars
+- [System One Adapter (Python)](https://github.com/typesafe-ai/system-one-adapter-python) · 184 stars
+- [Awesome JEV (fatwang2)](https://github.com/fatwang2/awesome-jev) · 173 stars
+- [Perch](https://github.com/lakeday-org/perch) · 162 stars
+- [JEV Visual](https://github.com/hr98w/jev-visual) · 163 stars
+- [Third Hand](https://github.com/shhivv/third-hand) · 147 stars
+- [Compact Adviser](https://github.com/kunchenguid/compact-adviser) · 143 stars
+- [Awesome JEV Projects](https://github.com/logicrw/awesome-jev-projects) · 168 stars
+- [Hermes JEV Skills](https://github.com/kerpopule/hermes-jev-skills) · 136 stars
+- [JEV Pruner](https://github.com/tamaratran/jev-pruner) · 119 stars
+- [OpenJEV Verdict 2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0) · 119 stars
+- [Building with JEV Skill](https://github.com/dbreunig/building-with-jev-skill) · 121 stars
+- [Decider](https://github.com/Mapika/decider) · 107 stars
+- [djev-spark](https://github.com/mmastrac/djev-spark) · 103 stars
 
 ## BeatAPI
 
@@ -131,7 +206,7 @@
 **[BeatAPI Key を作成](https://beatapi.io/ja/dashboard/apikeys)** ·
 **[コントリビュート](./CONTRIBUTING.md)**
 
-モデル ID、価格、実レスポンスが確認されるまで、JEV を BeatAPI の提供中エンドポイントとは表記しません。
+JEV は BeatAPI で提供中です。同じ BeatAPI キーと USD 残高を使い、`POST /v1/systemone` でモデル `jev-1.13` を呼び出せます。
 
 ---
 
