@@ -19,9 +19,26 @@
 
 <h2 align="center">当前规模</h2>
 
-| 已核对源码项目 | 1K+ Star 仓库 | 实践方向 | 数据快照 |
-| :---: | :---: | :---: | :---: |
-| **44** | **29** | **10** | **2026-09-20** |
+<div align="center">
+<table>
+  <thead>
+    <tr>
+      <th align="center">已核对源码项目</th>
+      <th align="center">1K+ Star 仓库</th>
+      <th align="center">实践方向</th>
+      <th align="center">数据快照</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>44</strong></td>
+      <td align="center"><strong>29</strong></td>
+      <td align="center"><strong>10</strong></td>
+      <td align="center"><strong>2026-09-20</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 <h2 align="center">按分类浏览</h2>
 

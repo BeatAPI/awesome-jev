@@ -55,6 +55,10 @@ test('README identity and project-owned cover stay present', async () => {
   assert.match(chineseReadme, /<h2 align="center">当前规模<\/h2>/);
   assert.match(japaneseReadme, /<h2 align="center">概要<\/h2>/);
   for (const localizedReadme of [readme, chineseReadme, japaneseReadme]) {
+    assert.match(localizedReadme, /<div align="center">\s*<table>/);
+    assert.match(localizedReadme, /<td align="center"><strong>44<\/strong><\/td>/);
+  }
+  for (const localizedReadme of [readme, chineseReadme, japaneseReadme]) {
     assert.equal(
       [...localizedReadme.matchAll(/opengraph\.githubassets\.com\/awesome-jev-20260920\//g)].length,
       10,

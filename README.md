@@ -19,9 +19,26 @@
 
 <h2 align="center">At a glance</h2>
 
-| Source-reviewed projects | Repositories ≥1K stars | Use-case groups | Snapshot |
-| :---: | :---: | :---: | :---: |
-| **44** | **29** | **10** | **2026-09-20** |
+<div align="center">
+<table>
+  <thead>
+    <tr>
+      <th align="center">Source-reviewed projects</th>
+      <th align="center">Repositories ≥1K stars</th>
+      <th align="center">Use-case groups</th>
+      <th align="center">Snapshot</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>44</strong></td>
+      <td align="center"><strong>29</strong></td>
+      <td align="center"><strong>10</strong></td>
+      <td align="center"><strong>2026-09-20</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 <h2 align="center">Browse by category</h2>
 
