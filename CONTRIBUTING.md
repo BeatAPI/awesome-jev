@@ -3,6 +3,7 @@
 Submit additions through a pull request. Every project must include:
 
 - the original repository URL;
+- the original X case or another primary discovery source;
 - a permalink to the exact file and commit that shows the Jev integration;
 - a plain-language description of the bounded decision Jev makes;
 - the local policy or execution step that consumes the result;
