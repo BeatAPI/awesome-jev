@@ -1,0 +1,31 @@
+{
+  "mode": "beautify",
+  "project": "Awesome JEV",
+  "direction": "decision-field",
+  "audience": "Developers evaluating bounded decision patterns for agents, tools, search, interfaces, and review workflows.",
+  "oneSentenceValue": "A curated map of JEV projects with the original case, repository, and fixed-commit evidence kept together.",
+  "primaryProof": "Seventeen source-reviewed entries linked to public repositories and original X cases.",
+  "firstSuccessfulAction": "Open data/projects.json or a featured repository and inspect its fixed-commit evidence.",
+  "nativeVisualMaterial": "Many noisy signals converge into one bounded decision and resolve into choose, score, route, or filter paths.",
+  "cover": {
+    "size": "1200x400",
+    "source": "assets/readme/cover.svg",
+    "rendered": "assets/readme/cover.webp",
+    "generatedBackground": "assets/readme/decision-field.png",
+    "exactText": [
+      "Awesome JEV",
+      "Small decisions. Serious systems.",
+      "CHOOSE / SCORE / ROUTE / FILTER",
+      "Powered by BeatAPI"
+    ]
+  },
+  "factBoundaries": [
+    "X views and GitHub stars are historical snapshots.",
+    "Source review is not runtime, benchmark, security, or endorsement verification.",
+    "JEV is not presented as currently live in BeatAPI."
+  ],
+  "imageGeneration": {
+    "mode": "built-in image_gen",
+    "promptSummary": "Premium midnight-navy decision field: many noisy signals converge into a crystalline decision core and resolve into four clean paths; no text, logos, people, robots, or watermark."
+  }
+}

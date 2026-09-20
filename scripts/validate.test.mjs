@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { access, readFile } from 'node:fs/promises';
 import test from 'node:test';
 
 const catalogue = JSON.parse(
@@ -30,4 +30,13 @@ test('every project keeps repository and fixed-commit evidence links', () => {
 
 test('catalogue covers multiple practical patterns', () => {
   assert.ok(new Set(catalogue.projects.map((project) => project.category)).size >= 6);
+});
+
+test('README identity and project-owned cover stay present', async () => {
+  const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
+  assert.match(readme, /# Awesome JEV/);
+  assert.match(readme, /assets\/readme\/cover\.webp/);
+  assert.match(readme, /Powered by BeatAPI|BeatAPI/);
+  await access(new URL('../assets/readme/cover.webp', import.meta.url));
+  await access(new URL('../assets/readme/cover.svg', import.meta.url));
 });

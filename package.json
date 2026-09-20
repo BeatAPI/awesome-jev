@@ -1,5 +1,6 @@
 {
-  "name": "awesome-jev-projects",
+  "name": "awesome-jev",
+  "description": "Curated open-source JEV projects, tools, models, and experiments with source evidence.",
   "private": true,
   "type": "module",
   "scripts": {
