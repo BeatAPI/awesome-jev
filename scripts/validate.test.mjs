@@ -9,7 +9,7 @@ const catalogue = JSON.parse(
 test('catalogue metadata is explicit', () => {
   assert.equal(catalogue.schemaVersion, 3);
   assert.match(catalogue.capturedAt, /^\d{4}-\d{2}-\d{2}$/);
-  assert.equal(catalogue.projects.length, 44);
+  assert.equal(catalogue.projects.length, 100);
 });
 
 test('every project keeps repository and fixed-commit evidence links', () => {
@@ -56,7 +56,7 @@ test('README identity and project-owned cover stay present', async () => {
   assert.match(japaneseReadme, /<h2 align="center">概要<\/h2>/);
   for (const localizedReadme of [readme, chineseReadme, japaneseReadme]) {
     assert.match(localizedReadme, /<div align="center">\s*<table>/);
-    assert.match(localizedReadme, /<td align="center"><strong>44<\/strong><\/td>/);
+    assert.match(localizedReadme, /<td align="center"><strong>100<\/strong><\/td>/);
   }
   for (const localizedReadme of [readme, chineseReadme, japaneseReadme]) {
     assert.equal(
