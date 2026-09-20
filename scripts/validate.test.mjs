@@ -44,18 +44,26 @@ test('catalogue covers multiple practical patterns', () => {
 test('README identity and project-owned cover stay present', async () => {
   const readme = await readFile(new URL('../README.md', import.meta.url), 'utf8');
   const chineseReadme = await readFile(new URL('../README.zh-CN.md', import.meta.url), 'utf8');
-  assert.match(readme, /# Awesome JEV/);
+  const japaneseReadme = await readFile(new URL('../README.ja.md', import.meta.url), 'utf8');
+  assert.match(readme, /Awesome JEV<\/h1>/);
   assert.match(readme, /assets\/readme\/cover\.webp/);
   assert.match(readme, /Powered by BeatAPI|BeatAPI/);
   assert.match(readme, /https:\/\/beatapi\.io\/awesome-jev/);
   assert.match(chineseReadme, /https:\/\/beatapi\.io\/zh\/awesome-jev/);
-  assert.equal(
-    [...readme.matchAll(/opengraph\.githubassets\.com\/awesome-jev-20260920\//g)].length,
-    10,
-  );
+  assert.match(japaneseReadme, /https:\/\/beatapi\.io\/ja\/awesome-jev/);
+  assert.match(readme, /<h2 align="center">At a glance<\/h2>/);
+  assert.match(chineseReadme, /<h2 align="center">当前规模<\/h2>/);
+  assert.match(japaneseReadme, /<h2 align="center">概要<\/h2>/);
+  for (const localizedReadme of [readme, chineseReadme, japaneseReadme]) {
+    assert.equal(
+      [...localizedReadme.matchAll(/opengraph\.githubassets\.com\/awesome-jev-20260920\//g)].length,
+      10,
+    );
+  }
   for (const project of catalogue.projects) {
     assert.ok(readme.includes(project.repoUrl), `README missing ${project.id}`);
     assert.ok(chineseReadme.includes(project.repoUrl), `Chinese README missing ${project.id}`);
+    assert.ok(japaneseReadme.includes(project.repoUrl), `Japanese README missing ${project.id}`);
   }
   await access(new URL('../assets/readme/cover.webp', import.meta.url));
   await access(new URL('../assets/readme/cover.png', import.meta.url));
