@@ -13,9 +13,9 @@
 
 <h1 align="center">Awesome JEV</h1>
 
-<p align="center"><strong>A source-reviewed gallery of JEV projects, integrations, tools, open models, and experiments.</strong></p>
+<p align="center"><strong>A source-reviewed gallery of JEV-related projects with 100+ GitHub stars — integrations, tools, open models, and experiments.</strong></p>
 
-<p align="center">See where JEV chooses, scores, routes, or filters—while application code keeps control of execution.</p>
+<p align="center">We only list projects at or above 100 stars. See where JEV chooses, scores, routes, or filters—while application code keeps control of execution.</p>
 
 <h2 align="center">At a glance</h2>
 
@@ -32,7 +32,7 @@
   <tbody>
     <tr>
       <td align="center"><strong>125</strong></td>
-      <td align="center"><strong>29</strong></td>
+      <td align="center"><strong>31</strong></td>
       <td align="center"><strong>10</strong></td>
       <td align="center"><strong>2026-09-20</strong></td>
     </tr>

@@ -13,9 +13,9 @@
 
 <h1 align="center">Awesome JEV</h1>
 
-<p align="center"><strong>ソースコードを確認した JEV のプロジェクト、連携、ツール、オープンモデル、実験を集めたギャラリー。</strong></p>
+<p align="center"><strong>GitHub 100★以上・ソース確認済みの JEV 関連プロジェクト／連携／ツール／オープンモデル／実験だけをまとめています。</strong></p>
 
-<p align="center">JEV が選択・採点・ルーティング・フィルタリングを担い、実行はアプリケーションコードが制御する実例を紹介します。</p>
+<p align="center">掲載の中心は 100 stars 以上。JEV が選択・採点・ルーティング・フィルタを担い、実行制御はアプリ側に残る事例です。</p>
 
 <h2 align="center">概要</h2>
 
@@ -32,7 +32,7 @@
   <tbody>
     <tr>
       <td align="center"><strong>125</strong></td>
-      <td align="center"><strong>29</strong></td>
+      <td align="center"><strong>31</strong></td>
       <td align="center"><strong>10</strong></td>
       <td align="center"><strong>2026-09-20</strong></td>
     </tr>

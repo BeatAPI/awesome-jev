@@ -13,9 +13,9 @@
 
 <h1 align="center">Awesome JEV</h1>
 
-<p align="center"><strong>经过源码核对的 JEV 项目、集成、工具、开放模型与实验 Gallery。</strong></p>
+<p align="center"><strong>只整理 100+ Star、经过源码核对的 JEV 相关项目、集成、工具、开放模型与实验。</strong></p>
 
-<p align="center">看看 JEV 如何完成选择、评分、路由与过滤，同时由应用代码掌控执行。</p>
+<p align="center">收录门槛为 GitHub 100 Star 及以上。看看 JEV 如何完成选择、评分、路由与过滤，同时由应用代码掌控执行。</p>
 
 <h2 align="center">当前规模</h2>
 
@@ -32,7 +32,7 @@
   <tbody>
     <tr>
       <td align="center"><strong>125</strong></td>
-      <td align="center"><strong>29</strong></td>
+      <td align="center"><strong>31</strong></td>
       <td align="center"><strong>10</strong></td>
       <td align="center"><strong>2026-09-20</strong></td>
     </tr>
