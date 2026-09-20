@@ -5,7 +5,7 @@
 <p align="center">
   <strong><a href="https://beatapi.io/awesome-jev">Browse the live Awesome JEV gallery</a></strong> ·
   <a href="#featured-project-gallery">Featured projects</a> ·
-  <a href="#all-100-projects">All 100 projects</a> ·
+  <a href="#all-125-projects">All 125 projects</a> ·
   <a href="./data/projects.json">JSON catalogue</a> ·
   <a href="./README.zh-CN.md">简体中文</a> ·
   <a href="./README.ja.md">日本語</a>
@@ -31,7 +31,7 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>100</strong></td>
+      <td align="center"><strong>125</strong></td>
       <td align="center"><strong>29</strong></td>
       <td align="center"><strong>10</strong></td>
       <td align="center"><strong>2026-09-20</strong></td>
@@ -72,7 +72,7 @@
 
 <p align="center"><strong><a href="https://beatapi.io/awesome-jev">Explore with filters and full descriptions →</a></strong></p>
 
-## All 100 projects
+## All 125 projects
 
 - [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) · 9,549 stars
 - [LangChain · TypeSafe](https://github.com/langchain-ai/langchain) · 146,702 stars
@@ -174,7 +174,31 @@
 - [Pi JEV](https://github.com/y0usaf/pi-jev) · 70 stars
 - [Pi Warden](https://github.com/DevMortimer/pi-warden) · 67 stars
 - [Openjev](https://github.com/razorback16/openjev) · 50 stars
-
+- [Openwork](https://github.com/different-ai/openwork) · 23,660 stars
+- [Eve](https://github.com/vercel/eve) · 5,278 stars
+- [AI CLI](https://github.com/vercel-labs/ai-cli) · 807 stars
+- [TypeSafe Skills](https://github.com/typesafe-ai/skills) · 880 stars
+- [Awesome JEV by TypeSafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) · 661 stars
+- [Smithers](https://github.com/smithersai/smithers) · 417 stars
+- [Jev CU](https://github.com/Sac-Y/Jev-cu) · 406 stars
+- [Splash](https://github.com/incoai/splash) · 381 stars
+- [Awesome TypeSafe](https://github.com/AbdelStark/awesome-typesafe) · 369 stars
+- [Awesome JEV (cobanov)](https://github.com/cobanov/awesome-jev) · 238 stars
+- [OpenJEV SGLang](https://github.com/ekzhang/openjev-sglang) · 207 stars
+- [Notra](https://github.com/usenotra/notra) · 192 stars
+- [System One Adapter (Python)](https://github.com/typesafe-ai/system-one-adapter-python) · 184 stars
+- [Awesome JEV (fatwang2)](https://github.com/fatwang2/awesome-jev) · 173 stars
+- [Perch](https://github.com/lakeday-org/perch) · 162 stars
+- [JEV Visual](https://github.com/hr98w/jev-visual) · 163 stars
+- [Third Hand](https://github.com/shhivv/third-hand) · 147 stars
+- [Compact Adviser](https://github.com/kunchenguid/compact-adviser) · 143 stars
+- [Awesome JEV Projects](https://github.com/logicrw/awesome-jev-projects) · 168 stars
+- [Hermes JEV Skills](https://github.com/kerpopule/hermes-jev-skills) · 136 stars
+- [JEV Pruner](https://github.com/tamaratran/jev-pruner) · 119 stars
+- [OpenJEV Verdict 2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0) · 119 stars
+- [Building with JEV Skill](https://github.com/dbreunig/building-with-jev-skill) · 121 stars
+- [Decider](https://github.com/Mapika/decider) · 107 stars
+- [djev-spark](https://github.com/mmastrac/djev-spark) · 103 stars
 
 ## BeatAPI
 
@@ -182,7 +206,7 @@
 **[Create a BeatAPI key](https://beatapi.io/dashboard/apikeys)** ·
 **[Contribute](./CONTRIBUTING.md)**
 
-JEV is not claimed as a live BeatAPI endpoint until its model ID, pricing, and real response are verified.
+JEV is live on BeatAPI: use the same BeatAPI key and USD balance to call `POST /v1/systemone` with model `jev-1.13`.
 
 ---
 

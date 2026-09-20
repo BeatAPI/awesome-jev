@@ -9,7 +9,7 @@ const catalogue = JSON.parse(
 test('catalogue metadata is explicit', () => {
   assert.equal(catalogue.schemaVersion, 3);
   assert.match(catalogue.capturedAt, /^\d{4}-\d{2}-\d{2}$/);
-  assert.equal(catalogue.projects.length, 100);
+  assert.equal(catalogue.projects.length, 125);
 });
 
 test('every project keeps repository and fixed-commit evidence links', () => {
@@ -26,8 +26,12 @@ test('every project keeps repository and fixed-commit evidence links', () => {
       assert.match(project.source.url, /^https:\/\/x\.com\/[^/]+\/status\/\d+$/);
       assert.ok(project.source.views >= 10_000);
     }
-    assert.ok(project.summary.en && project.summary.zh);
-    assert.ok(project.decision.en && project.decision.zh);
+    assert.ok(project.summary.en && project.summary.zh && project.summary.ja);
+    assert.ok(project.decision.en && project.decision.zh && project.decision.ja);
+    assert.doesNotMatch(
+      `${project.summary.ja}\n${project.decision.ja}`,
+      /__[A-Z_]+__|入力された(?:回答|質問|結果| JEV 質問|値)|推論の労力|エフォート| 型付きの/,
+    );
     assert.equal(project.verification, 'source-reviewed');
     assert.equal(project.runtimeVerified, false);
   }
@@ -35,7 +39,7 @@ test('every project keeps repository and fixed-commit evidence links', () => {
 
 test('catalogue covers multiple practical patterns', () => {
   assert.ok(new Set(catalogue.projects.map((project) => project.category)).size >= 9);
-  assert.equal(catalogue.projects.filter((project) => project.starsAtCapture >= 1_000).length, 29);
+  assert.equal(catalogue.projects.filter((project) => project.starsAtCapture >= 1_000).length, 31);
   for (const required of ['jev-ultrafast', 'laya', 'jegrep']) {
     assert.ok(catalogue.projects.some((project) => project.id === required), `missing ${required}`);
   }
@@ -56,7 +60,9 @@ test('README identity and project-owned cover stay present', async () => {
   assert.match(japaneseReadme, /<h2 align="center">概要<\/h2>/);
   for (const localizedReadme of [readme, chineseReadme, japaneseReadme]) {
     assert.match(localizedReadme, /<div align="center">\s*<table>/);
-    assert.match(localizedReadme, /<td align="center"><strong>100<\/strong><\/td>/);
+    assert.match(localizedReadme, /<td align="center"><strong>125<\/strong><\/td>/);
+    assert.match(localizedReadme, /\/v1\/systemone/);
+    assert.match(localizedReadme, /jev-1\.13/);
   }
   for (const localizedReadme of [readme, chineseReadme, japaneseReadme]) {
     assert.equal(

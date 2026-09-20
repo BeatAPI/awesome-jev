@@ -5,7 +5,7 @@
 <p align="center">
   <strong><a href="https://beatapi.io/zh/awesome-jev">浏览 Awesome JEV 主站 Gallery</a></strong> ·
   <a href="#精选项目-gallery">精选项目</a> ·
-  <a href="#全部-100-个项目">全部 100 个项目</a> ·
+  <a href="#全部-100-个项目">全部 125 个项目</a> ·
   <a href="./data/projects.json">JSON 目录</a> ·
   <a href="./README.md">English</a> ·
   <a href="./README.ja.md">日本語</a>
@@ -31,7 +31,7 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>100</strong></td>
+      <td align="center"><strong>125</strong></td>
       <td align="center"><strong>29</strong></td>
       <td align="center"><strong>10</strong></td>
       <td align="center"><strong>2026-09-20</strong></td>
@@ -72,7 +72,7 @@
 
 <p align="center"><strong><a href="https://beatapi.io/zh/awesome-jev">在主站筛选并查看完整项目说明 →</a></strong></p>
 
-## 全部 100 个项目
+## 全部 125 个项目
 
 - [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) · 9,549 Star
 - [LangChain · TypeSafe](https://github.com/langchain-ai/langchain) · 146,702 Star
@@ -174,7 +174,31 @@
 - [Pi JEV](https://github.com/y0usaf/pi-jev) · 70 Star
 - [Pi Warden](https://github.com/DevMortimer/pi-warden) · 67 Star
 - [Openjev](https://github.com/razorback16/openjev) · 50 Star
-
+- [Openwork](https://github.com/different-ai/openwork) · 23,660 Star
+- [Eve](https://github.com/vercel/eve) · 5,278 Star
+- [AI CLI](https://github.com/vercel-labs/ai-cli) · 807 Star
+- [TypeSafe Skills](https://github.com/typesafe-ai/skills) · 880 Star
+- [Awesome JEV by TypeSafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) · 661 Star
+- [Smithers](https://github.com/smithersai/smithers) · 417 Star
+- [Jev CU](https://github.com/Sac-Y/Jev-cu) · 406 Star
+- [Splash](https://github.com/incoai/splash) · 381 Star
+- [Awesome TypeSafe](https://github.com/AbdelStark/awesome-typesafe) · 369 Star
+- [Awesome JEV (cobanov)](https://github.com/cobanov/awesome-jev) · 238 Star
+- [OpenJEV SGLang](https://github.com/ekzhang/openjev-sglang) · 207 Star
+- [Notra](https://github.com/usenotra/notra) · 192 Star
+- [System One Adapter (Python)](https://github.com/typesafe-ai/system-one-adapter-python) · 184 Star
+- [Awesome JEV (fatwang2)](https://github.com/fatwang2/awesome-jev) · 173 Star
+- [Perch](https://github.com/lakeday-org/perch) · 162 Star
+- [JEV Visual](https://github.com/hr98w/jev-visual) · 163 Star
+- [Third Hand](https://github.com/shhivv/third-hand) · 147 Star
+- [Compact Adviser](https://github.com/kunchenguid/compact-adviser) · 143 Star
+- [Awesome JEV Projects](https://github.com/logicrw/awesome-jev-projects) · 168 Star
+- [Hermes JEV Skills](https://github.com/kerpopule/hermes-jev-skills) · 136 Star
+- [JEV Pruner](https://github.com/tamaratran/jev-pruner) · 119 Star
+- [OpenJEV Verdict 2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0) · 119 Star
+- [Building with JEV Skill](https://github.com/dbreunig/building-with-jev-skill) · 121 Star
+- [Decider](https://github.com/Mapika/decider) · 107 Star
+- [djev-spark](https://github.com/mmastrac/djev-spark) · 103 Star
 
 ## BeatAPI
 
@@ -182,7 +206,7 @@
 **[创建 BeatAPI Key](https://beatapi.io/zh/dashboard/apikeys)** ·
 **[参与维护](./CONTRIBUTING.md)**
 
-在模型 ID、价格和真实返回完成核验前，本仓库不宣称 JEV 已经作为 BeatAPI 端点上线。
+JEV 已在 BeatAPI 上线：使用同一把 BeatAPI Key 和 USD 余额，通过 `POST /v1/systemone` 调用模型 `jev-1.13`。
 
 ---
 
