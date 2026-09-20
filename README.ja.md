@@ -19,9 +19,26 @@
 
 <h2 align="center">概要</h2>
 
-| ソース確認済み | 1K+ Star リポジトリ | ユースケース分類 | スナップショット |
-| :---: | :---: | :---: | :---: |
-| **44** | **29** | **10** | **2026-09-20** |
+<div align="center">
+<table>
+  <thead>
+    <tr>
+      <th align="center">ソース確認済み</th>
+      <th align="center">1K+ Star リポジトリ</th>
+      <th align="center">ユースケース分類</th>
+      <th align="center">スナップショット</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>44</strong></td>
+      <td align="center"><strong>29</strong></td>
+      <td align="center"><strong>10</strong></td>
+      <td align="center"><strong>2026-09-20</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 <h2 align="center">カテゴリから探す</h2>
 
