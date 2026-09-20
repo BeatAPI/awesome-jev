@@ -5,7 +5,7 @@
 <p align="center">
   <strong><a href="https://beatapi.io/ja/awesome-jev">Awesome JEV ギャラリーを見る</a></strong> ·
   <a href="#注目プロジェクト">注目プロジェクト</a> ·
-  <a href="#全-44-プロジェクト">全 44 プロジェクト</a> ·
+  <a href="#全-44-プロジェクト">全 100 プロジェクト</a> ·
   <a href="./data/projects.json">JSON カタログ</a> ·
   <a href="./README.md">English</a> ·
   <a href="./README.zh-CN.md">简体中文</a>
@@ -31,7 +31,7 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>44</strong></td>
+      <td align="center"><strong>100</strong></td>
       <td align="center"><strong>29</strong></td>
       <td align="center"><strong>10</strong></td>
       <td align="center"><strong>2026-09-20</strong></td>
@@ -72,7 +72,7 @@
 
 <p align="center"><strong><a href="https://beatapi.io/ja/awesome-jev">フィルターと詳しい説明付きで見る →</a></strong></p>
 
-## 全 44 プロジェクト
+## 全 100 プロジェクト
 
 ### ブラウザ・コンピューター操作（3）
 
@@ -136,3 +136,61 @@
 ---
 
 <sub><a href="https://github.com/BeatAPI"><b>BeatAPI</b></a> がキュレーション · <a href="https://beatapi.io/ja/awesome-jev">ライブギャラリー</a> · <a href="./NOTICE.md">ライセンスと注記</a></sub>
+
+<!-- catalogue links -->
+- [Celesto](https://github.com/CelestoAI/celesto)
+- [Atomic](https://github.com/bastani-inc/atomic)
+- [Aiavatarkit](https://github.com/uezo/aiavatarkit)
+- [Kody](https://github.com/kentcdodds/kody)
+- [Agent](https://github.com/AgentiLoop/Agent)
+- [Req LLM](https://github.com/agentjido/req_llm)
+- [Omg.dev](https://github.com/BennyKok/omg.dev)
+- [Vexjoy Agent](https://github.com/notque/vexjoy-agent)
+- [Foreman](https://github.com/thruwire/foreman)
+- [WrongStack](https://github.com/WrongStack/WrongStack)
+- [Instructor Php](https://github.com/cognesy/instructor-php)
+- [TypeSafe Computer Use](https://github.com/awlevin/typesafe-computer-use)
+- [Jev Review](https://github.com/devagrawal09/jev-review)
+- [Orchestkit](https://github.com/yonatangross/orchestkit)
+- [TypeSafe Mario](https://github.com/fhshaik/typesafe-mario)
+- [Openai Scala Client](https://github.com/cequence-io/openai-scala-client)
+- [Pi Fabric](https://github.com/monotykamary/pi-fabric)
+- [OpenWhisper](https://github.com/Knuckles92/OpenWhisper)
+- [Pg JEV](https://github.com/realZachi/pg-jev)
+- [Interlinked CLI](https://github.com/QuentinCody/interlinked-cli)
+- [JEV Router](https://github.com/gargpratyush/jev-router)
+- [Skillbox](https://github.com/kitze/skillbox)
+- [Mobile JEV](https://github.com/droidrun/mobile-jev)
+- [Runline](https://github.com/Michaelliv/runline)
+- [JEV Search](https://github.com/superagents-lab/jev-search)
+- [JEV Browser Use](https://github.com/wy-coliney/jev-browser-use)
+- [JEV Review](https://github.com/NiazMorshed2007/jev-review)
+- [Effect Agent](https://github.com/danieljvdm/effect-agent)
+- [JEV Browser](https://github.com/jkudish/jev-browser)
+- [Unclutter](https://github.com/kitze/unclutter)
+- [TypeSafe SDK Python](https://github.com/typesafe-ai/typesafe-sdk-python)
+- [JEV Eval Agent](https://github.com/vinilana/jev-eval-agent)
+- [Bluenoise](https://github.com/rokcso/bluenoise)
+- [TypeSafe MCP](https://github.com/itsmostafa/typesafe-mcp)
+- [JEV Shell History](https://github.com/mrnugget/jev-shell-history)
+- [JEV Codex Router](https://github.com/0xNatoshi/jev-codex-router)
+- [TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock)
+- [JEV Skip](https://github.com/valentynkit/jev-skip)
+- [JEV Commit](https://github.com/valentynkit/jev-commit)
+- [Jev.nvim](https://github.com/valentynkit/jev.nvim)
+- [Jevpilot](https://github.com/standardagents/jevpilot)
+- [JEV Drone](https://github.com/RomanSlack/jev-drone)
+- [Youtube Sponsor Detection](https://github.com/trungdq88/youtube-sponsor-detection)
+- [Jevmeter](https://github.com/ChetasLua/jevmeter)
+- [Captaincore](https://github.com/CaptainCore/captaincore)
+- [Pg TypeSafe](https://github.com/giuliosmall/pg_typesafe)
+- [Simple JEV](https://github.com/featherless-ai/simple-jev)
+- [TypeSafe SDK Js](https://github.com/typesafe-ai/typesafe-sdk-js)
+- [AI](https://github.com/hackclub/ai)
+- [Taskuary](https://github.com/ldbumble/taskuary)
+- [JEV Voice Browser](https://github.com/moritzkremb/jev-voice-browser)
+- [JEV MCP](https://github.com/jkudish/jev-mcp)
+- [Advocaat](https://github.com/pithings/advocaat)
+- [Pi JEV](https://github.com/y0usaf/pi-jev)
+- [Pi Warden](https://github.com/DevMortimer/pi-warden)
+- [Openjev](https://github.com/razorback16/openjev)
