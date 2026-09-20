@@ -5,7 +5,7 @@
 <p align="center">
   <strong><a href="https://beatapi.io/zh/awesome-jev">浏览 Awesome JEV 主站 Gallery</a></strong> ·
   <a href="#精选项目-gallery">精选项目</a> ·
-  <a href="#全部-100-个项目">全部 125 个项目</a> ·
+  <a href="#全部-125-个项目">全部 125 个项目</a> ·
   <a href="./data/projects.json">JSON 目录</a> ·
   <a href="./README.md">English</a> ·
   <a href="./README.ja.md">日本語</a>
