@@ -12,19 +12,20 @@
 
 # Awesome JEV
 
-**JEV 开源项目、工具、模型与实验精选。每个条目都同时保留 X 原案例、公开
-GitHub 仓库和固定 commit 源码证据。**
+**经过源码核对的 JEV 项目、集成、工具、开放模型与实验目录。每个条目都保留
+一手发现来源、公开仓库和固定 commit 源码证据。**
 
 JEV 最适合处理有明确边界的判断：**选择、评分、路由、过滤**。最终阈值、
 执行动作和失败回退仍由本地代码控制，这个项目库重点展示的正是这种系统分工。
 
 ## 当前规模
 
-| 已核对源码项目 | X 原帖浏览量 | 实践方向 | 数据快照 |
+| 已核对源码项目 | 1K+ Star 仓库 | 实践方向 | 数据快照 |
 | ---: | ---: | ---: | :--- |
-| **17** | **213 万** | **6** | **2026-09-20** |
+| **44** | **29** | **10** | **2026-09-20** |
 
-浏览量是历史快照，只用于发现高信号案例，不代表本站独立验证了性能结论。
+本次把原有 X 专项与 GitHub 源码搜索合并。Star 和浏览量都只是发现快照，不代表
+本站独立复现了运行结果或 Benchmark。
 
 ## JEV 在系统里的位置
 
@@ -48,33 +49,37 @@ JEV：选择 · 评分 · 路由 · 过滤
 
 | 方向 | JEV 负责的判断 | 项目 |
 | --- | --- | --- |
-| **Agent 工作流** | 下一步是否值得交给更昂贵的模型、工具或流程 | [NewsJack](https://github.com/elvisun/newsjack)、[Jev Model Router](https://github.com/davila7/claude-code-templates)、[jev-gateway](https://github.com/vinilana/jev-gateway) |
-| **开发者工具** | 应该进入哪个语义路由、哪些上下文仍然有用 | [Hono Jev Router](https://github.com/yusukebe/hono-jev-router)、[Fast Jev Compaction](https://github.com/tamaratran/fast-jev-compaction) |
-| **搜索与数据** | 一条记录是否符合意图、类别或命题 | [Tax Document Classifier](https://github.com/kyotofin/tax-doc-classifier)、[Jev Experiments](https://github.com/dabit3/jev-experiments)、[jev-semgrep](https://github.com/uehaj/jev-semgrep) |
-| **开放模型** | 本地或开放分类器如何复用相同的有限判断接口 | [LocalJev](https://github.com/githubnext/localjev)、[Kev 0.5B](https://github.com/jaredpalmer/kev)、[Nimble](https://github.com/bespokelabsai/nimble)、[Jeff](https://github.com/logan-markewich/jeff) |
-| **界面与自动化** | 一句指令对应哪个 UI 或创作工具动作 | [Live Jev](https://github.com/okinaaudio/live-jev)、[TipTour macOS](https://github.com/milind-soni/tiptour-macos) |
-| **安全与审查** | 是否满足规则、评价标准或证据字段 | [Abide](https://github.com/coldteadotai/abide)、[jev-align](https://github.com/sutro-sh/jev-align)、[Jev Reviewer](https://github.com/choxos/jev-reviewer) |
+| **浏览器与电脑操作** | 下一步应该执行哪个动作、作用于哪个目标 | [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast)、[Cua](https://github.com/trycua/cua)、[Agent Desktop](https://github.com/lahfir/agent-desktop) |
+| **SDK 与框架集成** | 框架如何暴露类型化 JEV 判断 | [LangChain](https://github.com/langchain-ai/langchain)、[Vercel AI SDK](https://github.com/vercel/ai)、[Pydantic AI](https://github.com/pydantic/pydantic-ai)、[Composio](https://github.com/ComposioHQ/composio) |
+| **路由与优化** | 应该选择哪个模型、规则或上下文 | [LiteLLM](https://github.com/BerriAI/litellm)、[OpenChamber](https://github.com/openchamber/openchamber)、[Firstmate](https://github.com/kunchenguid/firstmate) |
+| **搜索与数据** | 文件、代码片段或记录是否符合意图 | [jegrep](https://github.com/can1357/jegrep)、[jev-semgrep](https://github.com/uehaj/jev-semgrep)、[Tax Document Classifier](https://github.com/kyotofin/tax-doc-classifier) |
+| **开放模型** | 开放权重如何复用有限判断接口 | [Laya](https://huggingface.co/convaiinnovations/laya)、[SemIf](https://github.com/TheoLeeCJ/SemIf)、[NanoJev](https://github.com/TianyuCodings/NanoJev)、[Jevlike](https://github.com/vinnylarouge/jevlike) |
+| **安全与评测** | 是否满足规则、检查项或证据字段 | [Agentgateway](https://github.com/agentgateway/agentgateway)、[Latitude](https://github.com/latitude-dev/latitude-llm)、[Abide](https://github.com/coldteadotai/abide) |
+| **垂直工具** | 金融等垂直流程中的一个有限判断 | [QuantDinger](https://github.com/OpenByteInc/QuantDinger)、[AI Hedge Fund](https://github.com/virattt/ai-hedge-fund)、[JEV Trader](https://github.com/jarrodwatts/jev-trader) |
 
 ## 精选项目
 
 | 项目 | 实践模式 | X 原案例 | 源码 |
 | --- | --- | --- | --- |
-| **NewsJack** | 先筛选完整新闻流，再让 PR Agent 处理少量机会 | [@elvissun · 58.3 万浏览](https://x.com/elvissun/status/2100951347080421409) | [仓库](https://github.com/elvisun/newsjack) · [证据](https://github.com/elvisun/newsjack/tree/092d882fc69912622f620c50eb493afe625f99dc/demos/news-desk-dealer) |
-| **Tax Document Classifier** | 把页面映射到固定 IRS 表格目录 | [@nedwize · 22.3 万浏览](https://x.com/nedwize/status/2100973868324417852) | [仓库](https://github.com/kyotofin/tax-doc-classifier) · [证据](https://github.com/kyotofin/tax-doc-classifier/blob/6afcf701395466d7c936ec8178daf017b9d96b0c/src/backend.ts) |
-| **LocalJev** | 通过 JEV 兼容接口运行本地小模型 | [@GitHubNext · 19.1 万浏览](https://x.com/GitHubNext/status/2101193436816920798) | [仓库](https://github.com/githubnext/localjev) · [证据](https://github.com/githubnext/localjev/blob/3f23e36e1a3bff46c7e83e8e3781d3512bc82021/README.md) |
-| **Kev 0.5B** | 在本地硬件上训练和运行轻量决策模型 | [@jaredpalmer · 16.5 万浏览](https://x.com/jaredpalmer/status/2101028325472841920) | [仓库](https://github.com/jaredpalmer/kev) · [证据](https://github.com/jaredpalmer/kev/blob/20fa6268c8ceb226530be2fb5266ab2c36b37724/README.md) |
-| **Jev Model Router** | 把编码任务映射到模型和推理强度策略 | [@dani_avila7 · 13.9 万浏览](https://x.com/dani_avila7/status/2101176629745561686) | [仓库](https://github.com/davila7/claude-code-templates) · [证据](https://github.com/davila7/claude-code-templates/blob/73fdf20e1c2548e438c37d31ad5ece5179298f58/cli-tool/components/mods/productivity/jev-model-router/hooks/jev-model-router.ts) |
-| **Hono Jev Router** | 在已声明的处理器之间按请求语义路由 | [@yusukebe · 11.3 万浏览](https://x.com/yusukebe/status/2100871075743859182) | [仓库](https://github.com/yusukebe/hono-jev-router) · [证据](https://github.com/yusukebe/hono-jev-router/blob/04f6e103e1397bca659ab85c042011a1f14b679d/README.md) |
+| **Jev Ultrafast** | 一次 JEV 请求选择浏览器动作和 DOM 目标 | [@gregpr07 · 294 万浏览](https://x.com/gregpr07/status/2100411066966749359) | [仓库](https://github.com/browser-use/jev-ultrafast) · [证据](https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py) |
+| **LiteLLM · JEV Router** | 在路由后端模型前判断请求复杂度 | GitHub 源码 | [仓库](https://github.com/BerriAI/litellm) · [证据](https://github.com/BerriAI/litellm/blob/56116079c8022da0e8f7ff9ccb017ad5aca5aed2/litellm/router_strategy/complexity_router/jev_classifier.py#L70) |
+| **jegrep** | 无需建索引，直接对实时代码树做语义检索 | GitHub 源码 | [仓库](https://github.com/can1357/jegrep) · [证据](https://github.com/can1357/jegrep/blob/a280f14f6da8163bde67e0c49f58b23517a02882/src/jev.rs) |
+| **Laya** | 用开放权重在本地输出多语言类型化判断 | Hugging Face + GitHub | [模型](https://huggingface.co/convaiinnovations/laya) · [证据](https://github.com/NandhaKishorM/laya/blob/d113dca2512fb3eaca313534bc54c7162d87c1d4/README.md) |
+| **QuantDinger** | 在部分真实交易入场前增加类型化决策闸门 | GitHub 源码 | [仓库](https://github.com/OpenByteInc/QuantDinger) · [证据](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py) |
 
-**[浏览全部 17 个有源码证据的项目 →](./data/projects.json)**
+**[浏览全部 44 个有源码证据的项目 →](./data/projects.json)**
 
 ## 收录标准
 
 - 有公开仓库并能定位 JEV 或 JEV 兼容实现；
-- 有 X 原案例或其他一手发现来源；
+- 有 X 原案例、GitHub 源码命中或其他一手发现来源；
 - 保留可长期核对的固定 commit 证据；
 - 能明确说明 JEV 在系统中负责哪一个有限判断；
-- 完成作者、项目与重复来源去重。
+- 完成项目级去重。
+
+GitHub 刷新会检查 JEV 名称、API 域名、模型 ID、SDK 包名与 `/v1/systemone`
+端点。由这些搜索路径发现、Star 不低于 **1,000** 且源码直接相关的仓库，经核对后
+全部纳入；像 `jegrep` 这样 Star 较低但实践模式独特的项目也会作为精选案例保留。
 
 `source-reviewed` 只代表核对过公开源码，不代表 BeatAPI 已经运行项目、复现
 性能、完成安全审计或获得作者背书。

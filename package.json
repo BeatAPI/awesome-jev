@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "catalog:refresh": "node scripts/refresh-curated-projects.mjs",
+    "catalog:export": "node scripts/export-website-data.mjs",
     "test": "node --test scripts/validate.test.mjs"
   }
 }

@@ -7,9 +7,9 @@ const catalogue = JSON.parse(
 );
 
 test('catalogue metadata is explicit', () => {
-  assert.equal(catalogue.schemaVersion, 2);
+  assert.equal(catalogue.schemaVersion, 3);
   assert.match(catalogue.capturedAt, /^\d{4}-\d{2}-\d{2}$/);
-  assert.ok(catalogue.projects.length >= 12);
+  assert.equal(catalogue.projects.length, 44);
 });
 
 test('every project keeps repository and fixed-commit evidence links', () => {
@@ -19,8 +19,13 @@ test('every project keeps repository and fixed-commit evidence links', () => {
     ids.add(project.id);
     assert.match(project.repoUrl, /^https:\/\/github\.com\/[^/]+\/[^/]+\/?$/);
     assert.match(project.evidenceUrl, /^https:\/\/github\.com\/[^/]+\/[^/]+\/(blob|tree)\/[a-f0-9]{40}\//);
-    assert.match(project.xUrl, /^https:\/\/x\.com\/[^/]+\/status\/\d+$/);
-    assert.ok(project.views >= 10_000);
+    assert.ok(['x', 'github', 'huggingface'].includes(project.source.type));
+    assert.match(project.source.url, /^https:\/\//);
+    assert.ok(project.source.label);
+    if (project.source.type === 'x') {
+      assert.match(project.source.url, /^https:\/\/x\.com\/[^/]+\/status\/\d+$/);
+      assert.ok(project.source.views >= 10_000);
+    }
     assert.ok(project.summary.en && project.summary.zh);
     assert.ok(project.decision.en && project.decision.zh);
     assert.equal(project.verification, 'source-reviewed');
@@ -29,7 +34,11 @@ test('every project keeps repository and fixed-commit evidence links', () => {
 });
 
 test('catalogue covers multiple practical patterns', () => {
-  assert.ok(new Set(catalogue.projects.map((project) => project.category)).size >= 6);
+  assert.ok(new Set(catalogue.projects.map((project) => project.category)).size >= 9);
+  assert.equal(catalogue.projects.filter((project) => project.starsAtCapture >= 1_000).length, 29);
+  for (const required of ['jev-ultrafast', 'laya', 'jegrep']) {
+    assert.ok(catalogue.projects.some((project) => project.id === required), `missing ${required}`);
+  }
 });
 
 test('README identity and project-owned cover stay present', async () => {
@@ -38,5 +47,5 @@ test('README identity and project-owned cover stay present', async () => {
   assert.match(readme, /assets\/readme\/cover\.webp/);
   assert.match(readme, /Powered by BeatAPI|BeatAPI/);
   await access(new URL('../assets/readme/cover.webp', import.meta.url));
-  await access(new URL('../assets/readme/cover.svg', import.meta.url));
+  await access(new URL('../assets/readme/cover.png', import.meta.url));
 });

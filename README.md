@@ -12,8 +12,8 @@
 
 # Awesome JEV
 
-**Curated JEV projects, tools, models, and experiments—with the original X case,
-public repository, and fixed-commit source evidence kept together.**
+**A source-reviewed catalogue of JEV projects, integrations, tools, open models,
+and experiments—with primary discovery links and fixed-commit evidence kept together.**
 
 JEV is most useful when it handles a bounded judgment—**choose, score, route, or
 filter**—while ordinary code keeps control of thresholds, execution, and
@@ -21,12 +21,13 @@ fallbacks. This collection makes those system boundaries inspectable.
 
 ## At a glance
 
-| Source-reviewed projects | Original-post views | Use-case groups | Snapshot |
+| Source-reviewed projects | Repositories ≥1K stars | Use-case groups | Snapshot |
 | ---: | ---: | ---: | :--- |
-| **17** | **2.13M** | **6** | **2026-09-20** |
+| **44** | **29** | **10** | **2026-09-20** |
 
-Views are a historical X snapshot. They are useful discovery signals, not
-independent validation of performance claims.
+This refresh combines the existing X case batch with a new GitHub source audit.
+Stars and views are discovery snapshots, not independent validation of runtime
+or benchmark claims.
 
 ## Why these projects matter
 
@@ -51,27 +52,25 @@ action under explicit application policy.
 
 | Area | What JEV decides | Selected projects |
 | --- | --- | --- |
-| **Agent workflows** | Which model, tool, or follow-up deserves the next expensive step | [NewsJack](https://github.com/elvisun/newsjack), [Jev Model Router](https://github.com/davila7/claude-code-templates), [jev-gateway](https://github.com/vinilana/jev-gateway) |
-| **Developer tools** | Which route or context remains relevant | [Hono Jev Router](https://github.com/yusukebe/hono-jev-router), [Fast Jev Compaction](https://github.com/tamaratran/fast-jev-compaction) |
-| **Search & data** | Whether a record matches an intent, class, or proposition | [Tax Document Classifier](https://github.com/kyotofin/tax-doc-classifier), [Jev Experiments](https://github.com/dabit3/jev-experiments), [jev-semgrep](https://github.com/uehaj/jev-semgrep) |
-| **Open models** | How a local or open classifier can serve the same bounded interface | [LocalJev](https://github.com/githubnext/localjev), [Kev 0.5B](https://github.com/jaredpalmer/kev), [Nimble](https://github.com/bespokelabsai/nimble), [Jeff](https://github.com/logan-markewich/jeff) |
-| **Interfaces & automation** | Which UI or creative-tool action matches a short instruction | [Live Jev](https://github.com/okinaaudio/live-jev), [TipTour macOS](https://github.com/milind-soni/tiptour-macos) |
-| **Safety & review** | Whether a rule, criterion, or evidence field is satisfied | [Abide](https://github.com/coldteadotai/abide), [jev-align](https://github.com/sutro-sh/jev-align), [Jev Reviewer](https://github.com/choxos/jev-reviewer) |
+| **Browser & computer use** | Which action and target should be used next | [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast), [Cua](https://github.com/trycua/cua), [Agent Desktop](https://github.com/lahfir/agent-desktop) |
+| **SDK integrations** | How frameworks expose typed JEV decisions | [LangChain](https://github.com/langchain-ai/langchain), [Vercel AI SDK](https://github.com/vercel/ai), [Pydantic AI](https://github.com/pydantic/pydantic-ai), [Composio](https://github.com/ComposioHQ/composio) |
+| **Routing & optimization** | Which model, rule, or context deserves the next step | [LiteLLM](https://github.com/BerriAI/litellm), [OpenChamber](https://github.com/openchamber/openchamber), [Firstmate](https://github.com/kunchenguid/firstmate) |
+| **Search & data** | Whether a file, passage, or record matches an intent | [jegrep](https://github.com/can1357/jegrep), [jev-semgrep](https://github.com/uehaj/jev-semgrep), [Tax Document Classifier](https://github.com/kyotofin/tax-doc-classifier) |
+| **Open models** | How open weights reproduce the bounded decision interface | [Laya](https://huggingface.co/convaiinnovations/laya), [SemIf](https://github.com/TheoLeeCJ/SemIf), [NanoJev](https://github.com/TianyuCodings/NanoJev), [Jevlike](https://github.com/vinnylarouge/jevlike), [LocalJev](https://github.com/githubnext/localjev) |
+| **Safety & evaluation** | Whether a rule, check, or evidence field is satisfied | [Agentgateway](https://github.com/agentgateway/agentgateway), [LangWatch](https://github.com/langwatch/langwatch), [Latitude](https://github.com/latitude-dev/latitude-llm), [Abide](https://github.com/coldteadotai/abide) |
+| **Domain tools** | A bounded decision inside finance or another vertical workflow | [QuantDinger](https://github.com/OpenByteInc/QuantDinger), [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund), [JEV Trader](https://github.com/jarrodwatts/jev-trader) |
 
 ## Featured projects
 
 | Project | Practical pattern | Original case | Source |
 | --- | --- | --- | --- |
-| **NewsJack** | Screens a full news feed before a PR agent expands the short list | [@elvissun · 583K views](https://x.com/elvissun/status/2100951347080421409) | [Repo](https://github.com/elvisun/newsjack) · [Evidence](https://github.com/elvisun/newsjack/tree/092d882fc69912622f620c50eb493afe625f99dc/demos/news-desk-dealer) |
-| **Tax Document Classifier** | Maps extracted pages to a fixed IRS form catalogue | [@nedwize · 223K views](https://x.com/nedwize/status/2100973868324417852) | [Repo](https://github.com/kyotofin/tax-doc-classifier) · [Evidence](https://github.com/kyotofin/tax-doc-classifier/blob/6afcf701395466d7c936ec8178daf017b9d96b0c/src/backend.ts) |
-| **LocalJev** | Serves local small models through a JEV-compatible interface | [@GitHubNext · 191K views](https://x.com/GitHubNext/status/2101193436816920798) | [Repo](https://github.com/githubnext/localjev) · [Evidence](https://github.com/githubnext/localjev/blob/3f23e36e1a3bff46c7e83e8e3781d3512bc82021/README.md) |
-| **Kev 0.5B** | Runs a small trainable decision model on local hardware | [@jaredpalmer · 165K views](https://x.com/jaredpalmer/status/2101028325472841920) | [Repo](https://github.com/jaredpalmer/kev) · [Evidence](https://github.com/jaredpalmer/kev/blob/20fa6268c8ceb226530be2fb5266ab2c36b37724/README.md) |
-| **Jev Model Router** | Maps a coding task to model and reasoning-effort policy | [@dani_avila7 · 139K views](https://x.com/dani_avila7/status/2101176629745561686) | [Repo](https://github.com/davila7/claude-code-templates) · [Evidence](https://github.com/davila7/claude-code-templates/blob/73fdf20e1c2548e438c37d31ad5ece5179298f58/cli-tool/components/mods/productivity/jev-model-router/hooks/jev-model-router.ts) |
-| **Jev Experiments** | Adds intent judgment after retrieval instead of inspecting everything | [@dabit3 · 131K views](https://x.com/dabit3/status/2100960281769738433) | [Repo](https://github.com/dabit3/jev-experiments) · [Evidence](https://github.com/dabit3/jev-experiments/tree/c469e5bfdc73eb3e1999bba2569e66b579a970fd/agent-assist) |
-| **Hono Jev Router** | Routes HTTP requests by meaning across declared handlers | [@yusukebe · 113K views](https://x.com/yusukebe/status/2100871075743859182) | [Repo](https://github.com/yusukebe/hono-jev-router) · [Evidence](https://github.com/yusukebe/hono-jev-router/blob/04f6e103e1397bca659ab85c042011a1f14b679d/README.md) |
-| **Abide** | Checks coding-agent turns against semantic project rules | [@OhansEmmanuel · 108K views](https://x.com/OhansEmmanuel/status/2101034822760288452) | [Repo](https://github.com/coldteadotai/abide) · [Evidence](https://github.com/coldteadotai/abide/blob/ec3352e873163b74aca1ac9cf3bd0ea69a97723a/README.md) |
+| **Jev Ultrafast** | Chooses a browser action and DOM target in one JEV request | [@gregpr07 · 2.9M views](https://x.com/gregpr07/status/2100411066966749359) | [Repo](https://github.com/browser-use/jev-ultrafast) · [Evidence](https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py) |
+| **LiteLLM · JEV Router** | Classifies request complexity before backend model routing | GitHub source | [Repo](https://github.com/BerriAI/litellm) · [Evidence](https://github.com/BerriAI/litellm/blob/56116079c8022da0e8f7ff9ccb017ad5aca5aed2/litellm/router_strategy/complexity_router/jev_classifier.py#L70) |
+| **jegrep** | Searches live code trees semantically without building an index | GitHub source | [Repo](https://github.com/can1357/jegrep) · [Evidence](https://github.com/can1357/jegrep/blob/a280f14f6da8163bde67e0c49f58b23517a02882/src/jev.rs) |
+| **Laya** | Runs open-weight typed decisions locally with multilingual checkpoints | Hugging Face + GitHub | [Model](https://huggingface.co/convaiinnovations/laya) · [Evidence](https://github.com/NandhaKishorM/laya/blob/d113dca2512fb3eaca313534bc54c7162d87c1d4/README.md) |
+| **QuantDinger** | Puts a typed decision gate before selected live-trading entries | GitHub source | [Repo](https://github.com/OpenByteInc/QuantDinger) · [Evidence](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py) |
 
-**[Browse all 17 source-reviewed entries →](./data/projects.json)**
+**[Browse all 44 source-reviewed entries →](./data/projects.json)**
 
 ## Use the catalogue
 
@@ -79,22 +78,27 @@ The machine-readable catalogue is deliberately simple:
 
 ```bash
 curl -s https://raw.githubusercontent.com/BeatAPI/awesome-jev/main/data/projects.json \
-  | jq '.projects[] | {name, category, repoUrl, xUrl, evidenceUrl}'
+  | jq '.projects[] | {name, category, repoUrl, source, evidenceUrl}'
 ```
 
-Each record includes the original X case, captured views, repository metadata,
-localized summaries, the JEV decision point, and a permalink to the exact source
-version reviewed.
+Each record includes its primary discovery source, repository metadata, localized
+summaries, the JEV decision point, and a permalink to the exact source version reviewed.
 
 ## Selection standard
 
 A project enters the main catalogue only when it has:
 
 - a public repository with a clear JEV or JEV-compatible implementation;
-- an original X case or another primary discovery source;
+- an original X case, GitHub source match, or another primary discovery source;
 - fixed-commit evidence that future readers can inspect;
 - a concrete, bounded decision role rather than a generic AI claim;
-- one canonical entry per author and project after deduplication.
+- one canonical entry per project after deduplication.
+
+The GitHub refresh explicitly checks JEV names, API hosts, model IDs, SDK package
+names, and the `/v1/systemone` route. Every directly related repository at or
+above **1,000 stars** found by those lanes is included after source review;
+smaller entries such as `jegrep` can still be included when they add a distinct,
+useful implementation pattern.
 
 `source-reviewed` does **not** mean we ran the project, reproduced its benchmark,
 audited its security, or received an endorsement from its maintainers.
