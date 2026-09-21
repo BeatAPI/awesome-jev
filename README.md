@@ -5,7 +5,7 @@
 <p align="center">
   <strong><a href="https://beatapi.io/awesome-jev">Browse the live Awesome JEV gallery</a></strong> ·
   <a href="#featured-project-gallery">Featured projects</a> ·
-  <a href="#all-projects">All 147 projects</a> ·
+  <a href="#all-projects">All 148 projects</a> ·
   <a href="./data/projects.json">JSON catalogue</a> ·
   <a href="./README.zh-CN.md">简体中文</a> ·
   <a href="./README.ja.md">日本語</a>
@@ -13,9 +13,9 @@
 
 <h1 align="center">Awesome JEV</h1>
 
-<p align="center"><strong>A source-reviewed gallery of JEV-related projects with 50+ GitHub stars — integrations, tools, open models, experiments, and ecosystem resources.</strong></p>
+<p align="center"><strong>A source-reviewed gallery of JEV-related projects with 50+ GitHub stars (one editorial exception) — integrations, tools, open models, experiments, and ecosystem resources.</strong></p>
 
-<p align="center">We list source-reviewed JEV-related repositories at or above 50 stars. See where JEV chooses, scores, routes, or filters—while application code keeps control of execution.</p>
+<p align="center">We list source-reviewed JEV-related repositories at or above 50 stars, plus one editorial exception: Jev Reviewer (30 stars). See where JEV chooses, scores, routes, or filters—while application code keeps control of execution.</p>
 
 <h2 align="center">At a glance</h2>
 
@@ -31,7 +31,7 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>147</strong></td>
+      <td align="center"><strong>148</strong></td>
       <td align="center"><strong>34</strong></td>
       <td align="center"><strong>10</strong></td>
       <td align="center"><strong>2026-09-21</strong></td>
@@ -53,7 +53,7 @@
   <a href="#agent-workflows"><strong>Agent workflows · 11</strong></a> ·
   <a href="#interfaces"><strong>Interfaces & automation · 8</strong></a> ·
   <a href="#developer-tools"><strong>Developer tools · 27</strong></a> ·
-  <a href="#domain-tools"><strong>Domain tools · 12</strong></a>
+  <a href="#domain-tools"><strong>Domain tools · 13</strong></a>
 </p>
 
 ## Featured project gallery
@@ -74,7 +74,7 @@
 <p align="center"><strong><a href="https://beatapi.io/awesome-jev">Explore with filters and full descriptions →</a></strong></p>
 
 <a id="all-projects"></a>
-## All 147 projects
+## All 148 projects
 
 <a id="browser-computer-use"></a>
 ### Browser & computer use (14)
@@ -266,7 +266,7 @@
 <sub><a href="#categories">↑ Back to categories</a></sub>
 
 <a id="domain-tools"></a>
-### Domain tools (12)
+### Domain tools (13)
 
 - **[AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund)** · 63.6K stars — An educational hedge-fund prototype with an optional JEV adapter for structured strategy judgments. [Source](https://github.com/virattt/ai-hedge-fund/blob/154a8b2f46dca0f40764d814e4e747b0ad71f4c4/hedge_fund/llm/client.py)
 - **[QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger)** · 11.9K stars — An open-source trading OS with a JEV decision gate before selected live entries. [Source](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py)
@@ -280,6 +280,7 @@
 - **[Dasheng](https://github.com/wquguru/dasheng)** · 90 stars — A reading-practice app that combines streaming ASR with per-word JEV judgments. [Source](https://github.com/wquguru/dasheng/blob/1bacff4a075527e6c02da242a72d117e7cb3286b/lib/jev.js)
 - **[JEV Trade](https://github.com/aowang-ai/jev-trade)** · 68 stars — A live Hyperliquid trading agent with JEV as a bounded decision layer. [Source](https://github.com/aowang-ai/jev-trade/blob/df2c9656324a8a75996eb0612de7adcfe3ce6f89/src/model.ts)
 - **[Prism Liquidity Agent](https://github.com/irfndi/prism-liquidity-agent)** · 54 stars — An autonomous liquidity agent that uses JEV inside its rebalancing decision service. [Source](https://github.com/irfndi/prism-liquidity-agent/blob/22c67bdbe30bab608226832256a5013ad826b707/engine/jev-service.ts)
+- **[Jev Reviewer](https://github.com/choxos/jev-reviewer)** · 30 stars — A browser app that pulls verbatim quotes from trial reports to fill systematic-review extraction forms. [Source](https://github.com/choxos/jev-reviewer/blob/da15868cdca5e64555e6643243a52ea71f60cf3b/docs/jev.js#L51)
 
 <sub><a href="#categories">↑ Back to categories</a></sub>
 
