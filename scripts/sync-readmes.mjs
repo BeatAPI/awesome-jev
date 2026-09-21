@@ -22,18 +22,18 @@ const categories = [
 const configs = [
   {
     file: 'README.md', index: 0, allHeading: `All ${projects.length} projects`, starWord: 'stars', lang: 'en', evidence: 'Source', back: '↑ Back to categories',
-    strong: 'A source-reviewed gallery of JEV-related projects with 50+ GitHub stars — integrations, tools, open models, experiments, and ecosystem resources.',
-    policy: 'We list source-reviewed JEV-related repositories at or above 50 stars. See where JEV chooses, scores, routes, or filters—while application code keeps control of execution.',
+    strong: 'A source-reviewed gallery of JEV-related projects with 50+ GitHub stars (one editorial exception) — integrations, tools, open models, experiments, and ecosystem resources.',
+    policy: 'We list source-reviewed JEV-related repositories at or above 50 stars, plus one editorial exception: Jev Reviewer (30 stars). See where JEV chooses, scores, routes, or filters—while application code keeps control of execution.',
   },
   {
     file: 'README.zh-CN.md', index: 1, allHeading: `全部 ${projects.length} 个项目`, starWord: 'Star', lang: 'zh', evidence: '源码证据', back: '↑ 返回分类',
-    strong: '只整理 50+ Star、经过源码核对的 JEV 相关项目、集成、工具、开放模型、实验与生态资源。',
-    policy: '收录门槛为 GitHub 50 Star 及以上。看看 JEV 如何完成选择、评分、路由与过滤，同时由应用代码掌控执行。',
+    strong: '只整理 50+ Star（含一项编辑例外）、经过源码核对的 JEV 相关项目、集成、工具、开放模型、实验与生态资源。',
+    policy: '收录门槛为 GitHub 50 Star 及以上，另有一项编辑例外：Jev Reviewer（30 Star）。看看 JEV 如何完成选择、评分、路由与过滤，同时由应用代码掌控执行。',
   },
   {
     file: 'README.ja.md', index: 2, allHeading: `全 ${projects.length} プロジェクト`, starWord: 'Star', lang: 'ja', evidence: '根拠', back: '↑ カテゴリへ戻る',
-    strong: 'GitHub 50★以上・ソース確認済みの JEV 関連プロジェクト、連携、ツール、オープンモデル、実験、エコシステム資料をまとめています。',
-    policy: '掲載基準は 50 stars 以上。JEV が選択・採点・ルーティング・フィルタを担い、実行制御はアプリ側に残る事例です。',
+    strong: 'GitHub 50★以上（編集上の例外が1件）・ソース確認済みの JEV 関連プロジェクト、連携、ツール、オープンモデル、実験、エコシステム資料をまとめています。',
+    policy: '掲載基準は 50 stars 以上で、編集上の例外として Jev Reviewer（30 stars）を1件掲載しています。JEV が選択・採点・ルーティング・フィルタを担い、実行制御はアプリ側に残る事例です。',
   },
 ];
 
@@ -42,7 +42,7 @@ for (const config of configs) {
   let text = await readFile(url, 'utf8');
   text = text.replace(/<a href="#(?:all|全部|全)[^"]+">[^<]+<\/a>/, `<a href="#all-projects">${config.allHeading}</a>`);
   text = text.replace(/<p align="center"><strong>[^<]+<\/strong><\/p>/, `<p align="center"><strong>${config.strong}</strong></p>`);
-  text = text.replace(/<p align="center">(?:We only list|收录门槛|掲載の中心)[^<]+<\/p>/, `<p align="center">${config.policy}</p>`);
+  text = text.replace(/<p align="center">(?:We only list|We list|收录门槛|掲載基準|掲載の中心)[^<]+<\/p>/, `<p align="center">${config.policy}</p>`);
   text = text.replace(/(<tbody>\s*<tr>\s*<td align="center"><strong>)\d+(<\/strong><\/td>\s*<td align="center"><strong>)\d+(<\/strong><\/td>\s*<td align="center"><strong>)\d+(<\/strong><\/td>\s*<td align="center"><strong>)\d{4}-\d{2}-\d{2}/, `$1${projects.length}$2${over1k}$3${categoryCounts.size}$4${catalogue.capturedAt}`);
 
   const categoryMarkup = `<p align="center">\n${categories.map(([key, labels], i) => `  <a href="#${key}"><strong>${labels[config.index]} · ${categoryCounts.get(key) ?? 0}</strong></a>${i === categories.length - 1 ? '' : i === 4 ? '<br>' : ' ·'}`).join('\n')}\n</p>`;

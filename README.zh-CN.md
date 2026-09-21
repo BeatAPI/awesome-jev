@@ -5,7 +5,7 @@
 <p align="center">
   <strong><a href="https://beatapi.io/zh/awesome-jev">浏览 Awesome JEV 主站 Gallery</a></strong> ·
   <a href="#精选项目-gallery">精选项目</a> ·
-  <a href="#all-projects">全部 147 个项目</a> ·
+  <a href="#all-projects">全部 148 个项目</a> ·
   <a href="./data/projects.json">JSON 目录</a> ·
   <a href="./README.md">English</a> ·
   <a href="./README.ja.md">日本語</a>
@@ -13,9 +13,9 @@
 
 <h1 align="center">Awesome JEV</h1>
 
-<p align="center"><strong>只整理 50+ Star、经过源码核对的 JEV 相关项目、集成、工具、开放模型、实验与生态资源。</strong></p>
+<p align="center"><strong>只整理 50+ Star（含一项编辑例外）、经过源码核对的 JEV 相关项目、集成、工具、开放模型、实验与生态资源。</strong></p>
 
-<p align="center">收录门槛为 GitHub 50 Star 及以上。看看 JEV 如何完成选择、评分、路由与过滤，同时由应用代码掌控执行。</p>
+<p align="center">收录门槛为 GitHub 50 Star 及以上，另有一项编辑例外：Jev Reviewer（30 Star）。看看 JEV 如何完成选择、评分、路由与过滤，同时由应用代码掌控执行。</p>
 
 <h2 align="center">当前规模</h2>
 
@@ -31,7 +31,7 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>147</strong></td>
+      <td align="center"><strong>148</strong></td>
       <td align="center"><strong>34</strong></td>
       <td align="center"><strong>10</strong></td>
       <td align="center"><strong>2026-09-21</strong></td>
@@ -53,7 +53,7 @@
   <a href="#agent-workflows"><strong>Agent 工作流 · 11</strong></a> ·
   <a href="#interfaces"><strong>界面与自动化 · 8</strong></a> ·
   <a href="#developer-tools"><strong>开发者工具 · 27</strong></a> ·
-  <a href="#domain-tools"><strong>垂直工具 · 12</strong></a>
+  <a href="#domain-tools"><strong>垂直工具 · 13</strong></a>
 </p>
 
 ## 精选项目 Gallery
@@ -74,7 +74,7 @@
 <p align="center"><strong><a href="https://beatapi.io/zh/awesome-jev">在主站筛选并查看完整项目说明 →</a></strong></p>
 
 <a id="all-projects"></a>
-## 全部 147 个项目
+## 全部 148 个项目
 
 <a id="browser-computer-use"></a>
 ### 浏览器与电脑操作 (14)
@@ -266,7 +266,7 @@
 <sub><a href="#categories">↑ 返回分类</a></sub>
 
 <a id="domain-tools"></a>
-### 垂直工具 (12)
+### 垂直工具 (13)
 
 - **[AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund)** · 63.6K Star — 在教育型 AI 对冲基金原型中加入可选 JEV 适配器，用于结构化策略判断。 [源码证据](https://github.com/virattt/ai-hedge-fund/blob/154a8b2f46dca0f40764d814e4e747b0ad71f4c4/hedge_fund/llm/client.py)
 - **[QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger)** · 11.9K Star — 在部分真实交易入场前增加 JEV 决策闸门的开源交易系统。 [源码证据](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py)
@@ -280,6 +280,7 @@
 - **[Dasheng](https://github.com/wquguru/dasheng)** · 90 Star — 把流式 ASR 与 JEV 逐词判断结合的朗读练习应用。 [源码证据](https://github.com/wquguru/dasheng/blob/1bacff4a075527e6c02da242a72d117e7cb3286b/lib/jev.js)
 - **[JEV Trade](https://github.com/aowang-ai/jev-trade)** · 68 Star — 以 JEV 作为有限决策层的 Hyperliquid 实盘交易 Agent。 [源码证据](https://github.com/aowang-ai/jev-trade/blob/df2c9656324a8a75996eb0612de7adcfe3ce6f89/src/model.ts)
 - **[Prism Liquidity Agent](https://github.com/irfndi/prism-liquidity-agent)** · 54 Star — 在再平衡决策服务中使用 JEV 的自动化流动性 Agent。 [源码证据](https://github.com/irfndi/prism-liquidity-agent/blob/22c67bdbe30bab608226832256a5013ad826b707/engine/jev-service.ts)
+- **[Jev Reviewer](https://github.com/choxos/jev-reviewer)** · 30 Star — 在浏览器中运行的应用，从试验报告里摘录原文引文，用于填写系统综述的数据提取表。 [源码证据](https://github.com/choxos/jev-reviewer/blob/da15868cdca5e64555e6643243a52ea71f60cf3b/docs/jev.js#L51)
 
 <sub><a href="#categories">↑ 返回分类</a></sub>
 
