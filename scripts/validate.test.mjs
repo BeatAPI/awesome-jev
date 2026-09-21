@@ -39,7 +39,7 @@ test('every project keeps repository and fixed-commit evidence links', () => {
 
 test('catalogue covers multiple practical patterns', () => {
   assert.ok(new Set(catalogue.projects.map((project) => project.category)).size >= 9);
-  assert.equal(catalogue.projects.filter((project) => project.starsAtCapture >= 1_000).length, 31);
+  assert.equal(catalogue.projects.filter((project) => project.starsAtCapture >= 1_000).length, 34);
   for (const required of ['jev-ultrafast', 'laya', 'jegrep']) {
     assert.ok(catalogue.projects.some((project) => project.id === required), `missing ${required}`);
   }
