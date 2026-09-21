@@ -23,7 +23,7 @@
       },
       "language": "Python",
       "license": "MIT",
-      "starsAtCapture": 13806,
+      "starsAtCapture": 13811,
       "summary": {
         "en": "A browser agent that uses JEV to choose an action and matching DOM element, calling a text model only when input text is needed.",
         "zh": "用 JEV 一次选出浏览器动作与对应 DOM 元素，只在需要输入文本时再调用文本模型。",
@@ -102,7 +102,7 @@
       "evidenceUrl": "https://github.com/BerriAI/litellm/blob/56116079c8022da0e8f7ff9ccb017ad5aca5aed2/litellm/router_strategy/complexity_router/jev_classifier.py#L70",
       "language": "Python",
       "license": "MIT",
-      "starsAtCapture": 59304,
+      "starsAtCapture": 59305,
       "summary": {
         "en": "LiteLLM can use JEV inside its complexity-based model router.",
         "zh": "LiteLLM 可在按复杂度路由模型的策略中使用 JEV。",
@@ -244,7 +244,7 @@
       "evidenceUrl": "https://github.com/trycua/cua/blob/83f142c4290a0f7d9ed545ae8532858c6e4f8145/libs/cua-driver/examples/jev-use/python/jev_adapter.py#L11",
       "language": "Python",
       "license": "MIT",
-      "starsAtCapture": 25419,
+      "starsAtCapture": 25422,
       "summary": {
         "en": "A computer-use example pairing Cua Driver observation and execution with bounded JEV choices.",
         "zh": "把 Cua Driver 的观察与执行能力和 JEV 的有限动作选择结合起来。",
@@ -356,7 +356,7 @@
       "evidenceUrl": "https://github.com/vercel-labs/json-render/blob/3ad381881194e7011ad3ccd6d668033495a06c29/apps/web/lib/jev/compose.ts",
       "language": "TypeScript",
       "license": "Apache-2.0",
-      "starsAtCapture": 17728,
+      "starsAtCapture": 17731,
       "summary": {
         "en": "A JEV UI-composition experiment that selects from predefined components and properties.",
         "zh": "用 JEV 从预定义组件与属性中进行选择的 UI 组合实验。",
@@ -384,7 +384,7 @@
       "evidenceUrl": "https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py",
       "language": "Python",
       "license": "Apache-2.0",
-      "starsAtCapture": 11882,
+      "starsAtCapture": 11883,
       "summary": {
         "en": "An open-source trading OS with a JEV decision gate before selected live entries.",
         "zh": "在部分真实交易入场前增加 JEV 决策闸门的开源交易系统。",
@@ -552,7 +552,7 @@
       "evidenceUrl": "https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/client.ts",
       "language": "TypeScript",
       "license": "MIT",
-      "starsAtCapture": 5713,
+      "starsAtCapture": 5719,
       "summary": {
         "en": "Compacts Claude Code tool history while keeping retained text verbatim.",
         "zh": "压缩 Claude Code 工具历史，同时原样保留仍有价值的内容。",
@@ -611,7 +611,7 @@
       "modelUrl": "https://github.com/TheoLeeCJ/SemIf#models",
       "language": "Python",
       "license": "MIT",
-      "starsAtCapture": 2746,
+      "starsAtCapture": 2749,
       "summary": {
         "en": "An independent open-model implementation of the semantic-if interface pattern.",
         "zh": "用开放模型实现“语义 if”接口模式的独立研究项目。",
@@ -640,7 +640,7 @@
       "modelUrl": "https://huggingface.co/convaiinnovations/laya",
       "language": "Python",
       "license": "Apache-2.0",
-      "starsAtCapture": 6674,
+      "starsAtCapture": 6688,
       "summary": {
         "en": "Multilingual non-autoregressive System 1 decision engine: typed choice/score/noul in one forward pass, with a router across checkpoints.",
         "zh": "多语言非自回归 System 1 决策引擎：单次前向完成类型化 choice/score/noul，并由路由在检查点间选型。",
@@ -696,7 +696,7 @@
       "evidenceUrl": "https://github.com/lahfir/agent-desktop/blob/7a8e4a10281c7319733aa200fd79501f34529716/scripts/jev/act.mjs",
       "language": "JavaScript",
       "license": "Apache-2.0",
-      "starsAtCapture": 1377,
+      "starsAtCapture": 1378,
       "summary": {
         "en": "An optional JEV skill that chooses native desktop controls and actions from accessibility data.",
         "zh": "根据系统无障碍数据选择原生桌面控件与动作的可选 JEV Skill。",
@@ -869,7 +869,7 @@
       "evidenceUrl": "https://github.com/jaredpalmer/kev/blob/20fa6268c8ceb226530be2fb5266ab2c36b37724/README.md",
       "language": "Python",
       "license": "Apache-2.0",
-      "starsAtCapture": 1521,
+      "starsAtCapture": 1530,
       "summary": {
         "en": "A tiny trainable Jev-like decision model based on Qwen2.5-0.5B.",
         "zh": "基于 Qwen2.5-0.5B、可在 MacBook 上训练运行的轻量决策模型。",
@@ -899,7 +899,7 @@
       "evidenceUrl": "https://github.com/bespokelabsai/nimble/blob/35fe1f4fdbc64fa3dbbf5ac0042f3f5680c1ad28/README.md",
       "language": "Python",
       "license": "Not declared",
-      "starsAtCapture": 1355,
+      "starsAtCapture": 1357,
       "summary": {
         "en": "An open toolkit for local typed decisions, data curation, and evaluation.",
         "zh": "面向本地类型化决策、数据整理与评测的开放工具包。",
@@ -1139,7 +1139,7 @@
       "evidenceUrl": "https://github.com/vinilana/jev-gateway/blob/9463952bf118773fb955427d2725a98f76546233/README.md",
       "language": "TypeScript",
       "license": "MIT",
-      "starsAtCapture": 78,
+      "starsAtCapture": 79,
       "summary": {
         "en": "A gateway for inserting Jev decisions into Claude Code and Codex tool flows.",
         "zh": "把 JEV 判断接入 Claude Code 与 Codex 工具流程的网关。",
@@ -2272,7 +2272,7 @@
       },
       "language": "Python",
       "license": "MIT",
-      "starsAtCapture": 124,
+      "starsAtCapture": 125,
       "summary": {
         "en": "Uses Jev to classify each Codex turn, then applies local rules to choose the model, reasoning effort, and speed mode.",
         "zh": "每轮先让 Jev 判断任务类型与难度，再由本地策略为 Codex 选模型、思考深度和速度档。",
@@ -2692,7 +2692,7 @@
       },
       "language": "",
       "license": "MIT",
-      "starsAtCapture": 186,
+      "starsAtCapture": 187,
       "summary": {
         "en": "Controls a Playwright browser by sending incremental speech transcripts to Jev.",
         "zh": "用语音控制 Playwright 浏览器，将逐步转写的口令交给 Jev 判断。",
@@ -2944,7 +2944,7 @@
       },
       "language": "Not declared",
       "license": "MIT",
-      "starsAtCapture": 1387,
+      "starsAtCapture": 1388,
       "summary": {
         "en": "Official agent skills for building against TypeSafe’s System One / JEV API.",
         "zh": "面向 TypeSafe System One / JEV API 的官方 Agent Skill 集合。",
@@ -3196,7 +3196,7 @@
       },
       "language": "Python",
       "license": "MIT",
-      "starsAtCapture": 217,
+      "starsAtCapture": 218,
       "summary": {
         "en": "A drop-in TypeSafeClient replacement that backs System One calls with ordinary LLM APIs.",
         "zh": "可替换 TypeSafeClient 的适配器，用普通 LLM API 承接 System One 调用。",
@@ -3364,7 +3364,7 @@
       },
       "language": "JavaScript",
       "license": "MIT",
-      "starsAtCapture": 263,
+      "starsAtCapture": 264,
       "summary": {
         "en": "A source-backed JEV ecosystem radar with plain-language discovery and GitHub sync.",
         "zh": "有源码依据的 JEV 生态雷达，含白话发现页与 GitHub 同步。",

@@ -60,6 +60,16 @@ for (const file of readmes) {
     `$1${over1k}$2`,
   );
   text = text.replace(/<strong>\d{4}-\d{2}-\d{2}<\/strong>/, `<strong>${today}</strong>`);
+  // Keep the full project list ordered by stars (stable for ties).
+  const entry = /^- \[[^\]]+\]\(https:\/\/github\.com\/[^)]+\) · ([\d,]+) (?:stars|Star)$/;
+  const lines = text.split('\n');
+  const first = lines.findIndex((line) => entry.test(line));
+  let last = first;
+  while (entry.test(lines[last + 1] ?? '')) last += 1;
+  const block = lines.slice(first, last + 1).map((line, index) => ({ line, index, stars: Number(line.match(entry)[1].replace(/,/g, '')) }));
+  block.sort((a, b) => b.stars - a.stars || a.index - b.index);
+  lines.splice(first, block.length, ...block.map((item) => item.line));
+  text = lines.join('\n');
   await writeFile(file, text);
 }
 console.log(`Refreshed ${catalogue.projects.length} projects; ${over1k} at or above 1K stars; snapshot ${today}.`);

@@ -74,131 +74,131 @@
 
 ## 全部 125 个项目
 
-- [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) · 13,806 Star
 - [LangChain · TypeSafe](https://github.com/langchain-ai/langchain) · 146,779 Star
 - [AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund) · 63,642 Star
-- [LiteLLM · JEV Router](https://github.com/BerriAI/litellm) · 59,304 Star
+- [LiteLLM · JEV Router](https://github.com/BerriAI/litellm) · 59,305 Star
 - [Oh My Pi · JEV Judgments](https://github.com/can1357/oh-my-pi) · 32,236 Star
 - [Jev Model Router](https://github.com/davila7/claude-code-templates) · 30,870 Star
 - [Composio · TypeSafe Provider](https://github.com/ComposioHQ/composio) · 30,268 Star
 - [Vercel AI SDK · TypeSafe](https://github.com/vercel/ai) · 26,870 Star
-- [Cua · JEV Use](https://github.com/trycua/cua) · 25,419 Star
+- [Cua · JEV Use](https://github.com/trycua/cua) · 25,422 Star
+- [Openwork](https://github.com/different-ai/openwork) · 23,682 Star
 - [Pydantic AI · TypeSafe](https://github.com/pydantic/pydantic-ai) · 20,084 Star
 - [Eliza · TypeSafe Client](https://github.com/elizaOS/eliza) · 19,404 Star
 - [LangChain.js · TypeSafe](https://github.com/langchain-ai/langchainjs) · 18,215 Star
-- [json-render · JEV Compose](https://github.com/vercel-labs/json-render) · 17,728 Star
-- [QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger) · 11,882 Star
+- [json-render · JEV Compose](https://github.com/vercel-labs/json-render) · 17,731 Star
+- [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) · 13,811 Star
+- [QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger) · 11,883 Star
 - [OpenChamber · JEV Router](https://github.com/openchamber/openchamber) · 10,213 Star
 - [Rig · TypeSafe Crate](https://github.com/0xPlaygrounds/rig) · 8,691 Star
 - [Firstmate · JEV Dispatch](https://github.com/kunchenguid/firstmate) · 6,889 Star
+- [Laya](https://github.com/NandhaKishorM/laya) · 6,688 Star
+- [Fast Jev Compaction](https://github.com/tamaratran/fast-jev-compaction) · 5,719 Star
+- [Eve](https://github.com/vercel/eve) · 5,291 Star
 - [Agentgateway · JEV Guardrail](https://github.com/agentgateway/agentgateway) · 4,953 Star
 - [Latitude · JEV Preclassifier](https://github.com/latitude-dev/latitude-llm) · 4,665 Star
-- [Fast Jev Compaction](https://github.com/tamaratran/fast-jev-compaction) · 5,713 Star
 - [Ax · TypeSafe Client](https://github.com/ax-llm/ax) · 2,934 Star
-- [SemIf](https://github.com/TheoLeeCJ/SemIf) · 2,746 Star
-- [Laya](https://github.com/NandhaKishorM/laya) · 6,674 Star
+- [SemIf](https://github.com/TheoLeeCJ/SemIf) · 2,749 Star
 - [JEV Trader](https://github.com/jarrodwatts/jev-trader) · 1,672 Star
-- [Agent Desktop · JEV Skill](https://github.com/lahfir/agent-desktop) · 1,377 Star
+- [NanoJev](https://github.com/TianyuCodings/NanoJev) · 1,672 Star
+- [Kev 0.5B](https://github.com/jaredpalmer/kev) · 1,530 Star
+- [TypeSafe Skills](https://github.com/typesafe-ai/skills) · 1,388 Star
+- [Agent Desktop · JEV Skill](https://github.com/lahfir/agent-desktop) · 1,378 Star
+- [Nimble](https://github.com/bespokelabsai/nimble) · 1,357 Star
 - [Vellum Assistant · JEV](https://github.com/vellum-ai/vellum-assistant) · 1,293 Star
 - [NewsJack](https://github.com/elvisun/newsjack) · 1,271 Star
-- [NanoJev](https://github.com/TianyuCodings/NanoJev) · 1,672 Star
 - [Jevlike](https://github.com/vinnylarouge/jevlike) · 1,132 Star
-- [TipTour macOS](https://github.com/milind-soni/tiptour-macos) · 627 Star
-- [Kev 0.5B](https://github.com/jaredpalmer/kev) · 1,521 Star
-- [Nimble](https://github.com/bespokelabsai/nimble) · 1,355 Star
-- [LocalJev](https://github.com/githubnext/localjev) · 657 Star
-- [Jev Experiments](https://github.com/dabit3/jev-experiments) · 352 Star
-- [Tax Document Classifier](https://github.com/kyotofin/tax-doc-classifier) · 314 Star
-- [Abide](https://github.com/coldteadotai/abide) · 199 Star
-- [jev-align](https://github.com/sutro-sh/jev-align) · 253 Star
-- [Jeff](https://github.com/logan-markewich/jeff) · 183 Star
-- [jev-semgrep](https://github.com/uehaj/jev-semgrep) · 122 Star
-- [jev-gateway](https://github.com/vinilana/jev-gateway) · 78 Star
-- [Hono Jev Router](https://github.com/yusukebe/hono-jev-router) · 45 Star
-- [Live Jev](https://github.com/okinaaudio/live-jev) · 38 Star
-- [jegrep](https://github.com/can1357/jegrep) · 57 Star
-- [Jev Reviewer](https://github.com/choxos/jev-reviewer) · 30 Star
 - [Celesto](https://github.com/CelestoAI/celesto) · 946 Star
 - [Atomic](https://github.com/bastani-inc/atomic) · 809 Star
+- [AI CLI](https://github.com/vercel-labs/ai-cli) · 808 Star
+- [Awesome JEV by TypeSafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) · 742 Star
+- [TypeSafe Computer Use](https://github.com/awlevin/typesafe-computer-use) · 693 Star
 - [Aiavatarkit](https://github.com/uezo/aiavatarkit) · 678 Star
 - [Kody](https://github.com/kentcdodds/kody) · 659 Star
+- [LocalJev](https://github.com/githubnext/localjev) · 657 Star
+- [TipTour macOS](https://github.com/milind-soni/tiptour-macos) · 627 Star
 - [Agent](https://github.com/AgentiLoop/Agent) · 618 Star
 - [Req LLM](https://github.com/agentjido/req_llm) · 580 Star
 - [Omg.dev](https://github.com/BennyKok/omg.dev) · 533 Star
-- [Vexjoy Agent](https://github.com/notque/vexjoy-agent) · 421 Star
-- [Foreman](https://github.com/thruwire/foreman) · 446 Star
-- [WrongStack](https://github.com/WrongStack/WrongStack) · 329 Star
-- [Instructor Php](https://github.com/cognesy/instructor-php) · 327 Star
-- [TypeSafe Computer Use](https://github.com/awlevin/typesafe-computer-use) · 693 Star
-- [Jev Review](https://github.com/devagrawal09/jev-review) · 438 Star
-- [Orchestkit](https://github.com/yonatangross/orchestkit) · 280 Star
-- [TypeSafe Mario](https://github.com/fhshaik/typesafe-mario) · 314 Star
-- [Openai Scala Client](https://github.com/cequence-io/openai-scala-client) · 248 Star
-- [Pi Fabric](https://github.com/monotykamary/pi-fabric) · 241 Star
-- [OpenWhisper](https://github.com/Knuckles92/OpenWhisper) · 187 Star
-- [Pg JEV](https://github.com/realZachi/pg-jev) · 259 Star
-- [Interlinked CLI](https://github.com/QuentinCody/interlinked-cli) · 178 Star
-- [JEV Router](https://github.com/gargpratyush/jev-router) · 283 Star
-- [Skillbox](https://github.com/kitze/skillbox) · 220 Star
-- [Mobile JEV](https://github.com/droidrun/mobile-jev) · 304 Star
-- [Runline](https://github.com/Michaelliv/runline) · 162 Star
-- [JEV Search](https://github.com/superagents-lab/jev-search) · 352 Star
-- [JEV Browser Use](https://github.com/wy-coliney/jev-browser-use) · 291 Star
-- [JEV Review](https://github.com/NiazMorshed2007/jev-review) · 191 Star
-- [Effect Agent](https://github.com/danieljvdm/effect-agent) · 121 Star
-- [JEV Browser](https://github.com/jkudish/jev-browser) · 209 Star
-- [Unclutter](https://github.com/kitze/unclutter) · 152 Star
-- [TypeSafe SDK Python](https://github.com/typesafe-ai/typesafe-sdk-python) · 171 Star
-- [JEV Eval Agent](https://github.com/vinilana/jev-eval-agent) · 99 Star
-- [Bluenoise](https://github.com/rokcso/bluenoise) · 90 Star
-- [TypeSafe MCP](https://github.com/itsmostafa/typesafe-mcp) · 173 Star
-- [JEV Shell History](https://github.com/mrnugget/jev-shell-history) · 80 Star
-- [JEV Codex Router](https://github.com/0xNatoshi/jev-codex-router) · 124 Star
-- [TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock) · 64 Star
-- [JEV Skip](https://github.com/valentynkit/jev-skip) · 3 Star
-- [JEV Commit](https://github.com/valentynkit/jev-commit) · 8 Star
-- [Jev.nvim](https://github.com/valentynkit/jev.nvim) · 3 Star
-- [Jevpilot](https://github.com/standardagents/jevpilot) · 143 Star
-- [JEV Drone](https://github.com/RomanSlack/jev-drone) · 96 Star
-- [Youtube Sponsor Detection](https://github.com/trungdq88/youtube-sponsor-detection) · 81 Star
-- [Jevmeter](https://github.com/ChetasLua/jevmeter) · 77 Star
-- [Captaincore](https://github.com/CaptainCore/captaincore) · 71 Star
-- [Pg TypeSafe](https://github.com/giuliosmall/pg_typesafe) · 81 Star
-- [Simple JEV](https://github.com/featherless-ai/simple-jev) · 428 Star
-- [TypeSafe SDK Js](https://github.com/typesafe-ai/typesafe-sdk-js) · 196 Star
-- [AI](https://github.com/hackclub/ai) · 133 Star
-- [Taskuary](https://github.com/ldbumble/taskuary) · 116 Star
-- [JEV Voice Browser](https://github.com/moritzkremb/jev-voice-browser) · 186 Star
-- [JEV MCP](https://github.com/jkudish/jev-mcp) · 196 Star
-- [Advocaat](https://github.com/pithings/advocaat) · 88 Star
-- [Pi JEV](https://github.com/y0usaf/pi-jev) · 131 Star
-- [Pi Warden](https://github.com/DevMortimer/pi-warden) · 118 Star
-- [Openjev](https://github.com/razorback16/openjev) · 245 Star
-- [Openwork](https://github.com/different-ai/openwork) · 23,682 Star
-- [Eve](https://github.com/vercel/eve) · 5,291 Star
-- [AI CLI](https://github.com/vercel-labs/ai-cli) · 808 Star
-- [TypeSafe Skills](https://github.com/typesafe-ai/skills) · 1,387 Star
-- [Awesome JEV by TypeSafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) · 742 Star
-- [Smithers](https://github.com/smithersai/smithers) · 418 Star
 - [Jev CU](https://github.com/Sac-Y/Jev-cu) · 519 Star
 - [Splash](https://github.com/incoai/splash) · 506 Star
+- [Foreman](https://github.com/thruwire/foreman) · 446 Star
+- [Jev Review](https://github.com/devagrawal09/jev-review) · 438 Star
+- [Simple JEV](https://github.com/featherless-ai/simple-jev) · 428 Star
+- [Vexjoy Agent](https://github.com/notque/vexjoy-agent) · 421 Star
+- [Smithers](https://github.com/smithersai/smithers) · 418 Star
 - [Awesome TypeSafe](https://github.com/AbdelStark/awesome-typesafe) · 414 Star
-- [Awesome JEV (cobanov)](https://github.com/cobanov/awesome-jev) · 292 Star
-- [OpenJEV SGLang](https://github.com/ekzhang/openjev-sglang) · 245 Star
-- [Notra](https://github.com/usenotra/notra) · 199 Star
-- [System One Adapter (Python)](https://github.com/typesafe-ai/system-one-adapter-python) · 217 Star
-- [Awesome JEV (fatwang2)](https://github.com/fatwang2/awesome-jev) · 185 Star
-- [Perch](https://github.com/lakeday-org/perch) · 167 Star
-- [JEV Visual](https://github.com/hr98w/jev-visual) · 192 Star
-- [Third Hand](https://github.com/shhivv/third-hand) · 270 Star
-- [Compact Adviser](https://github.com/kunchenguid/compact-adviser) · 157 Star
-- [Awesome JEV Projects](https://github.com/logicrw/awesome-jev-projects) · 263 Star
+- [Jev Experiments](https://github.com/dabit3/jev-experiments) · 352 Star
+- [JEV Search](https://github.com/superagents-lab/jev-search) · 352 Star
 - [Hermes JEV Skills](https://github.com/kerpopule/hermes-jev-skills) · 335 Star
-- [JEV Pruner](https://github.com/tamaratran/jev-pruner) · 130 Star
+- [WrongStack](https://github.com/WrongStack/WrongStack) · 329 Star
+- [Instructor Php](https://github.com/cognesy/instructor-php) · 327 Star
+- [Tax Document Classifier](https://github.com/kyotofin/tax-doc-classifier) · 314 Star
+- [TypeSafe Mario](https://github.com/fhshaik/typesafe-mario) · 314 Star
+- [Mobile JEV](https://github.com/droidrun/mobile-jev) · 304 Star
+- [Awesome JEV (cobanov)](https://github.com/cobanov/awesome-jev) · 292 Star
+- [JEV Browser Use](https://github.com/wy-coliney/jev-browser-use) · 291 Star
+- [JEV Router](https://github.com/gargpratyush/jev-router) · 283 Star
+- [Orchestkit](https://github.com/yonatangross/orchestkit) · 280 Star
+- [Third Hand](https://github.com/shhivv/third-hand) · 270 Star
+- [Awesome JEV Projects](https://github.com/logicrw/awesome-jev-projects) · 264 Star
+- [Pg JEV](https://github.com/realZachi/pg-jev) · 259 Star
+- [jev-align](https://github.com/sutro-sh/jev-align) · 253 Star
+- [Openai Scala Client](https://github.com/cequence-io/openai-scala-client) · 248 Star
+- [Openjev](https://github.com/razorback16/openjev) · 245 Star
+- [OpenJEV SGLang](https://github.com/ekzhang/openjev-sglang) · 245 Star
+- [Pi Fabric](https://github.com/monotykamary/pi-fabric) · 241 Star
 - [OpenJEV Verdict 2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0) · 221 Star
-- [Building with JEV Skill](https://github.com/dbreunig/building-with-jev-skill) · 128 Star
+- [Skillbox](https://github.com/kitze/skillbox) · 220 Star
+- [System One Adapter (Python)](https://github.com/typesafe-ai/system-one-adapter-python) · 218 Star
+- [JEV Browser](https://github.com/jkudish/jev-browser) · 209 Star
+- [Abide](https://github.com/coldteadotai/abide) · 199 Star
+- [Notra](https://github.com/usenotra/notra) · 199 Star
+- [TypeSafe SDK Js](https://github.com/typesafe-ai/typesafe-sdk-js) · 196 Star
+- [JEV MCP](https://github.com/jkudish/jev-mcp) · 196 Star
+- [JEV Visual](https://github.com/hr98w/jev-visual) · 192 Star
+- [JEV Review](https://github.com/NiazMorshed2007/jev-review) · 191 Star
+- [OpenWhisper](https://github.com/Knuckles92/OpenWhisper) · 187 Star
+- [JEV Voice Browser](https://github.com/moritzkremb/jev-voice-browser) · 187 Star
+- [Awesome JEV (fatwang2)](https://github.com/fatwang2/awesome-jev) · 185 Star
+- [Jeff](https://github.com/logan-markewich/jeff) · 183 Star
 - [Decider](https://github.com/Mapika/decider) · 180 Star
+- [Interlinked CLI](https://github.com/QuentinCody/interlinked-cli) · 178 Star
+- [TypeSafe MCP](https://github.com/itsmostafa/typesafe-mcp) · 173 Star
+- [TypeSafe SDK Python](https://github.com/typesafe-ai/typesafe-sdk-python) · 171 Star
+- [Perch](https://github.com/lakeday-org/perch) · 167 Star
+- [Runline](https://github.com/Michaelliv/runline) · 162 Star
+- [Compact Adviser](https://github.com/kunchenguid/compact-adviser) · 157 Star
+- [Unclutter](https://github.com/kitze/unclutter) · 152 Star
 - [djev-spark](https://github.com/mmastrac/djev-spark) · 152 Star
+- [Jevpilot](https://github.com/standardagents/jevpilot) · 143 Star
+- [AI](https://github.com/hackclub/ai) · 133 Star
+- [Pi JEV](https://github.com/y0usaf/pi-jev) · 131 Star
+- [JEV Pruner](https://github.com/tamaratran/jev-pruner) · 130 Star
+- [Building with JEV Skill](https://github.com/dbreunig/building-with-jev-skill) · 128 Star
+- [JEV Codex Router](https://github.com/0xNatoshi/jev-codex-router) · 125 Star
+- [jev-semgrep](https://github.com/uehaj/jev-semgrep) · 122 Star
+- [Effect Agent](https://github.com/danieljvdm/effect-agent) · 121 Star
+- [Pi Warden](https://github.com/DevMortimer/pi-warden) · 118 Star
+- [Taskuary](https://github.com/ldbumble/taskuary) · 116 Star
+- [JEV Eval Agent](https://github.com/vinilana/jev-eval-agent) · 99 Star
+- [JEV Drone](https://github.com/RomanSlack/jev-drone) · 96 Star
+- [Bluenoise](https://github.com/rokcso/bluenoise) · 90 Star
+- [Advocaat](https://github.com/pithings/advocaat) · 88 Star
+- [Youtube Sponsor Detection](https://github.com/trungdq88/youtube-sponsor-detection) · 81 Star
+- [Pg TypeSafe](https://github.com/giuliosmall/pg_typesafe) · 81 Star
+- [JEV Shell History](https://github.com/mrnugget/jev-shell-history) · 80 Star
+- [jev-gateway](https://github.com/vinilana/jev-gateway) · 79 Star
+- [Jevmeter](https://github.com/ChetasLua/jevmeter) · 77 Star
+- [Captaincore](https://github.com/CaptainCore/captaincore) · 71 Star
+- [TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock) · 64 Star
+- [jegrep](https://github.com/can1357/jegrep) · 57 Star
+- [Hono Jev Router](https://github.com/yusukebe/hono-jev-router) · 45 Star
+- [Live Jev](https://github.com/okinaaudio/live-jev) · 38 Star
+- [Jev Reviewer](https://github.com/choxos/jev-reviewer) · 30 Star
+- [JEV Commit](https://github.com/valentynkit/jev-commit) · 8 Star
+- [JEV Skip](https://github.com/valentynkit/jev-skip) · 3 Star
+- [Jev.nvim](https://github.com/valentynkit/jev.nvim) · 3 Star
 
 ## BeatAPI
 
