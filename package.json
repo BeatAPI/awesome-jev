@@ -6,6 +6,7 @@
   "scripts": {
     "catalog:refresh": "node scripts/refresh-curated-projects.mjs",
     "catalog:export": "node scripts/export-website-data.mjs",
+    "catalog:readmes": "node scripts/sync-readmes.mjs",
     "test": "node --test scripts/validate.test.mjs"
   }
 }
