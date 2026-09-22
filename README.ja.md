@@ -5,7 +5,7 @@
 <p align="center">
   <strong><a href="https://beatapi.io/ja/awesome-jev">Awesome JEV ギャラリーを見る</a></strong> ·
   <a href="#注目プロジェクト">注目プロジェクト</a> ·
-  <a href="#all-projects">全 171 プロジェクト</a> ·
+  <a href="#all-projects">全 183 プロジェクト</a> ·
   <a href="./data/projects.json">JSON カタログ</a> ·
   <a href="./README.md">English</a> ·
   <a href="./README.zh-CN.md">简体中文</a>
@@ -31,8 +31,8 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>171</strong></td>
-      <td align="center"><strong>48</strong></td>
+      <td align="center"><strong>183</strong></td>
+      <td align="center"><strong>49</strong></td>
       <td align="center"><strong>10</strong></td>
       <td align="center"><strong>2026-09-22</strong></td>
     </tr>
@@ -44,15 +44,15 @@
 <h2 align="center">カテゴリから探す</h2>
 
 <p align="center">
-  <a href="#browser-computer-use"><strong>ブラウザ・PC 操作 · 15</strong></a> ·
-  <a href="#sdk-integrations"><strong>SDK・フレームワーク · 28</strong></a> ·
+  <a href="#browser-computer-use"><strong>ブラウザ・PC 操作 · 16</strong></a> ·
+  <a href="#sdk-integrations"><strong>SDK・フレームワーク · 30</strong></a> ·
   <a href="#routing-optimization"><strong>ルーティング · 16</strong></a> ·
-  <a href="#open-models"><strong>オープンモデル · 20</strong></a> ·
-  <a href="#search-data"><strong>検索・データ · 14</strong></a><br>
-  <a href="#safety-review"><strong>安全性・レビュー · 13</strong></a> ·
+  <a href="#open-models"><strong>オープンモデル · 21</strong></a> ·
+  <a href="#search-data"><strong>検索・データ · 15</strong></a><br>
+  <a href="#safety-review"><strong>安全性・レビュー · 14</strong></a> ·
   <a href="#agent-workflows"><strong>Agent ワークフロー · 14</strong></a> ·
   <a href="#interfaces"><strong>UI・自動化 · 9</strong></a> ·
-  <a href="#developer-tools"><strong>開発者ツール · 29</strong></a> ·
+  <a href="#developer-tools"><strong>開発者ツール · 35</strong></a> ·
   <a href="#domain-tools"><strong>業務特化ツール · 13</strong></a>
 </p>
 
@@ -74,10 +74,10 @@
 <p align="center"><strong><a href="https://beatapi.io/ja/awesome-jev">フィルターと詳しい説明付きで見る →</a></strong></p>
 
 <a id="all-projects"></a>
-## 全 171 プロジェクト
+## 全 183 プロジェクト
 
 <a id="browser-computer-use"></a>
-### ブラウザ・PC 操作 (15)
+### ブラウザ・PC 操作 (16)
 
 - **[Cua · JEV Use](https://github.com/trycua/cua)** · 25.8K Star — Cua Driver の観察と実行を、制限された JEV の選択肢と組み合わせたコンピューター使用例。 [根拠](https://github.com/trycua/cua/blob/83f142c4290a0f7d9ed545ae8532858c6e4f8145/libs/cua-driver/examples/jev-use/python/jev_adapter.py#L11)
 - **[Jev Ultrafast](https://github.com/browser-use/jev-ultrafast)** · 16.3K Star — JEV を使用してアクションと一致する DOM 要素を選択し、入力テキストが必要な場合にのみテキスト モデルを呼び出すブラウザ エージェント。 [根拠](https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py)
@@ -92,13 +92,14 @@
 - **[JEV Voice Browser](https://github.com/moritzkremb/jev-voice-browser)** · 216 Star — 増分音声トランスクリプトを JEV に送信することで、Playwright ブラウザを制御します。 [根拠](https://github.com/moritzkremb/jev-voice-browser/blob/054db0f3dbf537af63a8117632d3f941ccd520e1/src/jev.js#L123)
 - **[Arc CUA · TypeSafe Policy](https://github.com/shhivv/arc-cua)** · 127 Star — TypeSafe Policy 実装を備えた高速 Computer Use アクション層。 [根拠](https://github.com/shhivv/arc-cua/blob/6d47ce6c906d7d8586d3553e277c1c3611c4f6af/src/arc_cua/policies/typesafe.py)
 - **[JEV Use](https://github.com/savka777/jev-use)** · 86 Star — 視覚モデルなしで Accessibility 要素を操作する macOS Computer Use ツール。 [根拠](https://github.com/savka777/jev-use/blob/8907f85354addfa3d2b78f6a462087e4c73310b8/README.md)
+- **[WindTunnel · JEV Benchmarks](https://github.com/nekuda-ai/WindTunnel)** · 76 Star — アクセシビリティと WebMCP を対象に固定条件の JEV 実験を行うブラウザー Agent ベンチマークです。 [根拠](https://github.com/nekuda-ai/WindTunnel/blob/5ca8644e23826ebb30108e7bad240b61043bfe67/experiments/jev/run.mjs)
 - **[TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock)** · 68 Star — 候補となる DOM 要素が広告であるかどうかを JEV に尋ね、それらをハイライト表示または削除する実験的な Chrome 拡張機能。 [根拠](https://github.com/realZachi/typesafe-adblock/blob/7e067d243d87b7fe4d511653c0ddcd77b9beee18/src/typesafe.js)
 - **[JEV Browser](https://github.com/Ying-Kai-Liao/jev-browser)** · 67 Star — LLM の計画と JEV の操作を組み合わせるブラウザー自動化ライブラリ、CLI、MCP サーバー。 [根拠](https://github.com/Ying-Kai-Liao/jev-browser/blob/578cff6e701a131733d03256078bb559a45ad188/src/jev.mjs)
 
 <sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
 
 <a id="sdk-integrations"></a>
-### SDK・フレームワーク (28)
+### SDK・フレームワーク (30)
 
 - **[LangChain · TypeSafe](https://github.com/langchain-ai/langchain)** · 146.8K Star — Python LangChain ワークフロー用のオプションの JEV 分類子統合。 [根拠](https://github.com/langchain-ai/langchain/blob/eba445b7563d1709427bd8072892975a6ea59fdc/libs/partners/typesafe/langchain_typesafe/classifier.py)
 - **[Composio · TypeSafe Provider](https://github.com/ComposioHQ/composio)** · 30.3K Star — JEV を使ってツールと許可済みの引数候補を選ぶ TypeSafe プロバイダー。 [根拠](https://github.com/ComposioHQ/composio/blob/4b5920bf7aa55c8a44657b060d4bd25ce7b13a9a/ts/packages/providers/typesafe/src/decide.ts)
@@ -114,6 +115,7 @@
 - **[Ax · TypeSafe Client](https://github.com/ax-llm/ax)** · 2.9K Star — ブール型、有限クラス、およびネイティブ JEV 署名の TypeSafe 統合。 [根拠](https://github.com/ax-llm/ax/blob/5c43344f9ef3016db576fa2c3b59d48ef21b4d71/src/ax/ai/typesafe/client.ts#L1)
 - **[http4k · TypeSafe Client](https://github.com/http4k/http4k)** · 2.8K Star — TypeSafe System One API 向けの型付き Kotlin クライアントと Fake 実装。 [根拠](https://github.com/http4k/http4k/blob/528ef94c9533b42be9010396bd1828ed1c84c9d2/connect/ai/typesafe/client/src/main/kotlin/org/http4k/connect/typesafe/action/SystemOne.kt)
 - **[Vellum Assistant · JEV](https://github.com/vellum-ai/vellum-assistant)** · 1.3K Star — 会話状態と明示的な質問を送信するオプションの JEV プロバイダー。 [根拠](https://github.com/vellum-ai/vellum-assistant/blob/ee5ba342719e72b67698c2e1a4a78837321d0b1d/assistant/src/providers/jev/client.ts)
+- **[Laravel AI · TypeSafe](https://github.com/laravel/ai)** · 1.2K Star — Laravel AI に、JEV を使う TypeSafe 分類プロバイダーが組み込まれています。 [根拠](https://github.com/laravel/ai/blob/f0a5d4f3c5bddda7c8975eb79e92d62811197484/src/Providers/TypeSafeProvider.php)
 - **[Req LLM](https://github.com/agentjido/req_llm)** · 581 Star — Elixir の ReqLLM 評価インターフェイスから JEV を呼び出す TypeSafe プロバイダー。 [根拠](https://github.com/agentjido/req_llm/blob/9cb0ee7a0fea5f3520fc953911d352c93193615e/README.md)
 - **[Simple JEV](https://github.com/featherless-ai/simple-jev)** · 458 Star — 専用の分類ヘッドを学習せずに、公開 LLM エンドポイントを JEV 互換の分類サービスへ変換するアダプター。 [根拠](https://github.com/featherless-ai/simple-jev/blob/0dd5396ffce671ab7c4bfc031506d8e558cf8d23/demos/jevpilot/src/simple-jev-api.js#L1-L85)
 - **[Classifier.dev](https://github.com/mrmps/classifier-dev)** · 406 Star — JEV を主要な型付き判断バックエンドに使うゼロショット分類サービス。 [根拠](https://github.com/mrmps/classifier-dev/blob/33ca63816f2bc7e93c3f2d0715f7896500370739/src/jev.ts)
@@ -125,6 +127,7 @@
 - **[TypeSafe SDK Js](https://github.com/typesafe-ai/typesafe-sdk-js)** · 214 Star — TypeSafe によって公開された JavaScript および TypeScript SDK (型指定された JEV リクエストと回答を含む)。 [根拠](https://github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/README.md)
 - **[TypeSafe SDK Python](https://github.com/typesafe-ai/typesafe-sdk-python)** · 188 Star — JEV System One の同期および非同期クライアントを備えた公式 TypeSafe Python SDK、および質問と回答のタイプ。 [根拠](https://github.com/typesafe-ai/typesafe-sdk-python/blob/2ce5c65f13646cab6e6f782328194c9d85f3300a/src/typesafe_sdk/_core/client/sync/client.py#L206-L221)
 - **[Runline](https://github.com/Michaelliv/runline)** · 163 Star — Runline Agent JavaScript で呼び出し可能なアクションとして JEV 決定を公開する TypeSafe プラグイン。 [根拠](https://github.com/Michaelliv/runline/blob/6bdddfa82cd95b6b9a07e57fd93a271ae83a0d1b/README.md)
+- **[NeuroLink · TypeSafe](https://github.com/Juspay/neurolink)** · 137 Star — NeuroLink は TypeSafe プロバイダーと JEV 分類ルーティングを提供します。 [根拠](https://github.com/Juspay/neurolink/blob/e2d87c355cf9e725ae5edc3c6db6c05fa659aaa0/src/lib/providers/typesafe.ts)
 - **[AI](https://github.com/hackclub/ai)** · 133 Star — Hack Club AI プロキシの JEV 転送エンドポイント。認証、制限、使用状況ログを使用します。 [根拠](https://github.com/hackclub/ai/blob/a76ea2cb159f707a60107935a5b2e0dbdc7455f5/README.md)
 - **[Effect Agent](https://github.com/danieljvdm/effect-agent)** · 121 Star — 型付き質問セットと任意のモデル選択に対応する、Effect Agent 向け TypeSafe 意思決定プロバイダー。 [根拠](https://github.com/danieljvdm/effect-agent/blob/88005e497e9b627eeb16d670f278903c57601da9/README.md)
 - **[Advocaat](https://github.com/pithings/advocaat)** · 89 Star — 同じデータについて複数の型付き質問を JEV に送るための、小さな TypeScript クライアント。 [根拠](https://github.com/pithings/advocaat/blob/bc46287fc1102b95852a81d679c6e34a2c44f4a2/README.md)
@@ -154,7 +157,7 @@
 <sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
 
 <a id="open-models"></a>
-### オープンモデル (20)
+### オープンモデル (21)
 
 - **[Laya](https://github.com/NandhaKishorM/laya)** · 11.5K Star — 多言語・非自己回帰の System 1 意思決定エンジン。1 回の前向き計算で型付き choice/score/noul を出し、ルータがチェックポイントを選びます。 [根拠](https://github.com/NandhaKishorM/laya/blob/d113dca2512fb3eaca313534bc54c7162d87c1d4/README.md)
 - **[SemIf](https://github.com/TheoLeeCJ/SemIf)** · 3.4K Star — semantic-if インターフェイス パターンの独立したオープンモデル実装。 [根拠](https://github.com/TheoLeeCJ/SemIf/blob/ca3ba65f142967030ecb453346e94d6f476a69df/README.md)
@@ -166,6 +169,7 @@
 - **[Splash](https://github.com/incoai/splash)** · 578 Star — 意思決定系モデル向けの Apple Silicon ローカル推論エンジン。 [根拠](https://github.com/incoai/splash/blob/f53d5ab543a7accdc332c060fd594a693f33f529/README.md)
 - **[Von](https://github.com/wfzyx/von)** · 374 Star — JEV 互換インターフェースを持つローカルのオープン System One 判断モデル。 [根拠](https://github.com/wfzyx/von/blob/14d09878e89b103bfbbe641f9bed02e4d72c8830/README.md)
 - **[Decider](https://github.com/Mapika/decider)** · 279 Star — Qwen3.5-2B 微調整による、1 パスの型付き意思決定と校正確率。 [根拠](https://github.com/Mapika/decider/blob/c4daaac28af9fea95d627015cffa2dd5a5926ee6/decider/__init__.py)
+- **[Rizzo Flow](https://github.com/Rizzo-AI-Academy/rizzo-flow)** · 273 Star — TypeSafe 互換の System One インターフェースを公開する独立ローカル判断モデルです。 [根拠](https://github.com/Rizzo-AI-Academy/rizzo-flow/blob/d34665b7a28c62b79f37939f2fd83f5fe659fbf9/src/rizzo_flow/compat.py)
 - **[OpenJEV SGLang](https://github.com/ekzhang/openjev-sglang)** · 258 Star — オープンモデル上の JEV 互換 API。prefill-only の提供経路を使います。 [根拠](https://github.com/ekzhang/openjev-sglang/blob/604664a22b2cf44c6cc499e503092ae4e3c24c03/src/openjev/__init__.py)
 - **[OpenJEV Verdict 2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0)** · 246 Star — 約 151M の校正済み非自己回帰ローカル意思決定エンジン。JEV 風の型付き回答を目指す。 [根拠](https://github.com/Heman10x-NGU/openJev-verdict-2.0/blob/a458733c5f43fc7f30b6e4381636cbfbf8437633/openjev/__init__.py)
 - **[JEV Visual](https://github.com/hr98w/jev-visual)** · 221 Star — Apple Silicon 上の教育向け JEV 風ビジョン推論。共有コンテキストで候補を直接採点。 [根拠](https://github.com/hr98w/jev-visual/blob/19af545f096e8db4c4dd5d47aed42d92ec252111/jev_visual/scoring.py)
@@ -180,11 +184,12 @@
 <sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
 
 <a id="search-data"></a>
-### 検索・データ (14)
+### 検索・データ (15)
 
 - **[OpenViking · JEV Rerank](https://github.com/volcengine/OpenViking)** · 38.4K Star — OpenViking は JEV を使い、Agent の記憶・コンテキスト検索結果を較正して再順位付けできます。 [根拠](https://github.com/volcengine/OpenViking/blob/b8bed5a1ad3a1c524b5e1fd0fa591df51ca9b7cc/openviking/models/rerank/jev_rerank.py)
 - **[Hindsight · TypeSafe Rerank](https://github.com/vectorize-io/hindsight)** · 24.8K Star — Agent メモリに TypeSafe リランカーを追加し、無関係な検索候補を除外できます。 [根拠](https://github.com/vectorize-io/hindsight/blob/680406b3dd9cca2108c7f0e204820a09b4e30906/hindsight-api-slim/hindsight_api/engine/cross_encoder.py)
 - **[GreptimeDB · JEV SQL](https://github.com/GreptimeTeam/greptimedb)** · 6.7K Star — GreptimeDB に JEV 判断を利用する実験的 SQL 述語を追加。 [根拠](https://github.com/GreptimeTeam/greptimedb/blob/b5199bc59a199875187d808158357a33b09e5f60/src/common/function/src/scalars/jev.rs)
+- **[Hippo Memory · JEV Reranker](https://github.com/kitfunso/hippo-memory)** · 752 Star — ローカル優先の Agent メモリライブラリで、任意で JEV リランカーを利用できます。 [根拠](https://github.com/kitfunso/hippo-memory/blob/c9eb2c31cd307cdae78c05e1fcb3e6d062efd5c0/src/rerankers/jev.ts)
 - **[Kody](https://github.com/kentcdodds/kody)** · 663 Star — オプションの第 2 段階の検索: ハイブリッド プールを拡大し、Workers AI typesafe/jev を使用して候補者をスコア再ランク付けします。 [根拠](https://github.com/kentcdodds/kody/blob/ed9275186dc817530dd2289e62c208ac3809391f/packages/worker/src/mcp/tools/search-jev-rerank.ts)
 - **[JEV Search](https://github.com/superagents-lab/jev-search)** · 385 Star — JEV を使用して Web を検索し、ソースと時間範囲を選択し、返されたリンクをランク付けします。 [根拠](https://github.com/superagents-lab/jev-search/blob/522868762f0637b20bf533f136e930cceb83b9f3/src/lib/typesafe.ts#L48)
 - **[Jev Experiments](https://github.com/dabit3/jev-experiments)** · 358 Star — インテント検索やエージェント支援フローを含む小規模な JEV 実験。 [根拠](https://github.com/dabit3/jev-experiments/tree/c469e5bfdc73eb3e1999bba2569e66b579a970fd/agent-assist)
@@ -200,7 +205,7 @@
 <sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
 
 <a id="safety-review"></a>
-### 安全性・レビュー (13)
+### 安全性・レビュー (14)
 
 - **[Sub2API · JEV Moderation](https://github.com/Wei-Shaw/sub2api)** · 42.3K Star — サブスクリプションを API 化するゲートウェイに、コンテンツ審査用 TypeSafe クライアントを内蔵。 [根拠](https://github.com/Wei-Shaw/sub2api/blob/1c0a69c0ceddb2fd21581c17ab09f6c500b89ba1/backend/internal/pkg/typesafe/client.go)
 - **[Agentgateway · JEV Guardrail](https://github.com/agentgateway/agentgateway)** · 5.0K Star — モデルのリクエストとレスポンスを検査するための JEV Webhook ガードレールの例。 [根拠](https://github.com/agentgateway/agentgateway/blob/6b0270efd25b5255932943e48b5ca47583d3ad28/examples/llm-guardrail-jev/guardrail.ts)
@@ -214,6 +219,7 @@
 - **[Pi Warden](https://github.com/DevMortimer/pi-warden)** · 132 Star — プロジェクト ルール、範囲外のアクション、繰り返される失敗、完了要求のチェックを Pi エージェントに追加します。 [根拠](https://github.com/DevMortimer/pi-warden/blob/e6c801679464b1a9624225114eb5fb443c27d823/src/guard.ts)
 - **[Supercov](https://github.com/supercorp-ai/supercov)** · 94 Star — JEV で限定的な品質チェックを行うコード品質・カバレッジツール。 [根拠](https://github.com/supercorp-ai/supercov/blob/55f5ce93a239829c224b89e6749991310be91ea4/crates/supercov-cli/src/quality.rs)
 - **[Captaincore](https://github.com/CaptainCore/captaincore)** · 71 Star — WordPress ツールキットCaptainCore の JEV コマンドは、構造化された質問に答え、マルウェア スキャナーの検出結果に優先順位を付けてレビューします。 [根拠](https://github.com/CaptainCore/captaincore/blob/f54e0669350707b2f4f4c67a0130fdd6574bd0b5/cmd/typesafe.go)
+- **[JEV Lint](https://github.com/mizchi/jev-lint)** · 70 Star — 依存なしの JEV クライアントでリポジトリの検出候補を一括評価する意味的コードリンターです。 [根拠](https://github.com/mizchi/jev-lint/blob/c9846c8c9ee13a917f3af26294a4fdf1421d21b1/src/jev.ts)
 - **[Oxlint Plugin JEV](https://github.com/wobsoriano/oxlint-plugin-jev)** · 55 Star — JEV で意味的な lint ルールを評価する Oxlint プラグイン。 [根拠](https://github.com/wobsoriano/oxlint-plugin-jev/blob/18c5bc9097d88344382a98a78a67698c9c7ecf01/src/jev.ts)
 
 <sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
@@ -254,7 +260,7 @@
 <sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
 
 <a id="developer-tools"></a>
-### 開発者ツール (29)
+### 開発者ツール (35)
 
 - **[Fast Jev Compaction](https://github.com/tamaratran/fast-jev-compaction)** · 6.0K Star — 保持されたテキストをそのまま保持しながら、Claude Code ツール履歴を圧縮します。 [根拠](https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/client.ts)
 - **[TypeSafe Skills](https://github.com/typesafe-ai/skills)** · 1.6K Star — TypeSafe の System One / JEV API 向け公式 Agent Skill 集。 [根拠](https://github.com/typesafe-ai/skills/blob/65a39f393687675ce170e6094757de20370365b9/skills/typesafe-ai/SKILL.md)
@@ -267,6 +273,7 @@
 - **[Foreman](https://github.com/thruwire/foreman)** · 472 Star — ワーカーの差分、ログ、テストを読み取り、スタック/オフトラック/検証について JEV Nouls に質問し、Python ポリシーを適用する独立したスーパーバイザー ループ。 [根拠](https://github.com/thruwire/foreman/blob/209182dac7a3467033fd093ab4ca47d21279984a/src/foreman/foreman/jev.py)
 - **[Awesome TypeSafe](https://github.com/AbdelStark/awesome-typesafe)** · 431 Star — TypeSafe・System One・JEV の公式／コミュニティ資源をまとめたキュレーション一覧。 [根拠](https://github.com/AbdelStark/awesome-typesafe/blob/d44dc0a1e26d41bc7f543d39b4b62ae5cb9f13c8/README.md)
 - **[Awesome TypeSafe JEV](https://github.com/AbdelStark/awesome-typesafe-jev)** · 431 Star — TypeSafe JEV のプロジェクト・SDK・デモ・評価を根拠付きでまとめたガイド。 [根拠](https://github.com/AbdelStark/awesome-typesafe-jev/blob/9384099af36cd439b7f0bd4311560ac02eeabe7c/README.md)
+- **[Awesome Jev Skills](https://github.com/wuyoscar/jev-skill)** · 398 Star — 標準ライブラリだけで動く JEV クライアントを含む Agent スキルとワークフロー集です。 [根拠](https://github.com/wuyoscar/jev-skill/blob/4d6efbc5b87a4172524ad4ab4590aef077fdc13b/skills/jev/scripts/jev.py)
 - **[Awesome JEV Projects](https://github.com/logicrw/awesome-jev-projects)** · 334 Star — 根拠付き JEV エコシステムレーダー。平易な発見 UI と GitHub 同期付き。 [根拠](https://github.com/logicrw/awesome-jev-projects/blob/d1b1b8d6c68c1754425778606d20d2cb14b09895/SKILL.md)
 - **[Awesome JEV (cobanov)](https://github.com/cobanov/awesome-jev)** · 316 Star — JEV / TypeSafe System One で作られたプロジェクトの根拠付き一覧。 [根拠](https://github.com/cobanov/awesome-jev/blob/2c8c34a7a89499a0cec3ca7de3a23fec3ea9dc97/README.md)
 - **[Orchestkit](https://github.com/yonatangross/orchestkit)** · 281 Star — OrchestKit はオプションで JEV を使用してコーディング セッションを分類し、信頼度がしきい値を満たしたときにその色を設定できます。 [根拠](https://github.com/yonatangross/orchestkit/blob/569095f35ce61a4881197dfb8117f4c3312e2bee/src/hooks/src/lib/session-category-provider.ts)
@@ -281,10 +288,15 @@
 - **[Building with JEV Skill](https://github.com/dbreunig/building-with-jev-skill)** · 128 Star — JEV / System One を呼ぶプログラムの作成・改善を助ける Agent Skill。 [根拠](https://github.com/dbreunig/building-with-jev-skill/blob/04fe3666c6b8b8abfec1271c0e581c823a181f6d/skills/jev/SKILL.md)
 - **[Awesome Jev](https://github.com/hellogumbo/awesome-jev)** · 127 Star — awesomejev.com の元カタログで、リポジトリ、連携、デモ、研究を収録。 [根拠](https://github.com/hellogumbo/awesome-jev/blob/e18fa74fa53e27395a074cf94c7a127e912fb090/data/projects.json)
 - **[Awesome JEV TypeSafe](https://github.com/valentynkit/awesome-jev-typesafe)** · 125 Star — 型付きで信頼度を扱う判断を中心にした TypeSafe JEV 資料一覧。 [根拠](https://github.com/valentynkit/awesome-jev-typesafe/blob/7eec7360d502826b51d1c8862c9fd2d76eecf6e4/readme.md)
+- **[Awesome JEV (Promethe-us)](https://github.com/Promethe-us/awesome-jev)** · 122 Star — 出典を確認した JEV の資料、プロジェクト、研究、運用情報をまとめた二言語コレクションです。 [根拠](https://github.com/Promethe-us/awesome-jev/blob/636623538eda3c363b8c396880ccdc8aba70d424/README.md)
 - **[Taskuary](https://github.com/ldbumble/taskuary)** · 116 Star — タスク状態に関するユーザー定義の条件をチェックするための Taskuary のオプションの JEV 判定モジュール。 [根拠](https://github.com/ldbumble/taskuary/blob/4ad29d7b292a7899767338cfcc83b2dde8f43330/README.md)
 - **[Stanley Code](https://github.com/devagrawal09/stanley-code)** · 111 Star — 専用アダプターを備えたコーディング Agent 向けの限定 JEV ワークフロー。 [根拠](https://github.com/devagrawal09/stanley-code/blob/fd092558ebea389c81d44f9b10e826d9a72afaa3/src/adapters/jev.ts)
+- **[Awesome JEV (kraayenjon)](https://github.com/kraayenjon/awesome-jev)** · 100 Star — JEV のユースケース、プロジェクト、SDK、ツール、学習資料をまとめたガイドです。 [根拠](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md)
 - **[JEV Shell History](https://github.com/mrnugget/jev-shell-history)** · 96 Star — JEV によってランク付けされた Fish スタイルの Zsh 履歴提案ツール。コンテキストに基づいてローカル履歴から候補コマンドを順序付けします。 [根拠](https://github.com/mrnugget/jev-shell-history/blob/4b2b75d26c0ccf5726263904514a22a8e11659ea/src/suggest.ts#L1-L196)
+- **[Awesome JEV Use Cases](https://github.com/walidboulanouar/awesome-jev-use-cases)** · 84 Star — 公開済み JEV デモ、リポジトリ、報告値、モデル制約を出典付きで整理したカタログです。 [根拠](https://github.com/walidboulanouar/awesome-jev-use-cases/blob/80bd47333db768044cec10b1327c9ca3bb247994/README.md)
 - **[Awesome JEV (AppitStudio)](https://github.com/AppitStudio/awesome-jev)** · 73 Star — 実行可能な型付き判断例を含む JEV 資料一覧。 [根拠](https://github.com/AppitStudio/awesome-jev/blob/5d654f24aecf992617bbc45e76f32a36eba62f65/README.md)
+- **[JevBench](https://github.com/fstandhartinger/jevbench)** · 71 Star — JEV、オープン判断モデル、分類器、リランカーを比較する再現可能なベンチマークです。 [根拠](https://github.com/fstandhartinger/jevbench/blob/75e6224ed8103bbc3485ca74820a2eaf7ce8abe0/jevbench/adapters/typesafe.py)
+- **[Awesome JEV ZH](https://github.com/yzfly/awesome-jev-zh)** · 59 Star — 厳選プロジェクト、実践チュートリアル、価格、独立した注意点を含む中国語 JEV ガイドです。 [根拠](https://github.com/yzfly/awesome-jev-zh/blob/cdb8a78cb3ac4cec36ebe305b73a4e0b4f5cba21/README.md)
 
 <sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
 
@@ -296,6 +308,7 @@
 - **[JEV Trader](https://github.com/jarrodwatts/jev-trader)** · 1.9K Star — モナドブロックごとに 1 つの JEV 取引決定を要求できるマーケットメイク実験。 [根拠](https://github.com/jarrodwatts/jev-trader/blob/b587759e459ea049590102e54a0b07800864cdc3/src/model.ts)
 - **[Astra + JEV Minecraft Agent](https://github.com/rmalde/minecraft-agent)** · 485 Star — プランナーが目標を定め、JEV が合法なゲーム操作を選ぶ Minecraft Agent。 [根拠](https://github.com/rmalde/minecraft-agent/blob/78b40ed59514e5e2abde33a05ce398ecb2c39e05/models.mjs)
 - **[TypeSafe Mario](https://github.com/fhshaik/typesafe-mario)** · 338 Star — JEV 構造化エミュレータ RAM とスクリーンショットの代わりにテレメトリを提供する実験的な NES マリオ コントローラ。 [根拠](https://github.com/fhshaik/typesafe-mario/blob/ca22449ed187118d19326d1f54b01b6636578aa4/README.md)
+- **[Embodied JEV](https://github.com/FBddcz/embodied-jev)** · 170 Star — JEV、ローカルモデル、汎用モデルの判断ポリシーを比較する身体化 Agent 評価基盤です。 [根拠](https://github.com/FBddcz/embodied-jev/blob/687210b62f3fad831295ebb1b83dab0b4e013baa/src/embodied_jev/policies.py)
 - **[Jevpilot](https://github.com/standardagents/jevpilot)** · 155 Star — JEV がローカルで生成されたパスと速度の中から選択するブラウザー運転シミュレーター。 [根拠](https://github.com/standardagents/jevpilot/blob/e1beeb13b9a928fb76f167f86af584f4ce9cf180/README.md)
 - **[Dasheng](https://github.com/wquguru/dasheng)** · 119 Star — ストリーミング ASR と単語ごとの JEV 判断を組み合わせた音読練習アプリ。 [根拠](https://github.com/wquguru/dasheng/blob/1bacff4a075527e6c02da242a72d117e7cb3286b/lib/jev.js)
 - **[JEV Drone](https://github.com/RomanSlack/jev-drone)** · 119 Star — JEV 戦術的なアドバイスのためにカメラ バッファーからシーンの特徴を導出する MuJoCo ドローン実験。 [根拠](https://github.com/RomanSlack/jev-drone/blob/cbeb53ce4f17a06ea490ae43effcdad231143610/tactics.py#L184)
@@ -303,7 +316,6 @@
 - **[Formanator](https://github.com/timrogers/formanator)** · 99 Star — 任意の JEV レシート分類を備えた福利厚生申請 CLI / MCP クライアント。 [根拠](https://github.com/timrogers/formanator/blob/548740edef37a4169eef163e4988e64f43a560ec/src/typesafe.rs)
 - **[JEV Trade](https://github.com/aowang-ai/jev-trade)** · 95 Star — JEV を限定判断レイヤーに使う Hyperliquid ライブ取引 Agent。 [根拠](https://github.com/aowang-ai/jev-trade/blob/df2c9656324a8a75996eb0612de7adcfe3ce6f89/src/model.ts)
 - **[Prism Liquidity Agent](https://github.com/irfndi/prism-liquidity-agent)** · 69 Star — リバランス判断サービスで JEV を使う自律流動性 Agent。 [根拠](https://github.com/irfndi/prism-liquidity-agent/blob/22c67bdbe30bab608226832256a5013ad826b707/engine/jev-service.ts)
-- **[Jev Reviewer](https://github.com/choxos/jev-reviewer)** · 32 Star — 試験報告書から原文の引用を抜き出し、システマティックレビューの抽出フォームを埋めるブラウザアプリ。 [根拠](https://github.com/choxos/jev-reviewer/blob/da15868cdca5e64555e6643243a52ea71f60cf3b/docs/jev.js#L51)
 
 <sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
 

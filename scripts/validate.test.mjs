@@ -9,9 +9,9 @@ const catalogue = JSON.parse(
 test('catalogue metadata is explicit', () => {
   assert.equal(catalogue.schemaVersion, 3);
   assert.match(catalogue.capturedAt, /^\d{4}-\d{2}-\d{2}$/);
-  assert.equal(catalogue.projects.length, 171);
+  assert.equal(catalogue.projects.length, 183);
   const belowFloor = catalogue.projects.filter((project) => project.starsAtCapture < 50).map((project) => project.id);
-  assert.deepEqual(belowFloor, ['choxos:jev-reviewer']);
+  assert.deepEqual(belowFloor, []);
   assert.doesNotMatch(catalogue.source.policy, /exception/i);
 });
 
@@ -42,10 +42,28 @@ test('every project keeps repository and fixed-commit evidence links', () => {
 
 test('catalogue covers multiple practical patterns', () => {
   assert.ok(new Set(catalogue.projects.map((project) => project.category)).size >= 9);
-  assert.equal(catalogue.projects.filter((project) => project.starsAtCapture >= 1_000).length, 48);
-  for (const required of ['jev-ultrafast', 'laya', 'jegrep']) {
+  assert.equal(catalogue.projects.filter((project) => project.starsAtCapture >= 1_000).length, 49);
+  for (const required of [
+    'jev-ultrafast',
+    'laya',
+    'jegrep',
+    'laravel-ai-typesafe',
+    'hippo-memory-jev',
+    'wuyoscar-jev-skill',
+    'rizzo-flow',
+    'embodied-jev',
+    'neurolink-typesafe',
+    'promethe-us-awesome-jev',
+    'kraayenjon-awesome-jev',
+    'awesome-jev-use-cases',
+    'windtunnel-jev',
+    'jevbench',
+    'awesome-jev-zh',
+    'jev-lint',
+  ]) {
     assert.ok(catalogue.projects.some((project) => project.id === required), `missing ${required}`);
   }
+  assert.ok(!catalogue.projects.some((project) => project.id === 'choxos:jev-reviewer'));
 });
 
 test('README identity and project-owned cover stay present', async () => {
@@ -63,9 +81,9 @@ test('README identity and project-owned cover stay present', async () => {
   assert.match(japaneseReadme, /<h2 align="center">概要<\/h2>/);
   for (const localizedReadme of [readme, chineseReadme, japaneseReadme]) {
     assert.match(localizedReadme, /<div align="center">\s*<table>/);
-    assert.match(localizedReadme, /<td align="center"><strong>171<\/strong><\/td>/);
+    assert.match(localizedReadme, /<td align="center"><strong>183<\/strong><\/td>/);
     assert.doesNotMatch(localizedReadme, /editorial exception|编辑例外|編集上の例外/i);
-    assert.doesNotMatch(localizedReadme, /GitHub 100|100\+ Star|100 stars/);
+    assert.doesNotMatch(localizedReadme, /GitHub 100|100\+ Star/);
     assert.match(localizedReadme, /\/v1\/systemone/);
     assert.match(localizedReadme, /jev-1\.13/);
   }
