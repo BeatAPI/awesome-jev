@@ -13,9 +13,9 @@
 
 <h1 align="center">Awesome JEV</h1>
 
-<p align="center"><strong>A source-reviewed gallery of JEV-related projects with 50+ GitHub stars (one editorial exception) — integrations, tools, open models, experiments, and ecosystem resources.</strong></p>
+<p align="center"><strong>A source-reviewed gallery of JEV-related projects with 50+ GitHub stars — integrations, tools, open models, experiments, and ecosystem resources.</strong></p>
 
-<p align="center">We list source-reviewed JEV-related repositories at or above 50 stars, plus one editorial exception: Jev Reviewer (30 stars). See where JEV chooses, scores, routes, or filters—while application code keeps control of execution.</p>
+<p align="center">We list source-reviewed JEV-related repositories at or above 50 stars. See where JEV chooses, scores, routes, or filters—while application code keeps control of execution.</p>
 
 <h2 align="center">At a glance</h2>
 

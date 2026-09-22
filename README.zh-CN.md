@@ -13,9 +13,9 @@
 
 <h1 align="center">Awesome JEV</h1>
 
-<p align="center"><strong>只整理 50+ Star（含一项编辑例外）、经过源码核对的 JEV 相关项目、集成、工具、开放模型、实验与生态资源。</strong></p>
+<p align="center"><strong>只整理 50+ Star、经过源码核对的 JEV 相关项目、集成、工具、开放模型、实验与生态资源。</strong></p>
 
-<p align="center">收录门槛为 GitHub 50 Star 及以上，另有一项编辑例外：Jev Reviewer（30 Star）。看看 JEV 如何完成选择、评分、路由与过滤，同时由应用代码掌控执行。</p>
+<p align="center">收录门槛为 GitHub 50 Star 及以上。看看 JEV 如何完成选择、评分、路由与过滤，同时由应用代码掌控执行。</p>
 
 <h2 align="center">当前规模</h2>
 

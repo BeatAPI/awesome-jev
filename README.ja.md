@@ -13,9 +13,9 @@
 
 <h1 align="center">Awesome JEV</h1>
 
-<p align="center"><strong>GitHub 50★以上（編集上の例外が1件）・ソース確認済みの JEV 関連プロジェクト、連携、ツール、オープンモデル、実験、エコシステム資料をまとめています。</strong></p>
+<p align="center"><strong>GitHub 50★以上・ソース確認済みの JEV 関連プロジェクト、連携、ツール、オープンモデル、実験、エコシステム資料をまとめています。</strong></p>
 
-<p align="center">掲載基準は 50 stars 以上で、編集上の例外として Jev Reviewer（30 stars）を1件掲載しています。JEV が選択・採点・ルーティング・フィルタを担い、実行制御はアプリ側に残る事例です。</p>
+<p align="center">掲載基準は 50 stars 以上です。JEV が選択・採点・ルーティング・フィルタを担い、実行制御はアプリ側に残る事例を紹介します。</p>
 
 <h2 align="center">概要</h2>
 

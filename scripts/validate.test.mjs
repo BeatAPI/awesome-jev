@@ -12,6 +12,7 @@ test('catalogue metadata is explicit', () => {
   assert.equal(catalogue.projects.length, 171);
   const belowFloor = catalogue.projects.filter((project) => project.starsAtCapture < 50).map((project) => project.id);
   assert.deepEqual(belowFloor, ['choxos:jev-reviewer']);
+  assert.doesNotMatch(catalogue.source.policy, /exception/i);
 });
 
 test('every project keeps repository and fixed-commit evidence links', () => {
@@ -63,6 +64,7 @@ test('README identity and project-owned cover stay present', async () => {
   for (const localizedReadme of [readme, chineseReadme, japaneseReadme]) {
     assert.match(localizedReadme, /<div align="center">\s*<table>/);
     assert.match(localizedReadme, /<td align="center"><strong>171<\/strong><\/td>/);
+    assert.doesNotMatch(localizedReadme, /editorial exception|编辑例外|編集上の例外/i);
     assert.doesNotMatch(localizedReadme, /GitHub 100|100\+ Star|100 stars/);
     assert.match(localizedReadme, /\/v1\/systemone/);
     assert.match(localizedReadme, /jev-1\.13/);

@@ -4,7 +4,7 @@
   "source": {
     "name": "BeatAPI Awesome JEV curation",
     "batch": "2026-09-22-star50-cross-search-and-source-review",
-    "policy": "Project-level deduplication. Public JEV-related GitHub repositories at or above 50 stars are included only after fixed-commit source review. Discovery includes GitHub repository search, GitHub code search, current competitor catalogues, and direct source inspection. Runtime behavior is not independently verified. One editorial exception below the 50-star floor: choxos/jev-reviewer."
+    "policy": "Project-level deduplication. Public JEV-related GitHub repositories at or above 50 stars are included only after fixed-commit source review. Discovery includes GitHub repository search, GitHub code search, current competitor catalogues, and direct source inspection. Runtime behavior is not independently verified."
   },
   "projects": [
     {

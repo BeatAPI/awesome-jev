@@ -50,7 +50,7 @@ catalogue.projects = [...byRepo.values()].sort(
 );
 catalogue.capturedAt = '2026-09-22';
 catalogue.source.batch = '2026-09-22-star50-cross-search-and-source-review';
-catalogue.source.policy = 'Project-level deduplication. Public JEV-related GitHub repositories at or above 50 stars are included only after fixed-commit source review. Discovery includes GitHub repository search, GitHub code search, current competitor catalogues, and direct source inspection. Runtime behavior is not independently verified. One editorial exception below the 50-star floor: choxos/jev-reviewer.';
+catalogue.source.policy = 'Project-level deduplication. Public JEV-related GitHub repositories at or above 50 stars are included only after fixed-commit source review. Discovery includes GitHub repository search, GitHub code search, current competitor catalogues, and direct source inspection. Runtime behavior is not independently verified.';
 
 await writeFile(catalogueFile, `${JSON.stringify(catalogue, null, 2)}\n`);
 console.log(`Added or refreshed ${additions.length} projects; catalogue now has ${catalogue.projects.length}.`);
