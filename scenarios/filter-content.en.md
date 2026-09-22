@@ -35,6 +35,14 @@ YouTube extension detecting sponsored segments from live audio and transcripts u
 
 [Source](https://github.com/trungdq88/youtube-sponsor-detection/blob/de01f0568d043035889a296a61ce21e0accc8b16/extension/lib/jev.js#L1-L541)
 
+### [Refix](https://github.com/refixai/proactivity-sdk)
+
+Refix is a growth product that runs product experiments, SEO, content, and ads, with a public framework-agnostic proactivity SDK.
+
+**What to reference:** Screening content and SEO opportunities before growth experiments, SEO and ad actions run.
+
+[Source](https://github.com/refixai/proactivity-sdk/blob/d0ec87795799e287bb6b29c573e693bf0848b0d8/src/core/governance.ts)
+
 These projects illustrate parts of this pattern, not a single ready-made application. Source review does not establish runtime behavior, performance, or BeatAPI compatibility.
 
 [Try the free JEV API](https://docs.beatapi.io/decisions#free-calls) · [Search with your agent](../docs/agent-search.en.md)

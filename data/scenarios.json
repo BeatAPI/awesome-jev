@@ -42,6 +42,14 @@
             "zh": "参考字幕片段分类如何衔接播放器跳过广告的操作。",
             "ja": "字幕区間の分類と広告スキップ操作の連携。"
           }
+        },
+        {
+          "projectId": "refix",
+          "reference": {
+            "en": "Screening content and SEO opportunities before growth experiments, SEO and ad actions run.",
+            "zh": "参考内容与 SEO 机会先经判断，再衔接增长实验和广告动作的做法。",
+            "ja": "コンテンツと SEO の候補を判定してから、グロース実験や広告アクションにつなぐ流れ。"
+          }
         }
       ]
     },

@@ -8,7 +8,7 @@
 
 <p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<p align="center">183 projects · 10 project types · Updated 2026-09-22<br><sub>50+ GitHub stars per repository · Source-reviewed</sub></p>
+<p align="center">184 projects · 10 project types · Updated 2026-09-22<br><sub>50+ GitHub stars per repository · Source-reviewed</sub></p>
 
 <a id="discovery"></a>
 
@@ -60,12 +60,12 @@ npx skills add BeatAPI/awesome-jev
 <a id="categories"></a>
 <a id="all-projects"></a>
 
-## All 183 projects
+## All 184 projects
 
 Browse the full catalogue by project type. Use the scenario guides above when you have a specific task in mind.
 
 [Browser & computer use · 16](#browser-computer-use) · [SDK integrations · 30](#sdk-integrations) · [Routing & optimization · 16](#routing-optimization) · [Open models · 21](#open-models) · [Search & data · 15](#search-data)<br>
-[Safety & review · 14](#safety-review) · [Agent workflows · 14](#agent-workflows) · [Interfaces & automation · 9](#interfaces) · [Developer tools · 35](#developer-tools) · [Domain tools · 13](#domain-tools)
+[Safety & review · 14](#safety-review) · [Agent workflows · 14](#agent-workflows) · [Interfaces & automation · 9](#interfaces) · [Developer tools · 35](#developer-tools) · [Domain tools · 14](#domain-tools)
 
 <a id="browser-computer-use"></a>
 
@@ -302,7 +302,7 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 
 <a id="domain-tools"></a>
 
-### Domain tools (13)
+### Domain tools (14)
 
 - **[AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund)** · 63.7K stars — An educational hedge-fund prototype with an optional JEV adapter for structured strategy judgments. [Source](https://github.com/virattt/ai-hedge-fund/blob/154a8b2f46dca0f40764d814e4e747b0ad71f4c4/hedge_fund/llm/client.py)
 - **[QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger)** · 12.0K stars — An open-source trading OS with a JEV decision gate before selected live entries. [Source](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py)
@@ -317,6 +317,7 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 - **[Formanator](https://github.com/timrogers/formanator)** · 99 stars — A CLI and MCP client for benefit claims with optional JEV receipt classification. [Source](https://github.com/timrogers/formanator/blob/548740edef37a4169eef163e4988e64f43a560ec/src/typesafe.rs)
 - **[JEV Trade](https://github.com/aowang-ai/jev-trade)** · 95 stars — A live Hyperliquid trading agent with JEV as a bounded decision layer. [Source](https://github.com/aowang-ai/jev-trade/blob/df2c9656324a8a75996eb0612de7adcfe3ce6f89/src/model.ts)
 - **[Prism Liquidity Agent](https://github.com/irfndi/prism-liquidity-agent)** · 69 stars — An autonomous liquidity agent that uses JEV inside its rebalancing decision service. [Source](https://github.com/irfndi/prism-liquidity-agent/blob/22c67bdbe30bab608226832256a5013ad826b707/engine/jev-service.ts)
+- **[Refix](https://github.com/refixai/proactivity-sdk)** · 12 stars — Refix is a growth product that runs product experiments, SEO, content, and ads, with a public framework-agnostic proactivity SDK. [Source](https://github.com/refixai/proactivity-sdk/blob/d0ec87795799e287bb6b29c573e693bf0848b0d8/src/core/governance.ts)
 
 [↑ Back to discovery](#discovery)
 

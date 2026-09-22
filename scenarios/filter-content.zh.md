@@ -35,6 +35,14 @@
 
 [源码证据](https://github.com/trungdq88/youtube-sponsor-detection/blob/de01f0568d043035889a296a61ce21e0accc8b16/extension/lib/jev.js#L1-L541)
 
+### [Refix](https://github.com/refixai/proactivity-sdk)
+
+Refix 是一款增长产品，运行产品实验、SEO、内容和广告，并提供公开的框架无关 proactivity SDK。
+
+**值得参考什么:** 参考内容与 SEO 机会先经判断，再衔接增长实验和广告动作的做法。
+
+[源码证据](https://github.com/refixai/proactivity-sdk/blob/d0ec87795799e287bb6b29c573e693bf0848b0d8/src/core/governance.ts)
+
 这些项目分别展示该模式的一部分，并非一套开箱即用的完整应用。源码核对不代表运行、性能或 BeatAPI 接入兼容性已经验证。
 
 [试用免费 JEV API](https://docs.beatapi.io/decisions#free-calls) · [用 Agent 搜索](../docs/agent-search.zh.md)
