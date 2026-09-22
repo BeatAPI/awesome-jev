@@ -8,7 +8,7 @@
 
 <p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<p align="center">183 プロジェクト · 10 種類 · 更新 2026-09-22<br><sub>各リポジトリ 50★以上 · ソース確認済み</sub></p>
+<p align="center">184 プロジェクト · 10 種類 · 更新 2026-09-22<br><sub>各リポジトリ 50★以上 · ソース確認済み</sub></p>
 
 <a id="discovery"></a>
 
@@ -60,12 +60,12 @@ npx skills add BeatAPI/awesome-jev
 <a id="categories"></a>
 <a id="all-projects"></a>
 
-## 全 183 プロジェクト
+## 全 184 プロジェクト
 
 種類別に全カタログを確認できます。具体的な目的がある場合は、上の用途別ガイドから始めてください。
 
 [ブラウザ・PC 操作 · 16](#browser-computer-use) · [SDK・フレームワーク · 30](#sdk-integrations) · [ルーティング · 16](#routing-optimization) · [オープンモデル · 21](#open-models) · [検索・データ · 15](#search-data)<br>
-[安全性・レビュー · 14](#safety-review) · [Agent ワークフロー · 14](#agent-workflows) · [UI・自動化 · 9](#interfaces) · [開発者ツール · 35](#developer-tools) · [業務特化ツール · 13](#domain-tools)
+[安全性・レビュー · 14](#safety-review) · [Agent ワークフロー · 14](#agent-workflows) · [UI・自動化 · 9](#interfaces) · [開発者ツール · 35](#developer-tools) · [業務特化ツール · 14](#domain-tools)
 
 <a id="browser-computer-use"></a>
 
@@ -302,7 +302,7 @@ npx skills add BeatAPI/awesome-jev
 
 <a id="domain-tools"></a>
 
-### 業務特化ツール (13)
+### 業務特化ツール (14)
 
 - **[AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund)** · 63.7K Star — 構造化された戦略判断のためのオプションの JEV アダプターを備えた教育用ヘッジファンド プロトタイプ。 [根拠](https://github.com/virattt/ai-hedge-fund/blob/154a8b2f46dca0f40764d814e4e747b0ad71f4c4/hedge_fund/llm/client.py)
 - **[QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger)** · 12.0K Star — 選択されたライブエントリーの前に JEV 決定ゲートを備えたオープンソースの取引 OS。 [根拠](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py)
@@ -317,6 +317,7 @@ npx skills add BeatAPI/awesome-jev
 - **[Formanator](https://github.com/timrogers/formanator)** · 99 Star — 任意の JEV レシート分類を備えた福利厚生申請 CLI / MCP クライアント。 [根拠](https://github.com/timrogers/formanator/blob/548740edef37a4169eef163e4988e64f43a560ec/src/typesafe.rs)
 - **[JEV Trade](https://github.com/aowang-ai/jev-trade)** · 95 Star — JEV を限定判断レイヤーに使う Hyperliquid ライブ取引 Agent。 [根拠](https://github.com/aowang-ai/jev-trade/blob/df2c9656324a8a75996eb0612de7adcfe3ce6f89/src/model.ts)
 - **[Prism Liquidity Agent](https://github.com/irfndi/prism-liquidity-agent)** · 69 Star — リバランス判断サービスで JEV を使う自律流動性 Agent。 [根拠](https://github.com/irfndi/prism-liquidity-agent/blob/22c67bdbe30bab608226832256a5013ad826b707/engine/jev-service.ts)
+- **[Refix](https://github.com/refixai/proactivity-sdk)** · 12 Star — Refix は、プロダクト実験、SEO、コンテンツ、広告を実行するグロース製品で、公開されたフレームワーク非依存の proactivity SDK を提供します。 [根拠](https://github.com/refixai/proactivity-sdk/blob/d0ec87795799e287bb6b29c573e693bf0848b0d8/src/core/governance.ts)
 
 [↑ 検索入口に戻る](#discovery)
 

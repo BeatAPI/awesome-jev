@@ -36,6 +36,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "refix",
+      "name": "Refix",
+      "owner": "refixai",
+      "category": "domain-tools",
+      "repoUrl": "https://github.com/refixai/proactivity-sdk",
+      "evidenceUrl": "https://github.com/refixai/proactivity-sdk/blob/d0ec87795799e287bb6b29c573e693bf0848b0d8/src/core/governance.ts",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "starsAtCapture": 12,
+      "summary": {
+        "en": "Refix is a growth product that runs product experiments, SEO, content, and ads, with a public framework-agnostic proactivity SDK.",
+        "zh": "Refix 是一款增长产品，运行产品实验、SEO、内容和广告，并提供公开的框架无关 proactivity SDK。",
+        "ja": "Refix は、プロダクト実験、SEO、コンテンツ、広告を実行するグロース製品で、公開されたフレームワーク非依存の proactivity SDK を提供します。"
+      },
+      "decision": {
+        "en": "Scores and routes bounded growth actions across product experiments, SEO, content, and ads before the consuming workflow runs them.",
+        "zh": "在产品实验、SEO、内容和广告中为有界增长动作打分并路由，再交由消费工作流执行。",
+        "ja": "プロダクト実験、SEO、コンテンツ、広告にわたる境界付きグロース行動を採点・ルーティングし、消費側ワークフローが実行します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/refixai/proactivity-sdk/blob/d0ec87795799e287bb6b29c573e693bf0848b0d8/src/core/governance.ts"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "ai-hedge-fund-jev",
       "name": "AI Hedge Fund · JEV Adapter",
       "owner": "virattt",

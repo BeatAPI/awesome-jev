@@ -35,6 +35,14 @@ YouTube 拡張機能は、JEV を使用してライブ音声とトランスク�
 
 [根拠](https://github.com/trungdq88/youtube-sponsor-detection/blob/de01f0568d043035889a296a61ce21e0accc8b16/extension/lib/jev.js#L1-L541)
 
+### [Refix](https://github.com/refixai/proactivity-sdk)
+
+Refix は、プロダクト実験、SEO、コンテンツ、広告を実行するグロース製品で、公開されたフレームワーク非依存の proactivity SDK を提供します。
+
+**参考にする部分:** コンテンツと SEO の候補を判定してから、グロース実験や広告アクションにつなぐ流れ。
+
+[根拠](https://github.com/refixai/proactivity-sdk/blob/d0ec87795799e287bb6b29c573e693bf0848b0d8/src/core/governance.ts)
+
 各プロジェクトはこのパターンの一部を示すもので、単一の完成アプリではありません。ソース確認は、動作・性能・BeatAPI 互換性の検証を意味しません。
 
 [無料 JEV API を試す](https://docs.beatapi.io/decisions#free-calls) · [Agent で検索](../docs/agent-search.ja.md)
