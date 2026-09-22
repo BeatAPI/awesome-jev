@@ -45,7 +45,7 @@ const additions = [
 const byRepo = new Map(catalogue.projects.map((project) => [project.repoUrl.toLowerCase(), project]));
 for (const project of additions) byRepo.set(project.repoUrl.toLowerCase(), project);
 
-catalogue.projects = [...byRepo.values()].filter((project) => project.starsAtCapture >= 50).sort(
+catalogue.projects = [...byRepo.values()].sort(
   (a, b) => b.starsAtCapture - a.starsAtCapture || a.name.localeCompare(b.name),
 );
 catalogue.capturedAt = '2026-09-22';

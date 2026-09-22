@@ -4799,6 +4799,34 @@
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
+    },
+    {
+      "id": "choxos:jev-reviewer",
+      "name": "Jev Reviewer",
+      "owner": "choxos",
+      "category": "domain-tools",
+      "repoUrl": "https://github.com/choxos/jev-reviewer",
+      "evidenceUrl": "https://github.com/choxos/jev-reviewer/blob/da15868cdca5e64555e6643243a52ea71f60cf3b/docs/jev.js#L51",
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/choxos/jev-reviewer/blob/da15868cdca5e64555e6643243a52ea71f60cf3b/docs/jev.js#L51"
+      },
+      "language": "JavaScript",
+      "license": "MIT",
+      "starsAtCapture": 32,
+      "summary": {
+        "en": "A browser app that pulls verbatim quotes from trial reports to fill systematic-review extraction forms.",
+        "zh": "在浏览器中运行的应用，从试验报告里摘录原文引文，用于填写系统综述的数据提取表。",
+        "ja": "試験報告書から原文の引用を抜き出し、システマティックレビューの抽出フォームを埋めるブラウザアプリ。"
+      },
+      "decision": {
+        "en": "Points at the report lines that answer each extraction question; code copies the quote and a reviewer checks it.",
+        "zh": "指出报告中回答每个提取问题的行；由代码复制原文引文，再由审阅者核对。",
+        "ja": "各抽出質問に答える報告書の行を指し示し、コードが引用を複製して、レビュー担当者が確認します。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
     }
   ]
 }

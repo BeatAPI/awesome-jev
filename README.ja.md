@@ -5,7 +5,7 @@
 <p align="center">
   <strong><a href="https://beatapi.io/ja/awesome-jev">Awesome JEV ギャラリーを見る</a></strong> ·
   <a href="#注目プロジェクト">注目プロジェクト</a> ·
-  <a href="#all-projects">全 170 プロジェクト</a> ·
+  <a href="#all-projects">全 171 プロジェクト</a> ·
   <a href="./data/projects.json">JSON カタログ</a> ·
   <a href="./README.md">English</a> ·
   <a href="./README.zh-CN.md">简体中文</a>
@@ -31,7 +31,7 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>170</strong></td>
+      <td align="center"><strong>171</strong></td>
       <td align="center"><strong>48</strong></td>
       <td align="center"><strong>10</strong></td>
       <td align="center"><strong>2026-09-22</strong></td>
@@ -53,7 +53,7 @@
   <a href="#agent-workflows"><strong>Agent ワークフロー · 14</strong></a> ·
   <a href="#interfaces"><strong>UI・自動化 · 9</strong></a> ·
   <a href="#developer-tools"><strong>開発者ツール · 29</strong></a> ·
-  <a href="#domain-tools"><strong>業務特化ツール · 12</strong></a>
+  <a href="#domain-tools"><strong>業務特化ツール · 13</strong></a>
 </p>
 
 ## 注目プロジェクト
@@ -74,7 +74,7 @@
 <p align="center"><strong><a href="https://beatapi.io/ja/awesome-jev">フィルターと詳しい説明付きで見る →</a></strong></p>
 
 <a id="all-projects"></a>
-## 全 170 プロジェクト
+## 全 171 プロジェクト
 
 <a id="browser-computer-use"></a>
 ### ブラウザ・PC 操作 (15)
@@ -289,7 +289,7 @@
 <sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
 
 <a id="domain-tools"></a>
-### 業務特化ツール (12)
+### 業務特化ツール (13)
 
 - **[AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund)** · 63.7K Star — 構造化された戦略判断のためのオプションの JEV アダプターを備えた教育用ヘッジファンド プロトタイプ。 [根拠](https://github.com/virattt/ai-hedge-fund/blob/154a8b2f46dca0f40764d814e4e747b0ad71f4c4/hedge_fund/llm/client.py)
 - **[QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger)** · 12.0K Star — 選択されたライブエントリーの前に JEV 決定ゲートを備えたオープンソースの取引 OS。 [根拠](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py)
@@ -303,6 +303,7 @@
 - **[Formanator](https://github.com/timrogers/formanator)** · 99 Star — 任意の JEV レシート分類を備えた福利厚生申請 CLI / MCP クライアント。 [根拠](https://github.com/timrogers/formanator/blob/548740edef37a4169eef163e4988e64f43a560ec/src/typesafe.rs)
 - **[JEV Trade](https://github.com/aowang-ai/jev-trade)** · 95 Star — JEV を限定判断レイヤーに使う Hyperliquid ライブ取引 Agent。 [根拠](https://github.com/aowang-ai/jev-trade/blob/df2c9656324a8a75996eb0612de7adcfe3ce6f89/src/model.ts)
 - **[Prism Liquidity Agent](https://github.com/irfndi/prism-liquidity-agent)** · 69 Star — リバランス判断サービスで JEV を使う自律流動性 Agent。 [根拠](https://github.com/irfndi/prism-liquidity-agent/blob/22c67bdbe30bab608226832256a5013ad826b707/engine/jev-service.ts)
+- **[Jev Reviewer](https://github.com/choxos/jev-reviewer)** · 32 Star — 試験報告書から原文の引用を抜き出し、システマティックレビューの抽出フォームを埋めるブラウザアプリ。 [根拠](https://github.com/choxos/jev-reviewer/blob/da15868cdca5e64555e6643243a52ea71f60cf3b/docs/jev.js#L51)
 
 <sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
 

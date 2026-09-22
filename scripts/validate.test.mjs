@@ -9,9 +9,9 @@ const catalogue = JSON.parse(
 test('catalogue metadata is explicit', () => {
   assert.equal(catalogue.schemaVersion, 3);
   assert.match(catalogue.capturedAt, /^\d{4}-\d{2}-\d{2}$/);
-  assert.equal(catalogue.projects.length, 170);
+  assert.equal(catalogue.projects.length, 171);
   const belowFloor = catalogue.projects.filter((project) => project.starsAtCapture < 50).map((project) => project.id);
-  assert.deepEqual(belowFloor, []);
+  assert.deepEqual(belowFloor, ['choxos:jev-reviewer']);
   assert.doesNotMatch(catalogue.source.policy, /exception/i);
 });
 
@@ -63,7 +63,7 @@ test('README identity and project-owned cover stay present', async () => {
   assert.match(japaneseReadme, /<h2 align="center">概要<\/h2>/);
   for (const localizedReadme of [readme, chineseReadme, japaneseReadme]) {
     assert.match(localizedReadme, /<div align="center">\s*<table>/);
-    assert.match(localizedReadme, /<td align="center"><strong>170<\/strong><\/td>/);
+    assert.match(localizedReadme, /<td align="center"><strong>171<\/strong><\/td>/);
     assert.doesNotMatch(localizedReadme, /editorial exception|编辑例外|編集上の例外/i);
     assert.doesNotMatch(localizedReadme, /GitHub 100|100\+ Star|100 stars/);
     assert.match(localizedReadme, /\/v1\/systemone/);
