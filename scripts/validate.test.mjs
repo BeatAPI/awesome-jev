@@ -76,12 +76,9 @@ test('README identity and project-owned cover stay present', async () => {
   assert.match(readme, /https:\/\/beatapi\.io\/awesome-jev/);
   assert.match(chineseReadme, /https:\/\/beatapi\.io\/zh\/awesome-jev/);
   assert.match(japaneseReadme, /https:\/\/beatapi\.io\/ja\/awesome-jev/);
-  assert.match(readme, /<h2 align="center">At a glance<\/h2>/);
-  assert.match(chineseReadme, /<h2 align="center">当前规模<\/h2>/);
-  assert.match(japaneseReadme, /<h2 align="center">概要<\/h2>/);
   for (const localizedReadme of [readme, chineseReadme, japaneseReadme]) {
-    assert.match(localizedReadme, /<div align="center">\s*<table>/);
-    assert.match(localizedReadme, /<td align="center"><strong>183<\/strong><\/td>/);
+    assert.match(localizedReadme, /id="discovery"/);
+    assert.ok(localizedReadme.includes(`${catalogue.projects.length}`));
     assert.doesNotMatch(localizedReadme, /editorial exception|编辑例外|編集上の例外/i);
     assert.doesNotMatch(localizedReadme, /GitHub 100|100\+ Star/);
     assert.match(localizedReadme, /\/v1\/systemone/);

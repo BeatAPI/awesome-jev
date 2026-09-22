@@ -1,60 +1,27 @@
-<p align="center">
-  <img src="./assets/readme/cover.webp" alt="Awesome JEV — BeatAPI がキュレーションする JEV のオープンソースプロジェクト、ツール、モデル、実験" width="100%" />
-</p>
-
-<p align="center">
-  <strong><a href="https://beatapi.io/ja/awesome-jev">Awesome JEV ギャラリーを見る</a></strong> ·
-  <a href="#注目プロジェクト">注目プロジェクト</a> ·
-  <a href="#all-projects">全 183 プロジェクト</a> ·
-  <a href="./data/projects.json">JSON カタログ</a> ·
-  <a href="./README.md">English</a> ·
-  <a href="./README.zh-CN.md">简体中文</a>
-</p>
+<p align="center"><img src="./assets/readme/cover.webp" alt="Awesome JEV — curated JEV projects by BeatAPI" width="100%" /></p>
 
 <h1 align="center">Awesome JEV</h1>
 
-<p align="center"><strong>GitHub 50★以上・ソース確認済みの JEV 関連プロジェクト、連携、ツール、オープンモデル、実験、エコシステム資料をまとめています。</strong></p>
+<p align="center"><strong>用途に合う JEV プロジェクトを見つけ、何を解決し、どの実装が参考になるかを確認できます。</strong></p>
 
-<p align="center">掲載基準は 50 stars 以上です。JEV が選択・採点・ルーティング・フィルタを担い、実行制御はアプリ側に残る事例を紹介します。</p>
+<p align="center"><a href="#discovery">プロジェクトを探す</a> · <a href="#featured">注目プロジェクト</a> · <a href="#agent-search">Agent で検索</a> · <a href="#all-projects">全プロジェクト</a> · <a href="https://beatapi.io/ja/awesome-jev">サイトで検索</a></p>
 
-<h2 align="center">概要</h2>
+<p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<div align="center">
-<table>
-  <thead>
-    <tr>
-      <th align="center">ソース確認済み</th>
-      <th align="center">1K+ Star リポジトリ</th>
-      <th align="center">ユースケース分類</th>
-      <th align="center">スナップショット</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>183</strong></td>
-      <td align="center"><strong>49</strong></td>
-      <td align="center"><strong>10</strong></td>
-      <td align="center"><strong>2026-09-22</strong></td>
-    </tr>
-  </tbody>
-</table>
-</div>
+<p align="center">183 プロジェクト · 10 種類 · 更新 2026-09-22<br><sub>各リポジトリ 50★以上 · ソース確認済み</sub></p>
 
-<a id="categories"></a>
-<h2 align="center">カテゴリから探す</h2>
+<a id="discovery"></a>
 
-<p align="center">
-  <a href="#browser-computer-use"><strong>ブラウザ・PC 操作 · 16</strong></a> ·
-  <a href="#sdk-integrations"><strong>SDK・フレームワーク · 30</strong></a> ·
-  <a href="#routing-optimization"><strong>ルーティング · 16</strong></a> ·
-  <a href="#open-models"><strong>オープンモデル · 21</strong></a> ·
-  <a href="#search-data"><strong>検索・データ · 15</strong></a><br>
-  <a href="#safety-review"><strong>安全性・レビュー · 14</strong></a> ·
-  <a href="#agent-workflows"><strong>Agent ワークフロー · 14</strong></a> ·
-  <a href="#interfaces"><strong>UI・自動化 · 9</strong></a> ·
-  <a href="#developer-tools"><strong>開発者ツール · 35</strong></a> ·
-  <a href="#domain-tools"><strong>業務特化ツール · 13</strong></a>
-</p>
+## プロジェクトを探す
+
+作りたいものを選んでください。各ガイドで関連プロジェクトと参考になる実装箇所を紹介しています。
+
+[ニュース・コンテンツの選別](./scenarios/filter-content.ja.md) · [関連文書・記憶の検索](./scenarios/retrieve-context.ja.md) · [モデル・ツール・Agent の選択](./scenarios/route-agents.ja.md)<br>
+[コード・出力のレビュー](./scenarios/review-work.ja.md) · [ブラウザ・デスクトップの操作](./scenarios/operate-interfaces.ja.md) · [Agent 履歴・ツール出力の整理](./scenarios/trim-context.ja.md)
+
+[全 10 種類のプロジェクトを見る](#all-projects) · [Agent で検索](#agent-search)
+
+<a id="featured"></a>
 
 ## 注目プロジェクト
 
@@ -72,11 +39,36 @@
 | **[NewsJack](https://github.com/elvisun/newsjack)** · Agent ワークフロー · 1.3K Star<br>大量のニュースを先に絞り込み、選ばれた機会だけを Agent が処理します。<br>[オリジナル事例 · 58.3 万表示](https://x.com/elvissun/status/2100951347080421409) · [固定コミットの根拠](https://github.com/elvisun/newsjack/tree/092d882fc69912622f620c50eb493afe625f99dc/demos/news-desk-dealer) | **[QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger)** · 業務特化ツール · 12.0K Star<br>一部の実取引エントリー前に、根拠とリスクの判断ゲートを追加します。<br>[固定コミットの根拠](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py) |
 
 <p align="center"><strong><a href="https://beatapi.io/ja/awesome-jev">フィルターと詳しい説明付きで見る →</a></strong></p>
+<!-- featured-gallery:end -->
 
+<sub>ソース確認済み、独立した実行検証は未実施。Star はリポジトリ全体の数であり、JEV 連携部分の評価ではありません。</sub>
+
+<a id="agent-search"></a>
+
+## Agent で検索
+
+やりたいことを Agent に伝えると、関連リポジトリ、選定理由、参考箇所を提案します。検索に API キーは不要です。
+
+```bash
+npx skills add BeatAPI/awesome-jev
+```
+
+> JEV でニュースを絞り込みたい。参考プロジェクトと、各実装の参考になる部分を教えて。
+
+[インストール方法と質問例](./docs/agent-search.ja.md)
+
+<a id="categories"></a>
 <a id="all-projects"></a>
+
 ## 全 183 プロジェクト
 
+種類別に全カタログを確認できます。具体的な目的がある場合は、上の用途別ガイドから始めてください。
+
+[ブラウザ・PC 操作 · 16](#browser-computer-use) · [SDK・フレームワーク · 30](#sdk-integrations) · [ルーティング · 16](#routing-optimization) · [オープンモデル · 21](#open-models) · [検索・データ · 15](#search-data)<br>
+[安全性・レビュー · 14](#safety-review) · [Agent ワークフロー · 14](#agent-workflows) · [UI・自動化 · 9](#interfaces) · [開発者ツール · 35](#developer-tools) · [業務特化ツール · 13](#domain-tools)
+
 <a id="browser-computer-use"></a>
+
 ### ブラウザ・PC 操作 (16)
 
 - **[Cua · JEV Use](https://github.com/trycua/cua)** · 25.8K Star — Cua Driver の観察と実行を、制限された JEV の選択肢と組み合わせたコンピューター使用例。 [根拠](https://github.com/trycua/cua/blob/83f142c4290a0f7d9ed545ae8532858c6e4f8145/libs/cua-driver/examples/jev-use/python/jev_adapter.py#L11)
@@ -96,9 +88,10 @@
 - **[TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock)** · 68 Star — 候補となる DOM 要素が広告であるかどうかを JEV に尋ね、それらをハイライト表示または削除する実験的な Chrome 拡張機能。 [根拠](https://github.com/realZachi/typesafe-adblock/blob/7e067d243d87b7fe4d511653c0ddcd77b9beee18/src/typesafe.js)
 - **[JEV Browser](https://github.com/Ying-Kai-Liao/jev-browser)** · 67 Star — LLM の計画と JEV の操作を組み合わせるブラウザー自動化ライブラリ、CLI、MCP サーバー。 [根拠](https://github.com/Ying-Kai-Liao/jev-browser/blob/578cff6e701a131733d03256078bb559a45ad188/src/jev.mjs)
 
-<sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
+[↑ 検索入口に戻る](#discovery)
 
 <a id="sdk-integrations"></a>
+
 ### SDK・フレームワーク (30)
 
 - **[LangChain · TypeSafe](https://github.com/langchain-ai/langchain)** · 146.8K Star — Python LangChain ワークフロー用のオプションの JEV 分類子統合。 [根拠](https://github.com/langchain-ai/langchain/blob/eba445b7563d1709427bd8072892975a6ea59fdc/libs/partners/typesafe/langchain_typesafe/classifier.py)
@@ -132,9 +125,10 @@
 - **[Effect Agent](https://github.com/danieljvdm/effect-agent)** · 121 Star — 型付き質問セットと任意のモデル選択に対応する、Effect Agent 向け TypeSafe 意思決定プロバイダー。 [根拠](https://github.com/danieljvdm/effect-agent/blob/88005e497e9b627eeb16d670f278903c57601da9/README.md)
 - **[Advocaat](https://github.com/pithings/advocaat)** · 89 Star — 同じデータについて複数の型付き質問を JEV に送るための、小さな TypeScript クライアント。 [根拠](https://github.com/pithings/advocaat/blob/bc46287fc1102b95852a81d679c6e34a2c44f4a2/README.md)
 
-<sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
+[↑ 検索入口に戻る](#discovery)
 
 <a id="routing-optimization"></a>
+
 ### ルーティング (16)
 
 - **[LiteLLM · JEV Router](https://github.com/BerriAI/litellm)** · 59.4K Star — LiteLLM は、複雑さベースのモデル ルーター内で JEV を使用できます。 [根拠](https://github.com/BerriAI/litellm/blob/56116079c8022da0e8f7ff9ccb017ad5aca5aed2/litellm/router_strategy/complexity_router/jev_classifier.py#L70)
@@ -154,9 +148,10 @@
 - **[Grok Bot JEV](https://github.com/Bodila51/grok-bot-jev)** · 74 Star — 使用量ゲートと Skill テンプレートを備えた Grok Bot 向け JEV 判断レイヤー。 [根拠](https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/README.md)
 - **[Agent Router](https://github.com/nidhi-singh02/agent-router)** · 63 Star — JEV でタスクをコーディング Agent、モデル、推論強度へ振り分ける CLI。 [根拠](https://github.com/nidhi-singh02/agent-router/blob/ad7571f38ea31ffbf3c28391f9e6d6383a7c08ba/packages/router/src/semantic/typesafe-client.ts)
 
-<sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
+[↑ 検索入口に戻る](#discovery)
 
 <a id="open-models"></a>
+
 ### オープンモデル (21)
 
 - **[Laya](https://github.com/NandhaKishorM/laya)** · 11.5K Star — 多言語・非自己回帰の System 1 意思決定エンジン。1 回の前向き計算で型付き choice/score/noul を出し、ルータがチェックポイントを選びます。 [根拠](https://github.com/NandhaKishorM/laya/blob/d113dca2512fb3eaca313534bc54c7162d87c1d4/README.md)
@@ -181,9 +176,10 @@
 - **[Open JEV](https://github.com/daseinlabs/open-jev)** · 91 Star — カスタム微調整に対応するオープンな JEV 形式の実装。 [根拠](https://github.com/daseinlabs/open-jev/blob/8a4fbdf712e78c5ef45509a16aacb81facdd79be/README.md)
 - **[OpenJev](https://github.com/SiliconLabAI/OpenJev)** · 67 Star — 型付き判断リクエスト向けのオープンソース JEV 互換実装。 [根拠](https://github.com/SiliconLabAI/OpenJev/blob/a08e969c37b2e4a37f95b3426f983bd94303590c/README.md)
 
-<sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
+[↑ 検索入口に戻る](#discovery)
 
 <a id="search-data"></a>
+
 ### 検索・データ (15)
 
 - **[OpenViking · JEV Rerank](https://github.com/volcengine/OpenViking)** · 38.4K Star — OpenViking は JEV を使い、Agent の記憶・コンテキスト検索結果を較正して再順位付けできます。 [根拠](https://github.com/volcengine/OpenViking/blob/b8bed5a1ad3a1c524b5e1fd0fa591df51ca9b7cc/openviking/models/rerank/jev_rerank.py)
@@ -202,9 +198,10 @@
 - **[Pg TypeSafe](https://github.com/giuliosmall/pg_typesafe)** · 81 Star — 分類、はい/いいえの判断、スコアリングのために SQL から JEV を呼び出すためのプレアルファ版の PostgreSQL C 拡張機能。 [根拠](https://github.com/giuliosmall/pg_typesafe/blob/4b5bfc1df11b18c3f07bb10804eeb47e4508ec6a/typesafe.c)
 - **[jegrep](https://github.com/can1357/jegrep)** · 75 Star — ライブ コード ツリーのセマンティック grep: 必要なものを記述し、インデックスを作成せずにファイルと元の行範囲を取得します。 [根拠](https://github.com/can1357/jegrep/blob/a280f14f6da8163bde67e0c49f58b23517a02882/src/jev.rs)
 
-<sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
+[↑ 検索入口に戻る](#discovery)
 
 <a id="safety-review"></a>
+
 ### 安全性・レビュー (14)
 
 - **[Sub2API · JEV Moderation](https://github.com/Wei-Shaw/sub2api)** · 42.3K Star — サブスクリプションを API 化するゲートウェイに、コンテンツ審査用 TypeSafe クライアントを内蔵。 [根拠](https://github.com/Wei-Shaw/sub2api/blob/1c0a69c0ceddb2fd21581c17ab09f6c500b89ba1/backend/internal/pkg/typesafe/client.go)
@@ -222,9 +219,10 @@
 - **[JEV Lint](https://github.com/mizchi/jev-lint)** · 70 Star — 依存なしの JEV クライアントでリポジトリの検出候補を一括評価する意味的コードリンターです。 [根拠](https://github.com/mizchi/jev-lint/blob/c9846c8c9ee13a917f3af26294a4fdf1421d21b1/src/jev.ts)
 - **[Oxlint Plugin JEV](https://github.com/wobsoriano/oxlint-plugin-jev)** · 55 Star — JEV で意味的な lint ルールを評価する Oxlint プラグイン。 [根拠](https://github.com/wobsoriano/oxlint-plugin-jev/blob/18c5bc9097d88344382a98a78a67698c9c7ecf01/src/jev.ts)
 
-<sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
+[↑ 検索入口に戻る](#discovery)
 
 <a id="agent-workflows"></a>
+
 ### Agent ワークフロー (14)
 
 - **[Jev Model Router](https://github.com/davila7/claude-code-templates)** · 30.9K Star — サブエージェント モデルと推論強度の必要性を分類する Claude Code mod。 [根拠](https://github.com/davila7/claude-code-templates/blob/61bfcd1586bf1076f6d3cfa0436317c912811e6c/cli-tool/components/mods/productivity/jev-model-router/hooks/jev-model-router.ts)
@@ -242,9 +240,10 @@
 - **[JEV DSH Decision](https://github.com/Devin-AXIS/jev-dsh-decision)** · 78 Star — DeepSeek Harness と互換コーディング Agent ホスト向けの構造化 JEV 判断プラグイン。 [根拠](https://github.com/Devin-AXIS/jev-dsh-decision/blob/adc88caa9bf174d367e79a5f254c7936bcef088e/service/jev.mjs)
 - **[Save Token JEV Clean](https://github.com/IAmUnbounded/save-token-jev-clean)** · 62 Star — 履歴を保持・短縮・削除するか JEV に判断させる文脈クリーナー。 [根拠](https://github.com/IAmUnbounded/save-token-jev-clean/blob/a7007354a8d3747f06ff82130561edb2822a17df/src/client.ts)
 
-<sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
+[↑ 検索入口に戻る](#discovery)
 
 <a id="interfaces"></a>
+
 ### UI・自動化 (9)
 
 - **[json-render · JEV Compose](https://github.com/vercel-labs/json-render)** · 18.0K Star — 事前定義されたコンポーネントとプロパティから選択する JEV UI 構成の実験。 [根拠](https://github.com/vercel-labs/json-render/blob/3ad381881194e7011ad3ccd6d668033495a06c29/apps/web/lib/jev/compose.ts)
@@ -257,9 +256,10 @@
 - **[Jevmeter](https://github.com/ChetasLua/jevmeter)** · 81 Star — 選択したルーブリックに対してトランスクリプト文を評価するよう JEV に依頼することで、スコア メーター付きの編集済みビデオを作成します。 [根拠](https://github.com/ChetasLua/jevmeter/blob/cbf8e117b5b8835e3294c3a8ee652c7dfa737a9a/jevmeter/score.py)
 - **[Youtube Sponsor Detection](https://github.com/trungdq88/youtube-sponsor-detection)** · 81 Star — YouTube 拡張機能は、JEV を使用してライブ音声とトランスクリプトからスポンサー付きセグメントを検出し、プロモーション ブロックを自動的にスキップします。 [根拠](https://github.com/trungdq88/youtube-sponsor-detection/blob/de01f0568d043035889a296a61ce21e0accc8b16/extension/lib/jev.js#L1-L541)
 
-<sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
+[↑ 検索入口に戻る](#discovery)
 
 <a id="developer-tools"></a>
+
 ### 開発者ツール (35)
 
 - **[Fast Jev Compaction](https://github.com/tamaratran/fast-jev-compaction)** · 6.0K Star — 保持されたテキストをそのまま保持しながら、Claude Code ツール履歴を圧縮します。 [根拠](https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/client.ts)
@@ -298,9 +298,10 @@
 - **[JevBench](https://github.com/fstandhartinger/jevbench)** · 71 Star — JEV、オープン判断モデル、分類器、リランカーを比較する再現可能なベンチマークです。 [根拠](https://github.com/fstandhartinger/jevbench/blob/75e6224ed8103bbc3485ca74820a2eaf7ce8abe0/jevbench/adapters/typesafe.py)
 - **[Awesome JEV ZH](https://github.com/yzfly/awesome-jev-zh)** · 59 Star — 厳選プロジェクト、実践チュートリアル、価格、独立した注意点を含む中国語 JEV ガイドです。 [根拠](https://github.com/yzfly/awesome-jev-zh/blob/cdb8a78cb3ac4cec36ebe305b73a4e0b4f5cba21/README.md)
 
-<sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
+[↑ 検索入口に戻る](#discovery)
 
 <a id="domain-tools"></a>
+
 ### 業務特化ツール (13)
 
 - **[AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund)** · 63.7K Star — 構造化された戦略判断のためのオプションの JEV アダプターを備えた教育用ヘッジファンド プロトタイプ。 [根拠](https://github.com/virattt/ai-hedge-fund/blob/154a8b2f46dca0f40764d814e4e747b0ad71f4c4/hedge_fund/llm/client.py)
@@ -317,16 +318,14 @@
 - **[JEV Trade](https://github.com/aowang-ai/jev-trade)** · 95 Star — JEV を限定判断レイヤーに使う Hyperliquid ライブ取引 Agent。 [根拠](https://github.com/aowang-ai/jev-trade/blob/df2c9656324a8a75996eb0612de7adcfe3ce6f89/src/model.ts)
 - **[Prism Liquidity Agent](https://github.com/irfndi/prism-liquidity-agent)** · 69 Star — リバランス判断サービスで JEV を使う自律流動性 Agent。 [根拠](https://github.com/irfndi/prism-liquidity-agent/blob/22c67bdbe30bab608226832256a5013ad826b707/engine/jev-service.ts)
 
-<sub><a href="#categories">↑ カテゴリへ戻る</a></sub>
+[↑ 検索入口に戻る](#discovery)
 
 ## BeatAPI
 
-**[ギャラリーを見る](https://beatapi.io/ja/awesome-jev)** ·
-**[BeatAPI Key を作成](https://beatapi.io/ja/dashboard/apikeys)** ·
-**[コントリビュート](./CONTRIBUTING.md)**
+**[無料 JEV API を試す](https://beatapi.io/jev-api)** · [API Docs](https://docs.beatapi.io/decisions#free-calls)
 
-JEV は BeatAPI で提供中です。同じ BeatAPI キーと USD 残高を使い、`POST /v1/systemone` でモデル `jev-1.13` を呼び出せます。
+自分で連携する場合は、`POST /v1/systemone` に `jev-1.13-free` を指定します。入力・出力ともに $0、残高 0 でも利用可能です。キーはデフォルトの auto グループを使います。初回チャージ前はアカウントごとに 1 分あたり成功 1 回まで。外部プロジェクトでは設定やコードの変更が必要な場合があります。
 
----
+[貢献する](./CONTRIBUTING.md) · [カタログデータ](./data/projects.json) · [Scenario data](./data/scenarios.json) · [License & notices](./NOTICE.md)
 
-<sub><a href="https://github.com/BeatAPI"><b>BeatAPI</b></a> がキュレーション · <a href="https://beatapi.io/ja/awesome-jev">ライブギャラリー</a> · <a href="./NOTICE.md">ライセンスと注記</a></sub>
+<sub>Curated by [BeatAPI](https://beatapi.io). Independent community catalogue; not affiliated with TypeSafe.</sub>
