@@ -1,60 +1,27 @@
-<p align="center">
-  <img src="./assets/readme/cover.webp" alt="Awesome JEV — curated open-source JEV projects, tools, models, and experiments, powered by BeatAPI" width="100%" />
-</p>
-
-<p align="center">
-  <strong><a href="https://beatapi.io/awesome-jev">Browse the live Awesome JEV gallery</a></strong> ·
-  <a href="#featured-project-gallery">Featured projects</a> ·
-  <a href="#all-projects">All 183 projects</a> ·
-  <a href="./data/projects.json">JSON catalogue</a> ·
-  <a href="./README.zh-CN.md">简体中文</a> ·
-  <a href="./README.ja.md">日本語</a>
-</p>
+<p align="center"><img src="./assets/readme/cover.webp" alt="Awesome JEV — curated JEV projects by BeatAPI" width="100%" /></p>
 
 <h1 align="center">Awesome JEV</h1>
 
-<p align="center"><strong>A source-reviewed gallery of JEV-related projects with 50+ GitHub stars — integrations, tools, open models, experiments, and ecosystem resources.</strong></p>
+<p align="center"><strong>Find JEV projects for your use case — see what they do and which implementation to learn from.</strong></p>
 
-<p align="center">We list source-reviewed JEV-related repositories at or above 50 stars. See where JEV chooses, scores, routes, or filters—while application code keeps control of execution.</p>
+<p align="center"><a href="#discovery">Find a project</a> · <a href="#featured">Featured project gallery</a> · <a href="#agent-search">Search with your agent</a> · <a href="#all-projects">All projects</a> · <a href="https://beatapi.io/awesome-jev">Search online</a></p>
 
-<h2 align="center">At a glance</h2>
+<p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<div align="center">
-<table>
-  <thead>
-    <tr>
-      <th align="center">Source-reviewed projects</th>
-      <th align="center">Repositories ≥1K stars</th>
-      <th align="center">Use-case groups</th>
-      <th align="center">Snapshot</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>183</strong></td>
-      <td align="center"><strong>49</strong></td>
-      <td align="center"><strong>10</strong></td>
-      <td align="center"><strong>2026-09-22</strong></td>
-    </tr>
-  </tbody>
-</table>
-</div>
+<p align="center">183 projects · 10 project types · Updated 2026-09-22<br><sub>50+ GitHub stars per repository · Source-reviewed</sub></p>
 
-<a id="categories"></a>
-<h2 align="center">Browse by category</h2>
+<a id="discovery"></a>
 
-<p align="center">
-  <a href="#browser-computer-use"><strong>Browser & computer use · 16</strong></a> ·
-  <a href="#sdk-integrations"><strong>SDK integrations · 30</strong></a> ·
-  <a href="#routing-optimization"><strong>Routing & optimization · 16</strong></a> ·
-  <a href="#open-models"><strong>Open models · 21</strong></a> ·
-  <a href="#search-data"><strong>Search & data · 15</strong></a><br>
-  <a href="#safety-review"><strong>Safety & review · 14</strong></a> ·
-  <a href="#agent-workflows"><strong>Agent workflows · 14</strong></a> ·
-  <a href="#interfaces"><strong>Interfaces & automation · 9</strong></a> ·
-  <a href="#developer-tools"><strong>Developer tools · 35</strong></a> ·
-  <a href="#domain-tools"><strong>Domain tools · 13</strong></a>
-</p>
+## Find a project
+
+Choose what you want to build. Each guide points to relevant projects and the specific parts worth studying.
+
+[Filter news & content](./scenarios/filter-content.en.md) · [Find useful documents & memories](./scenarios/retrieve-context.en.md) · [Choose models, tools & agents](./scenarios/route-agents.en.md)<br>
+[Review code & check outputs](./scenarios/review-work.en.md) · [Automate browser & desktop actions](./scenarios/operate-interfaces.en.md) · [Trim agent history & tool output](./scenarios/trim-context.en.md)
+
+[Browse all 10 project types](#all-projects) · [Search with your agent](#agent-search)
+
+<a id="featured"></a>
 
 ## Featured project gallery
 
@@ -72,11 +39,36 @@
 | **[NewsJack](https://github.com/elvisun/newsjack)** · Agent workflow · 1.3K stars<br>Filters hundreds of live news items before an agent handles the selected opportunities.<br>[Original case · 583K views](https://x.com/elvissun/status/2100951347080421409) · [Fixed-commit evidence](https://github.com/elvisun/newsjack/tree/092d882fc69912622f620c50eb493afe625f99dc/demos/news-desk-dealer) | **[QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger)** · Domain tool · 12.0K stars<br>Adds an evidence and risk gate before selected live-trading entries.<br>[Fixed-commit evidence](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py) |
 
 <p align="center"><strong><a href="https://beatapi.io/awesome-jev">Explore with filters and full descriptions →</a></strong></p>
+<!-- featured-gallery:end -->
 
+<sub>Source-reviewed; not independently run. Stars belong to the whole repository, not its JEV integration.</sub>
+
+<a id="agent-search"></a>
+
+## Search with your agent
+
+Describe your task to your agent and get a few relevant repositories, why they fit, and what to reference. No API key needed.
+
+```bash
+npx skills add BeatAPI/awesome-jev
+```
+
+> Find JEV projects for filtering news. Explain which part of each implementation I can reuse.
+
+[Installation & examples](./docs/agent-search.en.md)
+
+<a id="categories"></a>
 <a id="all-projects"></a>
+
 ## All 183 projects
 
+Browse the full catalogue by project type. Use the scenario guides above when you have a specific task in mind.
+
+[Browser & computer use · 16](#browser-computer-use) · [SDK integrations · 30](#sdk-integrations) · [Routing & optimization · 16](#routing-optimization) · [Open models · 21](#open-models) · [Search & data · 15](#search-data)<br>
+[Safety & review · 14](#safety-review) · [Agent workflows · 14](#agent-workflows) · [Interfaces & automation · 9](#interfaces) · [Developer tools · 35](#developer-tools) · [Domain tools · 13](#domain-tools)
+
 <a id="browser-computer-use"></a>
+
 ### Browser & computer use (16)
 
 - **[Cua · JEV Use](https://github.com/trycua/cua)** · 25.8K stars — A computer-use example pairing Cua Driver observation and execution with bounded JEV choices. [Source](https://github.com/trycua/cua/blob/83f142c4290a0f7d9ed545ae8532858c6e4f8145/libs/cua-driver/examples/jev-use/python/jev_adapter.py#L11)
@@ -96,9 +88,10 @@
 - **[TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock)** · 68 stars — An experimental Chrome extension that asks Jev whether candidate DOM elements are ads, then highlights or removes them. [Source](https://github.com/realZachi/typesafe-adblock/blob/7e067d243d87b7fe4d511653c0ddcd77b9beee18/src/typesafe.js)
 - **[JEV Browser](https://github.com/Ying-Kai-Liao/jev-browser)** · 67 stars — A browser automation library, CLI, and MCP server pairing LLM plans with JEV actions. [Source](https://github.com/Ying-Kai-Liao/jev-browser/blob/578cff6e701a131733d03256078bb559a45ad188/src/jev.mjs)
 
-<sub><a href="#categories">↑ Back to categories</a></sub>
+[↑ Back to discovery](#discovery)
 
 <a id="sdk-integrations"></a>
+
 ### SDK integrations (30)
 
 - **[LangChain · TypeSafe](https://github.com/langchain-ai/langchain)** · 146.8K stars — An optional JEV classifier integration for Python LangChain workflows. [Source](https://github.com/langchain-ai/langchain/blob/eba445b7563d1709427bd8072892975a6ea59fdc/libs/partners/typesafe/langchain_typesafe/classifier.py)
@@ -132,9 +125,10 @@
 - **[Effect Agent](https://github.com/danieljvdm/effect-agent)** · 121 stars — An Effect Agent TypeSafe decision provider for typed question sets and optional model selection. [Source](https://github.com/danieljvdm/effect-agent/blob/88005e497e9b627eeb16d670f278903c57601da9/README.md)
 - **[Advocaat](https://github.com/pithings/advocaat)** · 89 stars — A small TypeScript client for asking Jev multiple typed questions about the same data. [Source](https://github.com/pithings/advocaat/blob/bc46287fc1102b95852a81d679c6e34a2c44f4a2/README.md)
 
-<sub><a href="#categories">↑ Back to categories</a></sub>
+[↑ Back to discovery](#discovery)
 
 <a id="routing-optimization"></a>
+
 ### Routing & optimization (16)
 
 - **[LiteLLM · JEV Router](https://github.com/BerriAI/litellm)** · 59.4K stars — LiteLLM can use JEV inside its complexity-based model router. [Source](https://github.com/BerriAI/litellm/blob/56116079c8022da0e8f7ff9ccb017ad5aca5aed2/litellm/router_strategy/complexity_router/jev_classifier.py#L70)
@@ -154,9 +148,10 @@
 - **[Grok Bot JEV](https://github.com/Bodila51/grok-bot-jev)** · 74 stars — A JEV decision layer for Grok Bot with usage gates and skill templates. [Source](https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/README.md)
 - **[Agent Router](https://github.com/nidhi-singh02/agent-router)** · 63 stars — A CLI that routes tasks to coding agents, models, and reasoning effort with JEV. [Source](https://github.com/nidhi-singh02/agent-router/blob/ad7571f38ea31ffbf3c28391f9e6d6383a7c08ba/packages/router/src/semantic/typesafe-client.ts)
 
-<sub><a href="#categories">↑ Back to categories</a></sub>
+[↑ Back to discovery](#discovery)
 
 <a id="open-models"></a>
+
 ### Open models (21)
 
 - **[Laya](https://github.com/NandhaKishorM/laya)** · 11.5K stars — Multilingual non-autoregressive System 1 decision engine: typed choice/score/noul in one forward pass, with a router across checkpoints. [Source](https://github.com/NandhaKishorM/laya/blob/d113dca2512fb3eaca313534bc54c7162d87c1d4/README.md)
@@ -181,9 +176,10 @@
 - **[Open JEV](https://github.com/daseinlabs/open-jev)** · 91 stars — An open JEV-style implementation with custom fine-tuning support. [Source](https://github.com/daseinlabs/open-jev/blob/8a4fbdf712e78c5ef45509a16aacb81facdd79be/README.md)
 - **[OpenJev](https://github.com/SiliconLabAI/OpenJev)** · 67 stars — An open-source JEV-compatible implementation for typed decision requests. [Source](https://github.com/SiliconLabAI/OpenJev/blob/a08e969c37b2e4a37f95b3426f983bd94303590c/README.md)
 
-<sub><a href="#categories">↑ Back to categories</a></sub>
+[↑ Back to discovery](#discovery)
 
 <a id="search-data"></a>
+
 ### Search & data (15)
 
 - **[OpenViking · JEV Rerank](https://github.com/volcengine/OpenViking)** · 38.4K stars — OpenViking can use JEV as a calibrated reranker for agent memory and context retrieval. [Source](https://github.com/volcengine/OpenViking/blob/b8bed5a1ad3a1c524b5e1fd0fa591df51ca9b7cc/openviking/models/rerank/jev_rerank.py)
@@ -202,9 +198,10 @@
 - **[Pg TypeSafe](https://github.com/giuliosmall/pg_typesafe)** · 81 stars — A pre-alpha PostgreSQL C extension for calling Jev from SQL for classification, yes/no judgments, and scoring. [Source](https://github.com/giuliosmall/pg_typesafe/blob/4b5bfc1df11b18c3f07bb10804eeb47e4508ec6a/typesafe.c)
 - **[jegrep](https://github.com/can1357/jegrep)** · 75 stars — Semantic grep for live code trees: describe what you need, get files and original line ranges without building an index. [Source](https://github.com/can1357/jegrep/blob/a280f14f6da8163bde67e0c49f58b23517a02882/src/jev.rs)
 
-<sub><a href="#categories">↑ Back to categories</a></sub>
+[↑ Back to discovery](#discovery)
 
 <a id="safety-review"></a>
+
 ### Safety & review (14)
 
 - **[Sub2API · JEV Moderation](https://github.com/Wei-Shaw/sub2api)** · 42.3K stars — A subscription-to-API gateway with a native TypeSafe client for content moderation. [Source](https://github.com/Wei-Shaw/sub2api/blob/1c0a69c0ceddb2fd21581c17ab09f6c500b89ba1/backend/internal/pkg/typesafe/client.go)
@@ -222,9 +219,10 @@
 - **[JEV Lint](https://github.com/mizchi/jev-lint)** · 70 stars — A semantic code linter that batches repository findings through a zero-dependency JEV client. [Source](https://github.com/mizchi/jev-lint/blob/c9846c8c9ee13a917f3af26294a4fdf1421d21b1/src/jev.ts)
 - **[Oxlint Plugin JEV](https://github.com/wobsoriano/oxlint-plugin-jev)** · 55 stars — An Oxlint plugin that evaluates semantic lint rules with JEV. [Source](https://github.com/wobsoriano/oxlint-plugin-jev/blob/18c5bc9097d88344382a98a78a67698c9c7ecf01/src/jev.ts)
 
-<sub><a href="#categories">↑ Back to categories</a></sub>
+[↑ Back to discovery](#discovery)
 
 <a id="agent-workflows"></a>
+
 ### Agent workflows (14)
 
 - **[Jev Model Router](https://github.com/davila7/claude-code-templates)** · 30.9K stars — A Claude Code mod that classifies subagent model and reasoning-effort needs. [Source](https://github.com/davila7/claude-code-templates/blob/61bfcd1586bf1076f6d3cfa0436317c912811e6c/cli-tool/components/mods/productivity/jev-model-router/hooks/jev-model-router.ts)
@@ -242,9 +240,10 @@
 - **[JEV DSH Decision](https://github.com/Devin-AXIS/jev-dsh-decision)** · 78 stars — A structured JEV decision plugin for DeepSeek Harness and compatible coding-agent hosts. [Source](https://github.com/Devin-AXIS/jev-dsh-decision/blob/adc88caa9bf174d367e79a5f254c7936bcef088e/service/jev.mjs)
 - **[Save Token JEV Clean](https://github.com/IAmUnbounded/save-token-jev-clean)** · 62 stars — A context cleaner that asks JEV which history to retain, truncate, or drop. [Source](https://github.com/IAmUnbounded/save-token-jev-clean/blob/a7007354a8d3747f06ff82130561edb2822a17df/src/client.ts)
 
-<sub><a href="#categories">↑ Back to categories</a></sub>
+[↑ Back to discovery](#discovery)
 
 <a id="interfaces"></a>
+
 ### Interfaces & automation (9)
 
 - **[json-render · JEV Compose](https://github.com/vercel-labs/json-render)** · 18.0K stars — A JEV UI-composition experiment that selects from predefined components and properties. [Source](https://github.com/vercel-labs/json-render/blob/3ad381881194e7011ad3ccd6d668033495a06c29/apps/web/lib/jev/compose.ts)
@@ -257,9 +256,10 @@
 - **[Jevmeter](https://github.com/ChetasLua/jevmeter)** · 81 stars — Creates edited videos with score meters by asking Jev to rate transcript sentences against selected rubrics. [Source](https://github.com/ChetasLua/jevmeter/blob/cbf8e117b5b8835e3294c3a8ee652c7dfa737a9a/jevmeter/score.py)
 - **[Youtube Sponsor Detection](https://github.com/trungdq88/youtube-sponsor-detection)** · 81 stars — YouTube extension detecting sponsored segments from live audio and transcripts using Jev, skipping promotional blocks automatically. [Source](https://github.com/trungdq88/youtube-sponsor-detection/blob/de01f0568d043035889a296a61ce21e0accc8b16/extension/lib/jev.js#L1-L541)
 
-<sub><a href="#categories">↑ Back to categories</a></sub>
+[↑ Back to discovery](#discovery)
 
 <a id="developer-tools"></a>
+
 ### Developer tools (35)
 
 - **[Fast Jev Compaction](https://github.com/tamaratran/fast-jev-compaction)** · 6.0K stars — Compacts Claude Code tool history while keeping retained text verbatim. [Source](https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/client.ts)
@@ -298,9 +298,10 @@
 - **[JevBench](https://github.com/fstandhartinger/jevbench)** · 71 stars — A reproducible benchmark comparing JEV with open decision models, classifiers, and rerankers. [Source](https://github.com/fstandhartinger/jevbench/blob/75e6224ed8103bbc3485ca74820a2eaf7ce8abe0/jevbench/adapters/typesafe.py)
 - **[Awesome JEV ZH](https://github.com/yzfly/awesome-jev-zh)** · 59 stars — A Chinese JEV ecosystem guide with curated projects, practical tutorials, pricing, and independent caveats. [Source](https://github.com/yzfly/awesome-jev-zh/blob/cdb8a78cb3ac4cec36ebe305b73a4e0b4f5cba21/README.md)
 
-<sub><a href="#categories">↑ Back to categories</a></sub>
+[↑ Back to discovery](#discovery)
 
 <a id="domain-tools"></a>
+
 ### Domain tools (13)
 
 - **[AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund)** · 63.7K stars — An educational hedge-fund prototype with an optional JEV adapter for structured strategy judgments. [Source](https://github.com/virattt/ai-hedge-fund/blob/154a8b2f46dca0f40764d814e4e747b0ad71f4c4/hedge_fund/llm/client.py)
@@ -317,16 +318,14 @@
 - **[JEV Trade](https://github.com/aowang-ai/jev-trade)** · 95 stars — A live Hyperliquid trading agent with JEV as a bounded decision layer. [Source](https://github.com/aowang-ai/jev-trade/blob/df2c9656324a8a75996eb0612de7adcfe3ce6f89/src/model.ts)
 - **[Prism Liquidity Agent](https://github.com/irfndi/prism-liquidity-agent)** · 69 stars — An autonomous liquidity agent that uses JEV inside its rebalancing decision service. [Source](https://github.com/irfndi/prism-liquidity-agent/blob/22c67bdbe30bab608226832256a5013ad826b707/engine/jev-service.ts)
 
-<sub><a href="#categories">↑ Back to categories</a></sub>
+[↑ Back to discovery](#discovery)
 
 ## BeatAPI
 
-**[Browse the live gallery](https://beatapi.io/awesome-jev)** ·
-**[Create a BeatAPI key](https://beatapi.io/dashboard/apikeys)** ·
-**[Contribute](./CONTRIBUTING.md)**
+**[Try the free JEV API](https://beatapi.io/jev-api)** · [API Docs](https://docs.beatapi.io/decisions#free-calls)
 
-JEV is live on BeatAPI: use the same BeatAPI key and USD balance to call `POST /v1/systemone` with model `jev-1.13`.
+For your own integration, use `jev-1.13-free` with `POST /v1/systemone`: input and output cost $0, even on a zero balance. Use the default auto key group; before your first top-up, the account limit is one successful request per minute. Third-party projects may need configuration or code changes.
 
----
+[Contribute](./CONTRIBUTING.md) · [Catalogue data](./data/projects.json) · [Scenario data](./data/scenarios.json) · [License & notices](./NOTICE.md)
 
-<sub>Curated by <a href="https://github.com/BeatAPI"><b>BeatAPI</b></a> · <a href="https://beatapi.io/awesome-jev">Live gallery</a> · <a href="./NOTICE.md">License & notices</a></sub>
+<sub>Curated by [BeatAPI](https://beatapi.io). Independent community catalogue; not affiliated with TypeSafe.</sub>

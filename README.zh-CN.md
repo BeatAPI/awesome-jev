@@ -1,60 +1,27 @@
-<p align="center">
-  <img src="./assets/readme/cover.webp" alt="Awesome JEV——由 BeatAPI 维护的 JEV 开源项目、工具、模型与实验精选" width="100%" />
-</p>
-
-<p align="center">
-  <strong><a href="https://beatapi.io/zh/awesome-jev">浏览 Awesome JEV 主站 Gallery</a></strong> ·
-  <a href="#精选项目-gallery">精选项目</a> ·
-  <a href="#all-projects">全部 183 个项目</a> ·
-  <a href="./data/projects.json">JSON 目录</a> ·
-  <a href="./README.md">English</a> ·
-  <a href="./README.ja.md">日本語</a>
-</p>
+<p align="center"><img src="./assets/readme/cover.webp" alt="Awesome JEV — curated JEV projects by BeatAPI" width="100%" /></p>
 
 <h1 align="center">Awesome JEV</h1>
 
-<p align="center"><strong>只整理 50+ Star、经过源码核对的 JEV 相关项目、集成、工具、开放模型、实验与生态资源。</strong></p>
+<p align="center"><strong>从你的使用场景出发，找到值得参考的 JEV 项目，看懂它解决什么问题、哪部分值得借鉴。</strong></p>
 
-<p align="center">收录门槛为 GitHub 50 Star 及以上。看看 JEV 如何完成选择、评分、路由与过滤，同时由应用代码掌控执行。</p>
+<p align="center"><a href="#discovery">快速查找</a> · <a href="#featured">精选项目 Gallery</a> · <a href="#agent-search">用 Agent 搜索</a> · <a href="#all-projects">全部项目</a> · <a href="https://beatapi.io/zh/awesome-jev">在线搜索</a></p>
 
-<h2 align="center">当前规模</h2>
+<p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<div align="center">
-<table>
-  <thead>
-    <tr>
-      <th align="center">已核对源码项目</th>
-      <th align="center">1K+ Star 仓库</th>
-      <th align="center">实践方向</th>
-      <th align="center">数据快照</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>183</strong></td>
-      <td align="center"><strong>49</strong></td>
-      <td align="center"><strong>10</strong></td>
-      <td align="center"><strong>2026-09-22</strong></td>
-    </tr>
-  </tbody>
-</table>
-</div>
+<p align="center">183 个项目 · 10 种项目类型 · 更新于 2026-09-22<br><sub>每个仓库 50+ Star · 已核对源码</sub></p>
 
-<a id="categories"></a>
-<h2 align="center">按分类浏览</h2>
+<a id="discovery"></a>
 
-<p align="center">
-  <a href="#browser-computer-use"><strong>浏览器与电脑操作 · 16</strong></a> ·
-  <a href="#sdk-integrations"><strong>SDK 与框架集成 · 30</strong></a> ·
-  <a href="#routing-optimization"><strong>路由与优化 · 16</strong></a> ·
-  <a href="#open-models"><strong>开放模型 · 21</strong></a> ·
-  <a href="#search-data"><strong>搜索与数据 · 15</strong></a><br>
-  <a href="#safety-review"><strong>安全与审查 · 14</strong></a> ·
-  <a href="#agent-workflows"><strong>Agent 工作流 · 14</strong></a> ·
-  <a href="#interfaces"><strong>界面与自动化 · 9</strong></a> ·
-  <a href="#developer-tools"><strong>开发者工具 · 35</strong></a> ·
-  <a href="#domain-tools"><strong>垂直工具 · 13</strong></a>
-</p>
+## 快速查找
+
+先选你想做的事。每个场景都整理了参考项目，以及具体值得借鉴的实现。
+
+[筛选新闻与内容](./scenarios/filter-content.zh.md) · [找到相关文档与记忆](./scenarios/retrieve-context.zh.md) · [选择模型、工具与 Agent](./scenarios/route-agents.zh.md)<br>
+[审查代码与检查产出](./scenarios/review-work.zh.md) · [自动操作网页与桌面](./scenarios/operate-interfaces.zh.md) · [精简 Agent 历史与工具输出](./scenarios/trim-context.zh.md)
+
+[浏览全部 10 类项目](#all-projects) · [用 Agent 搜索](#agent-search)
+
+<a id="featured"></a>
 
 ## 精选项目 Gallery
 
@@ -72,11 +39,36 @@
 | **[NewsJack](https://github.com/elvisun/newsjack)** · Agent 工作流 · 1.3K Star<br>先筛选数百条实时新闻，再让 Agent 继续处理少量入选机会。<br>[原始案例 · 58.3 万浏览](https://x.com/elvissun/status/2100951347080421409) · [固定版本源码](https://github.com/elvisun/newsjack/tree/092d882fc69912622f620c50eb493afe625f99dc/demos/news-desk-dealer) | **[QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger)** · 垂直工具 · 12.0K Star<br>在部分真实交易入场前增加证据质量与风险判断闸门。<br>[固定版本源码](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py) |
 
 <p align="center"><strong><a href="https://beatapi.io/zh/awesome-jev">在主站筛选并查看完整项目说明 →</a></strong></p>
+<!-- featured-gallery:end -->
 
+<sub>已核对源码，未独立运行验证。Star 属于整个仓库，不代表其中 JEV 集成的热度。</sub>
+
+<a id="agent-search"></a>
+
+## 用 Agent 搜索
+
+把需求告诉 Agent，获得相关仓库、匹配理由和具体参考点。检索不需要 API Key。
+
+```bash
+npx skills add BeatAPI/awesome-jev
+```
+
+> 我想用 JEV 筛选新闻，帮我找参考项目，并说明每个项目哪部分实现值得借鉴。
+
+[安装方式与提问示例](./docs/agent-search.zh.md)
+
+<a id="categories"></a>
 <a id="all-projects"></a>
+
 ## 全部 183 个项目
 
+下面按项目类型浏览完整目录。如果已经有具体需求，可以先看上方的场景指南。
+
+[浏览器与电脑操作 · 16](#browser-computer-use) · [SDK 与框架集成 · 30](#sdk-integrations) · [路由与优化 · 16](#routing-optimization) · [开放模型 · 21](#open-models) · [搜索与数据 · 15](#search-data)<br>
+[安全与审查 · 14](#safety-review) · [Agent 工作流 · 14](#agent-workflows) · [界面与自动化 · 9](#interfaces) · [开发者工具 · 35](#developer-tools) · [垂直工具 · 13](#domain-tools)
+
 <a id="browser-computer-use"></a>
+
 ### 浏览器与电脑操作 (16)
 
 - **[Cua · JEV Use](https://github.com/trycua/cua)** · 25.8K Star — 把 Cua Driver 的观察与执行能力和 JEV 的有限动作选择结合起来。 [源码证据](https://github.com/trycua/cua/blob/83f142c4290a0f7d9ed545ae8532858c6e4f8145/libs/cua-driver/examples/jev-use/python/jev_adapter.py#L11)
@@ -96,9 +88,10 @@
 - **[TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock)** · 68 Star — 一个实验性 Chrome 扩展，让 Jev 判断候选 DOM 元素是否是广告，再高亮或移除。 [源码证据](https://github.com/realZachi/typesafe-adblock/blob/7e067d243d87b7fe4d511653c0ddcd77b9beee18/src/typesafe.js)
 - **[JEV Browser](https://github.com/Ying-Kai-Liao/jev-browser)** · 67 Star — 把 LLM 规划与 JEV 动作结合的浏览器自动化库、CLI 与 MCP Server。 [源码证据](https://github.com/Ying-Kai-Liao/jev-browser/blob/578cff6e701a131733d03256078bb559a45ad188/src/jev.mjs)
 
-<sub><a href="#categories">↑ 返回分类</a></sub>
+[↑ 返回检索入口](#discovery)
 
 <a id="sdk-integrations"></a>
+
 ### SDK 与框架集成 (30)
 
 - **[LangChain · TypeSafe](https://github.com/langchain-ai/langchain)** · 146.8K Star — 面向 Python LangChain 工作流的可选 JEV 分类器集成。 [源码证据](https://github.com/langchain-ai/langchain/blob/eba445b7563d1709427bd8072892975a6ea59fdc/libs/partners/typesafe/langchain_typesafe/classifier.py)
@@ -132,9 +125,10 @@
 - **[Effect Agent](https://github.com/danieljvdm/effect-agent)** · 121 Star — Effect Agent 的 TypeSafe 决策 provider，支持类型化问题集与可选模型选择。 [源码证据](https://github.com/danieljvdm/effect-agent/blob/88005e497e9b627eeb16d670f278903c57601da9/README.md)
 - **[Advocaat](https://github.com/pithings/advocaat)** · 89 Star — 用简短的 TypeScript 调用向 Jev 提问。把同一份数据里的多个判断一次写好，直接拿到概率、选项和分数。 [源码证据](https://github.com/pithings/advocaat/blob/bc46287fc1102b95852a81d679c6e34a2c44f4a2/README.md)
 
-<sub><a href="#categories">↑ 返回分类</a></sub>
+[↑ 返回检索入口](#discovery)
 
 <a id="routing-optimization"></a>
+
 ### 路由与优化 (16)
 
 - **[LiteLLM · JEV Router](https://github.com/BerriAI/litellm)** · 59.4K Star — LiteLLM 可在按复杂度路由模型的策略中使用 JEV。 [源码证据](https://github.com/BerriAI/litellm/blob/56116079c8022da0e8f7ff9ccb017ad5aca5aed2/litellm/router_strategy/complexity_router/jev_classifier.py#L70)
@@ -154,9 +148,10 @@
 - **[Grok Bot JEV](https://github.com/Bodila51/grok-bot-jev)** · 74 Star — 为 Grok Bot 提供用量闸门与 Skill 模板的 JEV 决策层。 [源码证据](https://github.com/Bodila51/grok-bot-jev/blob/1583e09928c138aeac0aa89818c67ea41f08e807/README.md)
 - **[Agent Router](https://github.com/nidhi-singh02/agent-router)** · 63 Star — 用 JEV 把任务路由到编码 Agent、模型与推理强度的 CLI。 [源码证据](https://github.com/nidhi-singh02/agent-router/blob/ad7571f38ea31ffbf3c28391f9e6d6383a7c08ba/packages/router/src/semantic/typesafe-client.ts)
 
-<sub><a href="#categories">↑ 返回分类</a></sub>
+[↑ 返回检索入口](#discovery)
 
 <a id="open-models"></a>
+
 ### 开放模型 (21)
 
 - **[Laya](https://github.com/NandhaKishorM/laya)** · 11.5K Star — 多语言非自回归 System 1 决策引擎：单次前向完成类型化 choice/score/noul，并由路由在检查点间选型。 [源码证据](https://github.com/NandhaKishorM/laya/blob/d113dca2512fb3eaca313534bc54c7162d87c1d4/README.md)
@@ -181,9 +176,10 @@
 - **[Open JEV](https://github.com/daseinlabs/open-jev)** · 91 Star — 支持自定义微调的开放 JEV 风格实现。 [源码证据](https://github.com/daseinlabs/open-jev/blob/8a4fbdf712e78c5ef45509a16aacb81facdd79be/README.md)
 - **[OpenJev](https://github.com/SiliconLabAI/OpenJev)** · 67 Star — 面向类型化决策请求的开源 JEV 兼容实现。 [源码证据](https://github.com/SiliconLabAI/OpenJev/blob/a08e969c37b2e4a37f95b3426f983bd94303590c/README.md)
 
-<sub><a href="#categories">↑ 返回分类</a></sub>
+[↑ 返回检索入口](#discovery)
 
 <a id="search-data"></a>
+
 ### 搜索与数据 (15)
 
 - **[OpenViking · JEV Rerank](https://github.com/volcengine/OpenViking)** · 38.4K Star — OpenViking 可用 JEV 对 Agent 记忆与上下文检索结果做校准重排。 [源码证据](https://github.com/volcengine/OpenViking/blob/b8bed5a1ad3a1c524b5e1fd0fa591df51ca9b7cc/openviking/models/rerank/jev_rerank.py)
@@ -202,9 +198,10 @@
 - **[Pg TypeSafe](https://github.com/giuliosmall/pg_typesafe)** · 81 Star — 一个预览阶段的 PostgreSQL C 扩展，让 SQL 直接调用 Jev 做分类、是非判断和评分。 [源码证据](https://github.com/giuliosmall/pg_typesafe/blob/4b5bfc1df11b18c3f07bb10804eeb47e4508ec6a/typesafe.c)
 - **[jegrep](https://github.com/can1357/jegrep)** · 75 Star — 面向实时代码树的语义 grep：用自然语言描述目标，无需建索引即可返回文件与原始行号范围。 [源码证据](https://github.com/can1357/jegrep/blob/a280f14f6da8163bde67e0c49f58b23517a02882/src/jev.rs)
 
-<sub><a href="#categories">↑ 返回分类</a></sub>
+[↑ 返回检索入口](#discovery)
 
 <a id="safety-review"></a>
+
 ### 安全与审查 (14)
 
 - **[Sub2API · JEV Moderation](https://github.com/Wei-Shaw/sub2api)** · 42.3K Star — 在订阅转 API 网关中内置 TypeSafe 客户端，用于内容审核。 [源码证据](https://github.com/Wei-Shaw/sub2api/blob/1c0a69c0ceddb2fd21581c17ab09f6c500b89ba1/backend/internal/pkg/typesafe/client.go)
@@ -222,9 +219,10 @@
 - **[JEV Lint](https://github.com/mizchi/jev-lint)** · 70 Star — 语义代码 Linter，通过零依赖 JEV 客户端批量判断仓库问题。 [源码证据](https://github.com/mizchi/jev-lint/blob/c9846c8c9ee13a917f3af26294a4fdf1421d21b1/src/jev.ts)
 - **[Oxlint Plugin JEV](https://github.com/wobsoriano/oxlint-plugin-jev)** · 55 Star — 用 JEV 评估语义 Lint 规则的 Oxlint 插件。 [源码证据](https://github.com/wobsoriano/oxlint-plugin-jev/blob/18c5bc9097d88344382a98a78a67698c9c7ecf01/src/jev.ts)
 
-<sub><a href="#categories">↑ 返回分类</a></sub>
+[↑ 返回检索入口](#discovery)
 
 <a id="agent-workflows"></a>
+
 ### Agent 工作流 (14)
 
 - **[Jev Model Router](https://github.com/davila7/claude-code-templates)** · 30.9K Star — 为 Claude Code 判断子 Agent 模型与推理强度的 Mod。 [源码证据](https://github.com/davila7/claude-code-templates/blob/61bfcd1586bf1076f6d3cfa0436317c912811e6c/cli-tool/components/mods/productivity/jev-model-router/hooks/jev-model-router.ts)
@@ -242,9 +240,10 @@
 - **[JEV DSH Decision](https://github.com/Devin-AXIS/jev-dsh-decision)** · 78 Star — 面向 DeepSeek Harness 及兼容编码 Agent Host 的结构化 JEV 决策插件。 [源码证据](https://github.com/Devin-AXIS/jev-dsh-decision/blob/adc88caa9bf174d367e79a5f254c7936bcef088e/service/jev.mjs)
 - **[Save Token JEV Clean](https://github.com/IAmUnbounded/save-token-jev-clean)** · 62 Star — 让 JEV 判断哪些历史应保留、截断或丢弃的上下文清理器。 [源码证据](https://github.com/IAmUnbounded/save-token-jev-clean/blob/a7007354a8d3747f06ff82130561edb2822a17df/src/client.ts)
 
-<sub><a href="#categories">↑ 返回分类</a></sub>
+[↑ 返回检索入口](#discovery)
 
 <a id="interfaces"></a>
+
 ### 界面与自动化 (9)
 
 - **[json-render · JEV Compose](https://github.com/vercel-labs/json-render)** · 18.0K Star — 用 JEV 从预定义组件与属性中进行选择的 UI 组合实验。 [源码证据](https://github.com/vercel-labs/json-render/blob/3ad381881194e7011ad3ccd6d668033495a06c29/apps/web/lib/jev/compose.ts)
@@ -257,9 +256,10 @@
 - **[Jevmeter](https://github.com/ChetasLua/jevmeter)** · 81 Star — 把视频转成带评分仪表的视频成片：Jev 按选定规则给字幕句子评分，再由渲染器叠加显示。 [源码证据](https://github.com/ChetasLua/jevmeter/blob/cbf8e117b5b8835e3294c3a8ee652c7dfa737a9a/jevmeter/score.py)
 - **[Youtube Sponsor Detection](https://github.com/trungdq88/youtube-sponsor-detection)** · 81 Star — 结合实时音频与字幕由 Jev 驱动的 YouTube 视频赞助广告片段检测与自动跳过扩展。 [源码证据](https://github.com/trungdq88/youtube-sponsor-detection/blob/de01f0568d043035889a296a61ce21e0accc8b16/extension/lib/jev.js#L1-L541)
 
-<sub><a href="#categories">↑ 返回分类</a></sub>
+[↑ 返回检索入口](#discovery)
 
 <a id="developer-tools"></a>
+
 ### 开发者工具 (35)
 
 - **[Fast Jev Compaction](https://github.com/tamaratran/fast-jev-compaction)** · 6.0K Star — 压缩 Claude Code 工具历史，同时原样保留仍有价值的内容。 [源码证据](https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/client.ts)
@@ -298,9 +298,10 @@
 - **[JevBench](https://github.com/fstandhartinger/jevbench)** · 71 Star — 用于比较 JEV、开放决策模型、分类器与重排模型的可复现基准。 [源码证据](https://github.com/fstandhartinger/jevbench/blob/75e6224ed8103bbc3485ca74820a2eaf7ce8abe0/jevbench/adapters/typesafe.py)
 - **[Awesome JEV ZH](https://github.com/yzfly/awesome-jev-zh)** · 59 Star — 中文 JEV 生态指南，包含精选项目、实践教程、价格信息与独立限制说明。 [源码证据](https://github.com/yzfly/awesome-jev-zh/blob/cdb8a78cb3ac4cec36ebe305b73a4e0b4f5cba21/README.md)
 
-<sub><a href="#categories">↑ 返回分类</a></sub>
+[↑ 返回检索入口](#discovery)
 
 <a id="domain-tools"></a>
+
 ### 垂直工具 (13)
 
 - **[AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund)** · 63.7K Star — 在教育型 AI 对冲基金原型中加入可选 JEV 适配器，用于结构化策略判断。 [源码证据](https://github.com/virattt/ai-hedge-fund/blob/154a8b2f46dca0f40764d814e4e747b0ad71f4c4/hedge_fund/llm/client.py)
@@ -317,16 +318,14 @@
 - **[JEV Trade](https://github.com/aowang-ai/jev-trade)** · 95 Star — 以 JEV 作为有限决策层的 Hyperliquid 实盘交易 Agent。 [源码证据](https://github.com/aowang-ai/jev-trade/blob/df2c9656324a8a75996eb0612de7adcfe3ce6f89/src/model.ts)
 - **[Prism Liquidity Agent](https://github.com/irfndi/prism-liquidity-agent)** · 69 Star — 在再平衡决策服务中使用 JEV 的自动化流动性 Agent。 [源码证据](https://github.com/irfndi/prism-liquidity-agent/blob/22c67bdbe30bab608226832256a5013ad826b707/engine/jev-service.ts)
 
-<sub><a href="#categories">↑ 返回分类</a></sub>
+[↑ 返回检索入口](#discovery)
 
 ## BeatAPI
 
-**[浏览主站 Gallery](https://beatapi.io/zh/awesome-jev)** ·
-**[创建 BeatAPI Key](https://beatapi.io/zh/dashboard/apikeys)** ·
-**[参与维护](./CONTRIBUTING.md)**
+**[试用免费 JEV API](https://beatapi.io/jev-api)** · [API Docs](https://docs.beatapi.io/decisions#free-calls)
 
-JEV 已在 BeatAPI 上线：使用同一把 BeatAPI Key 和 USD 余额，通过 `POST /v1/systemone` 调用模型 `jev-1.13`。
+自行接入时，用 `jev-1.13-free` 调用 `POST /v1/systemone`：输入、输出均为 $0，零余额可用。Key 使用默认 auto 分组；首次充值前，账户每分钟可成功请求 1 次。第三方项目可能需要调整配置或代码。
 
----
+[参与贡献](./CONTRIBUTING.md) · [目录数据](./data/projects.json) · [Scenario data](./data/scenarios.json) · [License & notices](./NOTICE.md)
 
-<sub>由 <a href="https://github.com/BeatAPI"><b>BeatAPI</b></a> 策展 · <a href="https://beatapi.io/zh/awesome-jev">主站 Gallery</a> · <a href="./NOTICE.md">许可证与声明</a></sub>
+<sub>Curated by [BeatAPI](https://beatapi.io). Independent community catalogue; not affiliated with TypeSafe.</sub>
