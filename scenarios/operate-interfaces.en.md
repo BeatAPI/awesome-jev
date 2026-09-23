@@ -35,6 +35,14 @@ An optional JEV skill that chooses native desktop controls and actions from acce
 
 [Source](https://github.com/lahfir/agent-desktop/blob/7a8e4a10281c7319733aa200fd79501f34529716/scripts/jev/act.mjs)
 
+### [Jev Social](https://github.com/socai-io/jev-social)
+
+A local social-research app where Jev chooses bounded Instagram, TikTok, and LinkedIn operations and socai executes them in the user's Chrome.
+
+**What to reference:** Separating bounded social search and read choices from socai CLI execution and source-linked evidence.
+
+[Source](https://github.com/socai-io/jev-social/blob/51830b34906673e796754b70f8e878d166822a9b/src/actions.js)
+
 These projects illustrate parts of this pattern, not a single ready-made application. Source review does not establish runtime behavior, performance, or BeatAPI compatibility.
 
 [Try the free JEV API](https://docs.beatapi.io/decisions#free-calls) · [Search with your agent](../docs/agent-search.en.md)

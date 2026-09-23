@@ -35,6 +35,14 @@ Cua Driver の観察と実行を、制限された JEV の選択肢と組み合�
 
 [根拠](https://github.com/lahfir/agent-desktop/blob/7a8e4a10281c7319733aa200fd79501f34529716/scripts/jev/act.mjs)
 
+### [Jev Social](https://github.com/socai-io/jev-social)
+
+Jev が Instagram・TikTok・LinkedIn の限定操作を選び、socai がユーザーの Chrome で実行するローカル調査アプリ。
+
+**参考にする部分:** 限定されたソーシャル検索・読取の選択を、socai CLI の実行と出典付き証拠から分離する方法。
+
+[根拠](https://github.com/socai-io/jev-social/blob/51830b34906673e796754b70f8e878d166822a9b/src/actions.js)
+
 各プロジェクトはこのパターンの一部を示すもので、単一の完成アプリではありません。ソース確認は、動作・性能・BeatAPI 互換性の検証を意味しません。
 
 [無料 JEV API を試す](https://docs.beatapi.io/decisions#free-calls) · [Agent で検索](../docs/agent-search.ja.md)
