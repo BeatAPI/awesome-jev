@@ -16,7 +16,7 @@
 
 <p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<p align="center">192 projects · 10 project types · Updated 2026-09-23<br><sub>50+ GitHub stars per repository · Source-reviewed</sub></p>
+<p align="center">193 projects · 10 project types · Updated 2026-09-24<br><sub>50+ GitHub stars per repository · Source-reviewed</sub></p>
 
 <a id="discovery"></a>
 
@@ -68,16 +68,16 @@ npx skills add BeatAPI/awesome-jev
 <a id="categories"></a>
 <a id="all-projects"></a>
 
-## All 192 projects
+## All 193 projects
 
 Browse the full catalogue by project type. Use the scenario guides above when you have a specific task in mind.
 
-[Browser & computer use · 17](#browser-computer-use) · [SDK integrations · 31](#sdk-integrations) · [Routing & optimization · 16](#routing-optimization) · [Open models · 23](#open-models) · [Search & data · 15](#search-data)<br>
+[Browser & computer use · 18](#browser-computer-use) · [SDK integrations · 31](#sdk-integrations) · [Routing & optimization · 16](#routing-optimization) · [Open models · 23](#open-models) · [Search & data · 15](#search-data)<br>
 [Safety & review · 16](#safety-review) · [Agent workflows · 15](#agent-workflows) · [Interfaces & automation · 9](#interfaces) · [Developer tools · 35](#developer-tools) · [Domain tools · 15](#domain-tools)
 
 <a id="browser-computer-use"></a>
 
-### Browser & computer use (17)
+### Browser & computer use (18)
 
 - **[Cua · JEV Use](https://github.com/trycua/cua)** · 26.0K stars — A computer-use example pairing Cua Driver observation and execution with bounded JEV choices. [Source](https://github.com/trycua/cua/blob/83f142c4290a0f7d9ed545ae8532858c6e4f8145/libs/cua-driver/examples/jev-use/python/jev_adapter.py#L11)
 - **[Jev Ultrafast](https://github.com/browser-use/jev-ultrafast)** · 18.2K stars — A browser agent that uses JEV to choose an action and matching DOM element, calling a text model only when input text is needed. [Source](https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py)
@@ -96,6 +96,7 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 - **[WindTunnel · JEV Benchmarks](https://github.com/nekuda-ai/WindTunnel)** · 79 stars — A browser-agent benchmark harness with frozen JEV experiments across accessibility and WebMCP interfaces. [Source](https://github.com/nekuda-ai/WindTunnel/blob/5ca8644e23826ebb30108e7bad240b61043bfe67/experiments/jev/run.mjs)
 - **[JEV Browser](https://github.com/Ying-Kai-Liao/jev-browser)** · 76 stars — A browser automation library, CLI, and MCP server pairing LLM plans with JEV actions. [Source](https://github.com/Ying-Kai-Liao/jev-browser/blob/578cff6e701a131733d03256078bb559a45ad188/src/jev.mjs)
 - **[TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock)** · 71 stars — An experimental Chrome extension that asks Jev whether candidate DOM elements are ads, then highlights or removes them. [Source](https://github.com/realZachi/typesafe-adblock/blob/7e067d243d87b7fe4d511653c0ddcd77b9beee18/src/typesafe.js)
+- **[Jev Social](https://github.com/socai-io/jev-social)** · 50 stars — A local social-research app where Jev chooses bounded Instagram, TikTok, and LinkedIn operations and socai executes them in the user's Chrome. [Source](https://github.com/socai-io/jev-social/blob/51830b34906673e796754b70f8e878d166822a9b/src/actions.js)
 
 [↑ Back to discovery](#discovery)
 

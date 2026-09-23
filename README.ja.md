@@ -16,7 +16,7 @@
 
 <p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<p align="center">192 プロジェクト · 10 種類 · 更新 2026-09-23<br><sub>各リポジトリ 50★以上 · ソース確認済み</sub></p>
+<p align="center">193 プロジェクト · 10 種類 · 更新 2026-09-24<br><sub>各リポジトリ 50★以上 · ソース確認済み</sub></p>
 
 <a id="discovery"></a>
 
@@ -68,16 +68,16 @@ npx skills add BeatAPI/awesome-jev
 <a id="categories"></a>
 <a id="all-projects"></a>
 
-## 全 192 プロジェクト
+## 全 193 プロジェクト
 
 種類別に全カタログを確認できます。具体的な目的がある場合は、上の用途別ガイドから始めてください。
 
-[ブラウザ・PC 操作 · 17](#browser-computer-use) · [SDK・フレームワーク · 31](#sdk-integrations) · [ルーティング · 16](#routing-optimization) · [オープンモデル · 23](#open-models) · [検索・データ · 15](#search-data)<br>
+[ブラウザ・PC 操作 · 18](#browser-computer-use) · [SDK・フレームワーク · 31](#sdk-integrations) · [ルーティング · 16](#routing-optimization) · [オープンモデル · 23](#open-models) · [検索・データ · 15](#search-data)<br>
 [安全性・レビュー · 16](#safety-review) · [Agent ワークフロー · 15](#agent-workflows) · [UI・自動化 · 9](#interfaces) · [開発者ツール · 35](#developer-tools) · [業務特化ツール · 15](#domain-tools)
 
 <a id="browser-computer-use"></a>
 
-### ブラウザ・PC 操作 (17)
+### ブラウザ・PC 操作 (18)
 
 - **[Cua · JEV Use](https://github.com/trycua/cua)** · 26.0K Star — Cua Driver の観察と実行を、制限された JEV の選択肢と組み合わせたコンピューター使用例。 [根拠](https://github.com/trycua/cua/blob/83f142c4290a0f7d9ed545ae8532858c6e4f8145/libs/cua-driver/examples/jev-use/python/jev_adapter.py#L11)
 - **[Jev Ultrafast](https://github.com/browser-use/jev-ultrafast)** · 18.2K Star — JEV を使用してアクションと一致する DOM 要素を選択し、入力テキストが必要な場合にのみテキスト モデルを呼び出すブラウザ エージェント。 [根拠](https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py)
@@ -96,6 +96,7 @@ npx skills add BeatAPI/awesome-jev
 - **[WindTunnel · JEV Benchmarks](https://github.com/nekuda-ai/WindTunnel)** · 79 Star — アクセシビリティと WebMCP を対象に固定条件の JEV 実験を行うブラウザー Agent ベンチマークです。 [根拠](https://github.com/nekuda-ai/WindTunnel/blob/5ca8644e23826ebb30108e7bad240b61043bfe67/experiments/jev/run.mjs)
 - **[JEV Browser](https://github.com/Ying-Kai-Liao/jev-browser)** · 76 Star — LLM の計画と JEV の操作を組み合わせるブラウザー自動化ライブラリ、CLI、MCP サーバー。 [根拠](https://github.com/Ying-Kai-Liao/jev-browser/blob/578cff6e701a131733d03256078bb559a45ad188/src/jev.mjs)
 - **[TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock)** · 71 Star — 候補となる DOM 要素が広告であるかどうかを JEV に尋ね、それらをハイライト表示または削除する実験的な Chrome 拡張機能。 [根拠](https://github.com/realZachi/typesafe-adblock/blob/7e067d243d87b7fe4d511653c0ddcd77b9beee18/src/typesafe.js)
+- **[Jev Social](https://github.com/socai-io/jev-social)** · 50 Star — Jev が Instagram・TikTok・LinkedIn の限定操作を選び、socai がユーザーの Chrome で実行するローカル調査アプリ。 [根拠](https://github.com/socai-io/jev-social/blob/51830b34906673e796754b70f8e878d166822a9b/src/actions.js)
 
 [↑ 検索入口に戻る](#discovery)
 

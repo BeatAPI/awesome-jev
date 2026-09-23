@@ -1,9 +1,9 @@
 {
   "schemaVersion": 3,
-  "capturedAt": "2026-09-23",
+  "capturedAt": "2026-09-24",
   "source": {
     "name": "BeatAPI Awesome JEV curation",
-    "batch": "2026-09-23-star50-cross-search-and-source-review",
+    "batch": "2026-09-24-maintainer-submission-source-review",
     "policy": "Project-level deduplication. Public JEV-related GitHub repositories at or above 50 stars are included only after fixed-commit source review. Discovery includes GitHub repository search, competitor catalogues (AbdelStark/awesome-typesafe-jev, heyjunpenn/awesome-jev), and direct source inspection. Runtime behavior is not independently verified."
   },
   "projects": [
@@ -5412,6 +5412,34 @@
         "type": "github",
         "label": "GitHub source",
         "url": "https://github.com/AboveColin/HA-Jev/blob/c3d4881121e4d02eacf272d9340447235c6ecc41/custom_components/jev/coordinator.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "jev-social",
+      "name": "Jev Social",
+      "owner": "socai-io",
+      "category": "browser-computer-use",
+      "starsAtCapture": 50,
+      "language": "JavaScript",
+      "license": "MIT",
+      "summary": {
+        "en": "A local social-research app where Jev chooses bounded Instagram, TikTok, and LinkedIn operations and socai executes them in the user's Chrome.",
+        "zh": "本地社交媒体研究应用：Jev 选择有限的 Instagram、TikTok 与 LinkedIn 操作，由 socai 在用户的 Chrome 中执行。",
+        "ja": "Jev が Instagram・TikTok・LinkedIn の限定操作を選び、socai がユーザーの Chrome で実行するローカル調査アプリ。"
+      },
+      "decision": {
+        "en": "Chooses one validated search, read, inspect, or finish action from current evidence; local policy maps the choice to exact socai CLI arguments and retains source-linked results.",
+        "zh": "根据当前证据选择一个已校验的搜索、读取、检查或结束动作；本地策略把选择映射为固定 socai CLI 参数并保留来源链接。",
+        "ja": "現在の証拠から検証済みの検索・読取・確認・終了操作を一つ選び、ローカル方針が固定 socai CLI 引数へ対応付けて出典付き結果を保持します。"
+      },
+      "repoUrl": "https://github.com/socai-io/jev-social",
+      "evidenceUrl": "https://github.com/socai-io/jev-social/blob/51830b34906673e796754b70f8e878d166822a9b/src/actions.js",
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/socai-io/jev-social/blob/51830b34906673e796754b70f8e878d166822a9b/src/actions.js"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false

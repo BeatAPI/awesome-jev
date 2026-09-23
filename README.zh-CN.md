@@ -16,7 +16,7 @@
 
 <p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<p align="center">192 个项目 · 10 种项目类型 · 更新于 2026-09-23<br><sub>每个仓库 50+ Star · 已核对源码</sub></p>
+<p align="center">193 个项目 · 10 种项目类型 · 更新于 2026-09-24<br><sub>每个仓库 50+ Star · 已核对源码</sub></p>
 
 <a id="discovery"></a>
 
@@ -68,16 +68,16 @@ npx skills add BeatAPI/awesome-jev
 <a id="categories"></a>
 <a id="all-projects"></a>
 
-## 全部 192 个项目
+## 全部 193 个项目
 
 下面按项目类型浏览完整目录。如果已经有具体需求，可以先看上方的场景指南。
 
-[浏览器与电脑操作 · 17](#browser-computer-use) · [SDK 与框架集成 · 31](#sdk-integrations) · [路由与优化 · 16](#routing-optimization) · [开放模型 · 23](#open-models) · [搜索与数据 · 15](#search-data)<br>
+[浏览器与电脑操作 · 18](#browser-computer-use) · [SDK 与框架集成 · 31](#sdk-integrations) · [路由与优化 · 16](#routing-optimization) · [开放模型 · 23](#open-models) · [搜索与数据 · 15](#search-data)<br>
 [安全与审查 · 16](#safety-review) · [Agent 工作流 · 15](#agent-workflows) · [界面与自动化 · 9](#interfaces) · [开发者工具 · 35](#developer-tools) · [垂直工具 · 15](#domain-tools)
 
 <a id="browser-computer-use"></a>
 
-### 浏览器与电脑操作 (17)
+### 浏览器与电脑操作 (18)
 
 - **[Cua · JEV Use](https://github.com/trycua/cua)** · 26.0K Star — 把 Cua Driver 的观察与执行能力和 JEV 的有限动作选择结合起来。 [源码证据](https://github.com/trycua/cua/blob/83f142c4290a0f7d9ed545ae8532858c6e4f8145/libs/cua-driver/examples/jev-use/python/jev_adapter.py#L11)
 - **[Jev Ultrafast](https://github.com/browser-use/jev-ultrafast)** · 18.2K Star — 用 JEV 一次选出浏览器动作与对应 DOM 元素，只在需要输入文本时再调用文本模型。 [源码证据](https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py)
@@ -96,6 +96,7 @@ npx skills add BeatAPI/awesome-jev
 - **[WindTunnel · JEV Benchmarks](https://github.com/nekuda-ai/WindTunnel)** · 79 Star — 浏览器 Agent 基准测试工具，包含基于无障碍树与 WebMCP 接口的冻结 JEV 实验。 [源码证据](https://github.com/nekuda-ai/WindTunnel/blob/5ca8644e23826ebb30108e7bad240b61043bfe67/experiments/jev/run.mjs)
 - **[JEV Browser](https://github.com/Ying-Kai-Liao/jev-browser)** · 76 Star — 把 LLM 规划与 JEV 动作结合的浏览器自动化库、CLI 与 MCP Server。 [源码证据](https://github.com/Ying-Kai-Liao/jev-browser/blob/578cff6e701a131733d03256078bb559a45ad188/src/jev.mjs)
 - **[TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock)** · 71 Star — 一个实验性 Chrome 扩展，让 Jev 判断候选 DOM 元素是否是广告，再高亮或移除。 [源码证据](https://github.com/realZachi/typesafe-adblock/blob/7e067d243d87b7fe4d511653c0ddcd77b9beee18/src/typesafe.js)
+- **[Jev Social](https://github.com/socai-io/jev-social)** · 50 Star — 本地社交媒体研究应用：Jev 选择有限的 Instagram、TikTok 与 LinkedIn 操作，由 socai 在用户的 Chrome 中执行。 [源码证据](https://github.com/socai-io/jev-social/blob/51830b34906673e796754b70f8e878d166822a9b/src/actions.js)
 
 [↑ 返回检索入口](#discovery)
 
