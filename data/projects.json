@@ -1,10 +1,10 @@
 {
   "schemaVersion": 3,
-  "capturedAt": "2026-09-23",
+  "capturedAt": "2026-09-28",
   "source": {
     "name": "BeatAPI Awesome JEV curation",
-    "batch": "2026-09-23-star50-cross-search-and-source-review",
-    "policy": "Project-level deduplication. Public JEV-related GitHub repositories at or above 50 stars are included only after fixed-commit source review. Discovery includes GitHub repository search, competitor catalogues (AbdelStark/awesome-typesafe-jev, heyjunpenn/awesome-jev), and direct source inspection. Runtime behavior is not independently verified."
+    "batch": "2026-09-28-madewithjev-star50-fixed-source-review",
+    "policy": "Project-level deduplication. Public JEV-related GitHub repositories at or above 50 stars are included only after fixed-commit source review. This batch screened all 318 GitHub builds on madewithjev.com, verified current GitHub stars, and inspected source files; entries without shipped JEV-related evidence were excluded. Runtime behavior is not independently verified."
   },
   "projects": [
     {
@@ -402,34 +402,6 @@
       "runtimeVerified": false
     },
     {
-      "id": "langchainjs-typesafe",
-      "name": "LangChain.js · TypeSafe",
-      "owner": "langchain-ai",
-      "category": "sdk-integrations",
-      "repoUrl": "https://github.com/langchain-ai/langchainjs",
-      "evidenceUrl": "https://github.com/langchain-ai/langchainjs/blob/206d8b992bcf90ce7d46f2158f1ad85fc1d826c0/libs/providers/langchain-typesafe/src/classifier.ts",
-      "language": "TypeScript",
-      "license": "MIT",
-      "starsAtCapture": 18220,
-      "summary": {
-        "en": "A TypeSafeClassifier integration for JavaScript LangChain workflows.",
-        "zh": "面向 JavaScript LangChain 工作流的 TypeSafeClassifier 集成。",
-        "ja": "JavaScript の LangChain ワークフロー向け TypeSafeClassifier 連携。"
-      },
-      "decision": {
-        "en": "Invokes JEV with predefined questions and parses choice, noul, score, and probability fields.",
-        "zh": "用预定义问题调用 JEV，并解析 choice、noul、score 与概率字段。",
-        "ja": "事前定義された質問を使用して JEV を呼び出し、選択肢、noul、スコア、および確率フィールドを解析します。"
-      },
-      "source": {
-        "type": "github",
-        "label": "GitHub source",
-        "url": "https://github.com/langchain-ai/langchainjs/blob/206d8b992bcf90ce7d46f2158f1ad85fc1d826c0/libs/providers/langchain-typesafe/src/classifier.ts"
-      },
-      "verification": "source-reviewed",
-      "runtimeVerified": false
-    },
-    {
       "id": "jev-ultrafast",
       "name": "Jev Ultrafast",
       "owner": "browser-use",
@@ -455,6 +427,34 @@
         "en": "Chooses the next browser action and target element from the current page state.",
         "zh": "根据当前页面状态选择下一步浏览器动作和目标元素。",
         "ja": "現在のページ状態から次のブラウザ アクションとターゲット要素を選択します。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "langchainjs-typesafe",
+      "name": "LangChain.js · TypeSafe",
+      "owner": "langchain-ai",
+      "category": "sdk-integrations",
+      "repoUrl": "https://github.com/langchain-ai/langchainjs",
+      "evidenceUrl": "https://github.com/langchain-ai/langchainjs/blob/206d8b992bcf90ce7d46f2158f1ad85fc1d826c0/libs/providers/langchain-typesafe/src/classifier.ts",
+      "language": "TypeScript",
+      "license": "MIT",
+      "starsAtCapture": 18220,
+      "summary": {
+        "en": "A TypeSafeClassifier integration for JavaScript LangChain workflows.",
+        "zh": "面向 JavaScript LangChain 工作流的 TypeSafeClassifier 集成。",
+        "ja": "JavaScript の LangChain ワークフロー向け TypeSafeClassifier 連携。"
+      },
+      "decision": {
+        "en": "Invokes JEV with predefined questions and parses choice, noul, score, and probability fields.",
+        "zh": "用预定义问题调用 JEV，并解析 choice、noul、score 与概率字段。",
+        "ja": "事前定義された質問を使用して JEV を呼び出し、選択肢、noul、スコア、および確率フィールドを解析します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/langchain-ai/langchainjs/blob/206d8b992bcf90ce7d46f2158f1ad85fc1d826c0/libs/providers/langchain-typesafe/src/classifier.ts"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -1281,6 +1281,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "mizorewww-laya-coreml",
+      "name": "Laya CoreML",
+      "owner": "mizorewww",
+      "category": "open-models",
+      "repoUrl": "https://github.com/mizorewww/laya-coreml",
+      "evidenceUrl": "https://github.com/mizorewww/laya-coreml/blob/4619e0483f07adf39068532e85b42ec2347edb83/laya_coreml/result.py",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "starsAtCapture": 1510,
+      "summary": {
+        "en": "A local Laya typed-decision runtime for Apple Silicon and Core ML.",
+        "zh": "面向 Apple Silicon 与 Core ML 的本地 Laya 类型化决策运行时。",
+        "ja": "Apple Silicon と Core ML 向けのローカル Laya 型付き判断ランタイム。"
+      },
+      "decision": {
+        "en": "Returns choice probabilities from a local open-weight model.",
+        "zh": "由本地开放权重模型返回选项概率。",
+        "ja": "ローカルの公開重みモデルから選択確率を返します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/mizorewww/laya-coreml/blob/4619e0483f07adf39068532e85b42ec2347edb83/laya_coreml/result.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "yibie-awesome-jev",
       "name": "Awesome JEV (yibie)",
       "owner": "yibie",
@@ -1502,6 +1530,34 @@
         "en": "Selects the next step from deterministically extracted controls and actions before desktop execution.",
         "zh": "从确定性提取的控件与动作中选择下一步，执行器操作桌面。",
         "ja": "デスクトップの実行前に、決定的に抽出されたコントロールとアクションから次のステップを選択します。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nokia-applied-research-anyjev",
+      "name": "AnyJev",
+      "owner": "nokia-applied-research",
+      "category": "open-models",
+      "repoUrl": "https://github.com/nokia-applied-research/AnyJev",
+      "evidenceUrl": "https://github.com/nokia-applied-research/AnyJev/blob/45add301a7aa60ed3420c83d15c061e84e5bce61/anyjev/decider.py",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "starsAtCapture": 833,
+      "summary": {
+        "en": "An open framework that adapts language models to typed decision endpoints.",
+        "zh": "将语言模型适配为类型化决策接口的开放框架。",
+        "ja": "言語モデルを型付き判断 API に適合させる公開フレームワーク。"
+      },
+      "decision": {
+        "en": "Reads closed-form answers from a model and calibrates choice probabilities.",
+        "zh": "读取模型的封闭式答案并校准选项概率。",
+        "ja": "モデルの選択結果を読み取り、選択確率を較正します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/nokia-applied-research/AnyJev/blob/45add301a7aa60ed3420c83d15c061e84e5bce61/anyjev/decider.py"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -1847,6 +1903,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "jev-chat-jev-chat-windows",
+      "name": "Jev Chat · Windows",
+      "owner": "jev-chat",
+      "category": "interfaces",
+      "repoUrl": "https://github.com/jev-chat/jev-chat-windows",
+      "evidenceUrl": "https://github.com/jev-chat/jev-chat-windows/blob/946d3d1409b5f340d2b2c2e2a067d4c143638d5a/core/jev_client.py",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "starsAtCapture": 613,
+      "summary": {
+        "en": "A Windows reply assistant that reads chat screenshots with local OCR.",
+        "zh": "用本地 OCR 读取聊天截图的 Windows 回复助手。",
+        "ja": "ローカル OCR で会話画面を読む Windows 向け返信支援アプリ。"
+      },
+      "decision": {
+        "en": "Judges conversation intent and emotion before showing reply drafts.",
+        "zh": "先判断对话意图与情绪，再展示候选回复。",
+        "ja": "返信案を表示する前に会話の意図と感情を判定します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/jev-chat/jev-chat-windows/blob/946d3d1409b5f340d2b2c2e2a067d4c143638d5a/core/jev_client.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "hermes-jev-skills",
       "name": "Hermes JEV Skills",
       "owner": "kerpopule",
@@ -2071,6 +2155,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "kydlikebtc-awesome-jev",
+      "name": "Awesome Jev · Decision Atlas",
+      "owner": "kydlikebtc",
+      "category": "developer-tools",
+      "repoUrl": "https://github.com/kydlikebtc/awesome-jev",
+      "evidenceUrl": "https://github.com/kydlikebtc/awesome-jev/blob/3212513241726286fff1fa28bb3ff6e657aac488/src/awesome_jev_mcp/server.py",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "starsAtCapture": 504,
+      "summary": {
+        "en": "A source-linked catalogue and MCP search tool organized by decision pattern.",
+        "zh": "按决策模式组织的源码目录与 MCP 搜索工具。",
+        "ja": "判断パターン別のソース付きカタログと MCP 検索ツール。"
+      },
+      "decision": {
+        "en": "Indexes examples by the bounded judgment they implement; it does not call Jev for catalogue search.",
+        "zh": "按项目实现的有限判断索引案例；目录搜索本身不调用 Jev。",
+        "ja": "実装された限定的な判断で事例を索引し、検索時に Jev は呼びません。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/kydlikebtc/awesome-jev/blob/3212513241726286fff1fa28bb3ff6e657aac488/src/awesome_jev_mcp/server.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "von-open-system-one",
       "name": "Von",
       "owner": "wfzyx",
@@ -2262,6 +2374,34 @@
         "en": "Classifies workflow steps or review verdicts through a dedicated JEV relay.",
         "zh": "通过专用 JEV 中继对工作流步骤或审查结论做分类。",
         "ja": "専用の JEV 中継でワークフロー手順やレビュー判定を分類します。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "jev-chat-jev-chat-jarvis-mac",
+      "name": "Jev Chat · macOS",
+      "owner": "jev-chat",
+      "category": "interfaces",
+      "repoUrl": "https://github.com/jev-chat/jev-chat-jarvis-mac",
+      "evidenceUrl": "https://github.com/jev-chat/jev-chat-jarvis-mac/blob/01312b05655566a4ba4479899373a6826e95867d/src/judge_jev.py",
+      "language": "Python",
+      "license": "MIT",
+      "starsAtCapture": 417,
+      "summary": {
+        "en": "A macOS overlay that reads visible chats and suggests replies.",
+        "zh": "读取可见聊天并建议回复的 macOS 浮层应用。",
+        "ja": "表示中の会話を読み、返信を提案する macOS オーバーレイ。"
+      },
+      "decision": {
+        "en": "Judges message intent and risk before ranking drafted responses.",
+        "zh": "判断消息意图与风险，再排序候选回复。",
+        "ja": "メッセージの意図とリスクを判定し、返信案を並べます。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/jev-chat/jev-chat-jarvis-mac/blob/01312b05655566a4ba4479899373a6826e95867d/src/judge_jev.py"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -2691,6 +2831,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "tianyucodings-jevharness",
+      "name": "JevHarness",
+      "owner": "TianyuCodings",
+      "category": "agent-workflows",
+      "repoUrl": "https://github.com/TianyuCodings/JevHarness",
+      "evidenceUrl": "https://github.com/TianyuCodings/JevHarness/blob/34d5c9602f6f73792e2c625cc31dd9ed7b4f39b5/auto_jev/providers.py",
+      "language": "Python",
+      "license": "Not declared",
+      "starsAtCapture": 315,
+      "summary": {
+        "en": "A framework for creating and evaluating task-specific Jev decision harnesses.",
+        "zh": "创建并评估任务专用 Jev 决策框架的工具。",
+        "ja": "タスク別の Jev 判断ハーネスを作成・評価するツール。"
+      },
+      "decision": {
+        "en": "Turns observations into typed questions and combines answers into actions.",
+        "zh": "把观察结果转换成类型化问题，并将答案组合成动作。",
+        "ja": "観測結果を型付き質問に変え、回答を操作へ組み合わせます。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/TianyuCodings/JevHarness/blob/34d5c9602f6f73792e2c625cc31dd9ed7b4f39b5/auto_jev/providers.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "realzachi:pg-jev",
       "name": "Pg JEV",
       "owner": "realZachi",
@@ -3113,6 +3281,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "ferrycorleone-crush-monitor",
+      "name": "Crush Monitor",
+      "owner": "FerryCorleone",
+      "category": "domain-tools",
+      "repoUrl": "https://github.com/FerryCorleone/crush-monitor",
+      "evidenceUrl": "https://github.com/FerryCorleone/crush-monitor/blob/c4fc2974b4eb33e5fa117aa0a8fbb5935a7dae86/server/provider.ts",
+      "language": "TypeScript",
+      "license": "MIT",
+      "starsAtCapture": 244,
+      "summary": {
+        "en": "A local chat-analysis app using Jev for emotion, intent, and reply checks.",
+        "zh": "用 Jev 分析聊天情绪、意图与回复质量的本地应用。",
+        "ja": "Jev で会話の感情・意図・返信を確認するローカルアプリ。"
+      },
+      "decision": {
+        "en": "Scores message intent and the quality of a proposed reply from a conversation.",
+        "zh": "根据对话评估消息意图和候选回复质量。",
+        "ja": "会話からメッセージの意図と返信案の質を評価します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/FerryCorleone/crush-monitor/blob/c4fc2974b4eb33e5fa117aa0a8fbb5935a7dae86/server/provider.ts"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "jev-visual",
       "name": "JEV Visual",
       "owner": "hr98w",
@@ -3169,29 +3365,57 @@
       "runtimeVerified": false
     },
     {
-      "id": "kitze:skillbox",
-      "name": "Skillbox",
-      "owner": "kitze",
-      "category": "routing-optimization",
-      "repoUrl": "https://github.com/kitze/skillbox",
-      "evidenceUrl": "https://github.com/kitze/skillbox/blob/d83ba4ecd254c8dfa6a759d1feb5141384e26a9e/README.md",
+      "id": "monteduro-killmyidea",
+      "name": "Kill My Idea",
+      "owner": "monteduro",
+      "category": "domain-tools",
+      "repoUrl": "https://github.com/monteduro/killmyidea",
+      "evidenceUrl": "https://github.com/monteduro/killmyidea/blob/84f37b2e96922ccab12dcf44af2bf071bbdbf4c0/src/lib/typesafe.ts",
+      "language": "TypeScript",
+      "license": "Not declared",
+      "starsAtCapture": 233,
+      "summary": {
+        "en": "A startup-idea checker that asks Jev bounded scoring questions.",
+        "zh": "向 Jev 提出有限评分问题的创业想法评估工具。",
+        "ja": "Jev に限定した採点質問を行う事業アイデア評価ツール。"
+      },
+      "decision": {
+        "en": "Scores idea criteria and applies a local rule to classify the outcome.",
+        "zh": "给想法的各项标准打分，再由本地规则确定结果。",
+        "ja": "評価基準を採点し、ローカルのルールで結果を分類します。"
+      },
       "source": {
         "type": "github",
         "label": "GitHub source",
-        "url": "https://github.com/kitze/skillbox/blob/d83ba4ecd254c8dfa6a759d1feb5141384e26a9e/README.md"
+        "url": "https://github.com/monteduro/killmyidea/blob/84f37b2e96922ccab12dcf44af2bf071bbdbf4c0/src/lib/typesafe.ts"
       },
-      "language": "TypeScript",
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "jev-codex-router",
+      "name": "JEV Codex Router",
+      "owner": "0xNatoshi",
+      "category": "routing-optimization",
+      "repoUrl": "https://github.com/0xNatoshi/jev-codex-router",
+      "evidenceUrl": "https://github.com/0xNatoshi/jev-codex-router/blob/8292b519659280884627a962c826ac7721136a64/server/jev_server.py",
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/0xNatoshi/jev-codex-router/blob/8292b519659280884627a962c826ac7721136a64/server/jev_server.py"
+      },
+      "language": "Python",
       "license": "MIT",
       "starsAtCapture": 229,
       "summary": {
-        "en": "A self-hosted, versioned Agent skills library with optional Jev recommendations.",
-        "zh": "自建一个有版本管理的 Agent 技能库，还能选配 Jev 推荐：告诉它当前任务，从你有权限使用的技能里挑更相关的。",
-        "ja": "オプションの JEV 推奨事項を備えた自己ホスト型のバージョン管理されたエージェント スキル ライブラリ。"
+        "en": "Uses Jev to classify each Codex turn, then applies local rules to choose the model, reasoning effort, and speed mode.",
+        "zh": "每轮先让 Jev 判断任务类型与难度，再由本地策略为 Codex 选模型、思考深度和速度档。",
+        "ja": "JEV で Codex の各ターンを分類し、ローカルルールに従ってモデル、推論強度、速度モードを選びます。"
       },
       "decision": {
-        "en": "Jev scores task relevance among skills the client is allowed to access.",
-        "zh": "对候选技能逐项评估任务相关度，再由应用整理推荐结果。",
-        "ja": "JEV は、クライアントがアクセスを許可されているスキル間のタスクの関連性をスコア付けします。"
+        "en": "Classifies task difficulty and reasoning needs before local policy selects a model configuration.",
+        "zh": "对当前轮次的任务层级与推理需求分类，本地规则据此选择模型配置。",
+        "ja": "ローカルポリシーがモデル設定を選ぶ前に、タスクの難易度と必要な推論強度を分類します。"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -3225,29 +3449,29 @@
       "runtimeVerified": false
     },
     {
-      "id": "jev-codex-router",
-      "name": "JEV Codex Router",
-      "owner": "0xNatoshi",
+      "id": "kitze:skillbox",
+      "name": "Skillbox",
+      "owner": "kitze",
       "category": "routing-optimization",
-      "repoUrl": "https://github.com/0xNatoshi/jev-codex-router",
-      "evidenceUrl": "https://github.com/0xNatoshi/jev-codex-router/blob/8292b519659280884627a962c826ac7721136a64/server/jev_server.py",
+      "repoUrl": "https://github.com/kitze/skillbox",
+      "evidenceUrl": "https://github.com/kitze/skillbox/blob/d83ba4ecd254c8dfa6a759d1feb5141384e26a9e/README.md",
       "source": {
         "type": "github",
         "label": "GitHub source",
-        "url": "https://github.com/0xNatoshi/jev-codex-router/blob/8292b519659280884627a962c826ac7721136a64/server/jev_server.py"
+        "url": "https://github.com/kitze/skillbox/blob/d83ba4ecd254c8dfa6a759d1feb5141384e26a9e/README.md"
       },
-      "language": "Python",
+      "language": "TypeScript",
       "license": "MIT",
       "starsAtCapture": 229,
       "summary": {
-        "en": "Uses Jev to classify each Codex turn, then applies local rules to choose the model, reasoning effort, and speed mode.",
-        "zh": "每轮先让 Jev 判断任务类型与难度，再由本地策略为 Codex 选模型、思考深度和速度档。",
-        "ja": "JEV で Codex の各ターンを分類し、ローカルルールに従ってモデル、推論強度、速度モードを選びます。"
+        "en": "A self-hosted, versioned Agent skills library with optional Jev recommendations.",
+        "zh": "自建一个有版本管理的 Agent 技能库，还能选配 Jev 推荐：告诉它当前任务，从你有权限使用的技能里挑更相关的。",
+        "ja": "オプションの JEV 推奨事項を備えた自己ホスト型のバージョン管理されたエージェント スキル ライブラリ。"
       },
       "decision": {
-        "en": "Classifies task difficulty and reasoning needs before local policy selects a model configuration.",
-        "zh": "对当前轮次的任务层级与推理需求分类，本地规则据此选择模型配置。",
-        "ja": "ローカルポリシーがモデル設定を選ぶ前に、タスクの難易度と必要な推論強度を分類します。"
+        "en": "Jev scores task relevance among skills the client is allowed to access.",
+        "zh": "对候选技能逐项评估任务相关度，再由应用整理推荐结果。",
+        "ja": "JEV は、クライアントがアクセスを許可されているスキル間のタスクの関連性をスコア付けします。"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -3309,6 +3533,34 @@
         "author": "@LoganMarkewich",
         "views": 29163
       }
+    },
+    {
+      "id": "ipenywis-laya-ultrafast",
+      "name": "Laya Ultrafast",
+      "owner": "ipenywis",
+      "category": "browser-computer-use",
+      "repoUrl": "https://github.com/ipenywis/laya-ultrafast",
+      "evidenceUrl": "https://github.com/ipenywis/laya-ultrafast/blob/571431b7d142d54f49ad962d9d083d9b7bb20040/laya_ultrafast/laya.py",
+      "language": "Python",
+      "license": "MIT",
+      "starsAtCapture": 217,
+      "summary": {
+        "en": "A local open-weight port of Jev Ultrafast for Apple Silicon browsers.",
+        "zh": "面向 Apple Silicon 的 Jev Ultrafast 本地开放权重移植版。",
+        "ja": "Apple Silicon 向けに Jev Ultrafast をローカルの公開モデルへ移植した版。"
+      },
+      "decision": {
+        "en": "Uses Laya to choose bounded browser actions from page state.",
+        "zh": "用 Laya 根据页面状态选择有限浏览器动作。",
+        "ja": "Laya がページ状態から限られたブラウザ操作を選びます。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/ipenywis/laya-ultrafast/blob/571431b7d142d54f49ad962d9d083d9b7bb20040/laya_ultrafast/laya.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
     },
     {
       "id": "notra",
@@ -3649,34 +3901,6 @@
       "runtimeVerified": false
     },
     {
-      "id": "quentincody:interlinked-cli",
-      "name": "Interlinked CLI",
-      "owner": "QuentinCody",
-      "category": "safety-review",
-      "repoUrl": "https://github.com/QuentinCody/interlinked-cli",
-      "evidenceUrl": "https://github.com/QuentinCody/interlinked-cli/blob/207330d8131c5203ecc74e9fd4c24ba416463718/src/harness/jev/client.ts#L14",
-      "source": {
-        "type": "github",
-        "label": "GitHub source",
-        "url": "https://github.com/QuentinCody/interlinked-cli/blob/207330d8131c5203ecc74e9fd4c24ba416463718/src/harness/jev/client.ts#L14"
-      },
-      "language": "",
-      "license": "MIT",
-      "starsAtCapture": 178,
-      "summary": {
-        "en": "Interlinked adds optional Jev judgments and evidence checks to local coding-agent checks.",
-        "zh": "Interlinked 在编程 Agent 的本地检查之外，提供可选 Jev 判断与证据检查。",
-        "ja": "Interlinked は、任意の JEV 判断と根拠チェックをローカルのコーディング Agent 検査に追加します。"
-      },
-      "decision": {
-        "en": "Assesses inputs such as test names, documentation claims and supporting evidence.",
-        "zh": "评估测试名称、文档声明和对应证据等输入，给规则流程补充语义判断。",
-        "ja": "テスト名、文書の主張、裏付けとなる証拠などの入力を評価します。"
-      },
-      "verification": "source-reviewed",
-      "runtimeVerified": false
-    },
-    {
       "id": "jev-gateway",
       "name": "jev-gateway",
       "owner": "vinilana",
@@ -3705,6 +3929,34 @@
         "author": "@oviniciuslana",
         "views": 53439
       }
+    },
+    {
+      "id": "quentincody:interlinked-cli",
+      "name": "Interlinked CLI",
+      "owner": "QuentinCody",
+      "category": "safety-review",
+      "repoUrl": "https://github.com/QuentinCody/interlinked-cli",
+      "evidenceUrl": "https://github.com/QuentinCody/interlinked-cli/blob/207330d8131c5203ecc74e9fd4c24ba416463718/src/harness/jev/client.ts#L14",
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/QuentinCody/interlinked-cli/blob/207330d8131c5203ecc74e9fd4c24ba416463718/src/harness/jev/client.ts#L14"
+      },
+      "language": "",
+      "license": "MIT",
+      "starsAtCapture": 178,
+      "summary": {
+        "en": "Interlinked adds optional Jev judgments and evidence checks to local coding-agent checks.",
+        "zh": "Interlinked 在编程 Agent 的本地检查之外，提供可选 Jev 判断与证据检查。",
+        "ja": "Interlinked は、任意の JEV 判断と根拠チェックをローカルのコーディング Agent 検査に追加します。"
+      },
+      "decision": {
+        "en": "Assesses inputs such as test names, documentation claims and supporting evidence.",
+        "zh": "评估测试名称、文档声明和对应证据等输入，给规则流程补充语义判断。",
+        "ja": "テスト名、文書の主張、裏付けとなる証拠などの入力を評価します。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
     },
     {
       "id": "djev-spark",
@@ -3847,6 +4099,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "agricidaniel-jev-seo",
+      "name": "jev-seo · Python",
+      "owner": "AgriciDaniel",
+      "category": "domain-tools",
+      "repoUrl": "https://github.com/AgriciDaniel/jev-seo",
+      "evidenceUrl": "https://github.com/AgriciDaniel/jev-seo/blob/55a184a3b0d09565a4c84268f725a47784e62528/jevseo/jev.py",
+      "language": "Python",
+      "license": "MIT",
+      "starsAtCapture": 153,
+      "summary": {
+        "en": "A live SEO audit that combines crawl evidence with narrow Jev judgments.",
+        "zh": "结合抓取证据与 Jev 有限判断的实时 SEO 审计工具。",
+        "ja": "クロールの根拠と Jev の限定した判断を組み合わせる SEO 監査ツール。"
+      },
+      "decision": {
+        "en": "Evaluates semantic page checks after deterministic crawling and parsing.",
+        "zh": "在确定性抓取和解析后评估页面语义检查项。",
+        "ja": "確定的なクロール・解析の後にページの意味的な項目を判定します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/AgriciDaniel/jev-seo/blob/55a184a3b0d09565a4c84268f725a47784e62528/jevseo/jev.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "hellogumbo-awesome-jev",
       "name": "Awesome Jev",
       "owner": "hellogumbo",
@@ -3870,6 +4150,34 @@
         "en": "Indexes the wider ecosystem while separating repositories, sites, and articles.",
         "zh": "索引更广的生态，并区分仓库、网站与文章。",
         "ja": "広いエコシステムを索引化し、リポジトリ、サイト、記事を区別します。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "ctnicholas-jev-workflow-builder",
+      "name": "jev-workflow-builder",
+      "owner": "CTNicholas",
+      "category": "interfaces",
+      "repoUrl": "https://github.com/CTNicholas/jev-workflow-builder",
+      "evidenceUrl": "https://github.com/CTNicholas/jev-workflow-builder/blob/9a652d22216028a64ccaa7468754e45e1860618b/app/workflow/server/typesafe.ts",
+      "language": "TypeScript",
+      "license": "Not declared",
+      "starsAtCapture": 148,
+      "summary": {
+        "en": "A visual multiplayer builder for workflows that call Jev and text models.",
+        "zh": "可视化协作搭建 Jev 与文本模型工作流的工具。",
+        "ja": "Jev とテキストモデルを使うフローを共同編集できるビジュアルツール。"
+      },
+      "decision": {
+        "en": "Runs configured Jev questions inside a user-defined workflow graph.",
+        "zh": "在用户配置的工作流图中执行 Jev 问题。",
+        "ja": "設定されたフロー内で Jev の質問を実行します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/CTNicholas/jev-workflow-builder/blob/9a652d22216028a64ccaa7468754e45e1860618b/app/workflow/server/typesafe.ts"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -4213,6 +4521,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "thinkflowlab-system1-agents",
+      "name": "system1-agents",
+      "owner": "ThinkFlowLab",
+      "category": "agent-workflows",
+      "repoUrl": "https://github.com/ThinkFlowLab/system1-agents",
+      "evidenceUrl": "https://github.com/ThinkFlowLab/system1-agents/blob/222e656a1a53d7d19c815d8ac66defaad557b1c5/s1a/decision_models/jev.py",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "starsAtCapture": 128,
+      "summary": {
+        "en": "An agent framework with interchangeable Jev, Laya, and Cua-S1 decision backends.",
+        "zh": "可切换 Jev、Laya 与 Cua-S1 决策后端的 Agent 框架。",
+        "ja": "Jev・Laya・Cua-S1 の判断バックエンドを切り替えられる Agent フレームワーク。"
+      },
+      "decision": {
+        "en": "Uses a selected decision backend to choose an action from task observations.",
+        "zh": "由选定后端根据任务观察结果选择动作。",
+        "ja": "選んだバックエンドがタスクの観測結果から操作を選びます。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/ThinkFlowLab/system1-agents/blob/222e656a1a53d7d19c815d8ac66defaad557b1c5/s1a/decision_models/jev.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "promethe-us-awesome-jev",
       "name": "Awesome JEV (Promethe-us)",
       "owner": "Promethe-us",
@@ -4297,6 +4633,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "allebee-jevk5",
+      "name": "JevK5",
+      "owner": "allebee",
+      "category": "open-models",
+      "repoUrl": "https://github.com/allebee/jevk5",
+      "evidenceUrl": "https://github.com/allebee/jevk5/blob/1e5ae1b533b9eb80c0cbe3fbd010607d0b4e26ae/jevk5/runtime.py",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "starsAtCapture": 119,
+      "summary": {
+        "en": "An independent open-weight model for choice, score, and yes/no decisions.",
+        "zh": "用于 choice、score 和是非判断的独立开放权重模型。",
+        "ja": "選択・採点・はい／いいえ判断のための独立した公開重みモデル。"
+      },
+      "decision": {
+        "en": "Answers bounded typed questions from local model weights.",
+        "zh": "使用本地模型权重回答有限的类型化问题。",
+        "ja": "ローカルのモデル重みで限定した型付き質問に答えます。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/allebee/jevk5/blob/1e5ae1b533b9eb80c0cbe3fbd010607d0b4e26ae/jevk5/runtime.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "ldbumble:taskuary",
       "name": "Taskuary",
       "owner": "ldbumble",
@@ -4348,6 +4712,34 @@
         "type": "github",
         "label": "GitHub source",
         "url": "https://github.com/Devin-AXIS/jev-dsh-decision/blob/adc88caa9bf174d367e79a5f254c7936bcef088e/service/jev.mjs"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "awesome-jev-use-cases",
+      "name": "Awesome JEV Use Cases",
+      "owner": "walidboulanouar",
+      "category": "developer-tools",
+      "repoUrl": "https://github.com/walidboulanouar/awesome-jev-use-cases",
+      "evidenceUrl": "https://github.com/walidboulanouar/awesome-jev-use-cases/blob/80bd47333db768044cec10b1327c9ca3bb247994/README.md",
+      "language": "",
+      "license": "CC0-1.0",
+      "starsAtCapture": 114,
+      "summary": {
+        "en": "A source-linked catalogue of shipped JEV demos, repositories, reported metrics, and model limits.",
+        "zh": "带原始来源的 JEV 已发布 Demo、仓库、自报指标与模型限制目录。",
+        "ja": "公開済み JEV デモ、リポジトリ、報告値、モデル制約を出典付きで整理したカタログです。"
+      },
+      "decision": {
+        "en": "Keeps shipped examples separate from unbuilt ideas and links each entry back to its original evidence.",
+        "zh": "把已发布案例与未实现想法分开，并把每条记录链接回原始证据。",
+        "ja": "公開済み事例と未実装アイデアを分け、各項目を元の根拠へリンクします。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/walidboulanouar/awesome-jev-use-cases/blob/80bd47333db768044cec10b1327c9ca3bb247994/README.md"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -4409,34 +4801,6 @@
       "runtimeVerified": false
     },
     {
-      "id": "awesome-jev-use-cases",
-      "name": "Awesome JEV Use Cases",
-      "owner": "walidboulanouar",
-      "category": "developer-tools",
-      "repoUrl": "https://github.com/walidboulanouar/awesome-jev-use-cases",
-      "evidenceUrl": "https://github.com/walidboulanouar/awesome-jev-use-cases/blob/80bd47333db768044cec10b1327c9ca3bb247994/README.md",
-      "language": "",
-      "license": "CC0-1.0",
-      "starsAtCapture": 114,
-      "summary": {
-        "en": "A source-linked catalogue of shipped JEV demos, repositories, reported metrics, and model limits.",
-        "zh": "带原始来源的 JEV 已发布 Demo、仓库、自报指标与模型限制目录。",
-        "ja": "公開済み JEV デモ、リポジトリ、報告値、モデル制約を出典付きで整理したカタログです。"
-      },
-      "decision": {
-        "en": "Keeps shipped examples separate from unbuilt ideas and links each entry back to its original evidence.",
-        "zh": "把已发布案例与未实现想法分开，并把每条记录链接回原始证据。",
-        "ja": "公開済み事例と未実装アイデアを分け、各項目を元の根拠へリンクします。"
-      },
-      "source": {
-        "type": "github",
-        "label": "GitHub source",
-        "url": "https://github.com/walidboulanouar/awesome-jev-use-cases/blob/80bd47333db768044cec10b1327c9ca3bb247994/README.md"
-      },
-      "verification": "source-reviewed",
-      "runtimeVerified": false
-    },
-    {
       "id": "stanley-code-jev",
       "name": "Stanley Code",
       "owner": "devagrawal09",
@@ -4488,6 +4852,34 @@
         "en": "Chooses among configured trading actions from market and position state.",
         "zh": "根据市场与持仓状态，从配置的交易动作中选择。",
         "ja": "市場とポジション状態から設定済み取引操作を選びます。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "heman10x-ngu-verdict-open-jev",
+      "name": "Verdict OpenJev",
+      "owner": "Heman10x-NGU",
+      "category": "open-models",
+      "repoUrl": "https://github.com/Heman10x-NGU/Verdict-open-jev",
+      "evidenceUrl": "https://github.com/Heman10x-NGU/Verdict-open-jev/blob/30f15564821626ca5c1ad5b2638c4eb7078787dd/core/engine_encoder.py",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "starsAtCapture": 107,
+      "summary": {
+        "en": "An independent ModernBERT-based typed-decision model with calibration experiments.",
+        "zh": "基于 ModernBERT 的独立类型化决策模型，附带校准实验。",
+        "ja": "ModernBERT を用いた独立した型付き判断モデルと較正実験。"
+      },
+      "decision": {
+        "en": "Produces bounded choice and score answers from an open model.",
+        "zh": "由开放模型生成有限选项和评分答案。",
+        "ja": "公開モデルから限定した選択・採点の回答を生成します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/Heman10x-NGU/Verdict-open-jev/blob/30f15564821626ca5c1ad5b2638c4eb7078787dd/core/engine_encoder.py"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -4577,6 +4969,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "openqa-cn-jev-browser",
+      "name": "CodexQA Jev Browser",
+      "owner": "openqa-cn",
+      "category": "browser-computer-use",
+      "repoUrl": "https://github.com/openqa-cn/jev-browser",
+      "evidenceUrl": "https://github.com/openqa-cn/jev-browser/blob/d839d10687d7e84824691efde944c1735228b385/src/jev.ts",
+      "language": "TypeScript",
+      "license": "MIT",
+      "starsAtCapture": 103,
+      "summary": {
+        "en": "A browser skill that indexes page controls for bounded Jev navigation.",
+        "zh": "为 Jev 有限导航建立页面控件索引的浏览器 Skill。",
+        "ja": "Jev の限定した操作のためにページのコントロールを索引するブラウザ Skill。"
+      },
+      "decision": {
+        "en": "Selects a visible control and action, then checks the resulting page state.",
+        "zh": "选择可见控件与动作，再检查操作后的页面状态。",
+        "ja": "表示中のコントロールと操作を選び、操作後の画面を確認します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/openqa-cn/jev-browser/blob/d839d10687d7e84824691efde944c1735228b385/src/jev.ts"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "daseinlabs-open-jev",
       "name": "Open JEV",
       "owner": "daseinlabs",
@@ -4600,6 +5020,34 @@
         "en": "Runs bounded decision questions on a locally trainable model.",
         "zh": "用可本地训练的模型处理有限决策问题。",
         "ja": "ローカル学習可能なモデルで限定的な判断質問を処理します。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "virajbhartiya-laya-vs-jev",
+      "name": "Laya vs Jev",
+      "owner": "virajbhartiya",
+      "category": "open-models",
+      "repoUrl": "https://github.com/virajbhartiya/laya-vs-jev",
+      "evidenceUrl": "https://github.com/virajbhartiya/laya-vs-jev/blob/28541781c863fcdf20348e5bb3a2073d672fffe6/laya_mlx/trex/backends.py",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "starsAtCapture": 102,
+      "summary": {
+        "en": "A side-by-side game harness comparing local Laya with hosted Jev.",
+        "zh": "在同一游戏环境中对比本地 Laya 与托管 Jev 的实验框架。",
+        "ja": "ローカルの Laya とホスト型 Jev を同じゲームで比較する実験環境。"
+      },
+      "decision": {
+        "en": "Each model chooses a bounded action from the same game state.",
+        "zh": "两个模型都从相同游戏状态中选择有限动作。",
+        "ja": "同じゲーム状態から各モデルが限られた操作を選びます。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/virajbhartiya/laya-vs-jev/blob/28541781c863fcdf20348e5bb3a2073d672fffe6/laya_mlx/trex/backends.py"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -4633,34 +5081,6 @@
       "runtimeVerified": false
     },
     {
-      "id": "formanator-jev",
-      "name": "Formanator",
-      "owner": "timrogers",
-      "category": "domain-tools",
-      "repoUrl": "https://github.com/timrogers/formanator",
-      "evidenceUrl": "https://github.com/timrogers/formanator/blob/548740edef37a4169eef163e4988e64f43a560ec/src/typesafe.rs",
-      "source": {
-        "type": "github",
-        "label": "GitHub source",
-        "url": "https://github.com/timrogers/formanator/blob/548740edef37a4169eef163e4988e64f43a560ec/src/typesafe.rs"
-      },
-      "language": "Rust",
-      "license": "MIT",
-      "starsAtCapture": 99,
-      "summary": {
-        "en": "A CLI and MCP client for benefit claims with optional JEV receipt classification.",
-        "zh": "支持可选 JEV 收据分类的福利报销 CLI 与 MCP 客户端。",
-        "ja": "任意の JEV レシート分類を備えた福利厚生申請 CLI / MCP クライアント。"
-      },
-      "decision": {
-        "en": "Selects the benefit and receipt category, falling back when confidence is low.",
-        "zh": "选择福利与收据类别，置信度不足时回退。",
-        "ja": "福利厚生とレシートのカテゴリを選び、信頼度が低い場合はフォールバックします。"
-      },
-      "verification": "source-reviewed",
-      "runtimeVerified": false
-    },
-    {
       "id": "neo4jev",
       "name": "Neo4JEV",
       "owner": "jexp",
@@ -4689,6 +5109,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "formanator-jev",
+      "name": "Formanator",
+      "owner": "timrogers",
+      "category": "domain-tools",
+      "repoUrl": "https://github.com/timrogers/formanator",
+      "evidenceUrl": "https://github.com/timrogers/formanator/blob/548740edef37a4169eef163e4988e64f43a560ec/src/typesafe.rs",
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/timrogers/formanator/blob/548740edef37a4169eef163e4988e64f43a560ec/src/typesafe.rs"
+      },
+      "language": "Rust",
+      "license": "MIT",
+      "starsAtCapture": 99,
+      "summary": {
+        "en": "A CLI and MCP client for benefit claims with optional JEV receipt classification.",
+        "zh": "支持可选 JEV 收据分类的福利报销 CLI 与 MCP 客户端。",
+        "ja": "任意の JEV レシート分類を備えた福利厚生申請 CLI / MCP クライアント。"
+      },
+      "decision": {
+        "en": "Selects the benefit and receipt category, falling back when confidence is low.",
+        "zh": "选择福利与收据类别，置信度不足时回退。",
+        "ja": "福利厚生とレシートのカテゴリを選び、信頼度が低い場合はフォールバックします。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "fastbrowse-jev",
       "name": "fastbrowse · Jev",
       "owner": "agent-labs-dev",
@@ -4712,6 +5160,62 @@
         "type": "github",
         "label": "GitHub source",
         "url": "https://github.com/agent-labs-dev/fastbrowse/blob/a088eb8b6d83a9643531acd8f5c0c1b0b276953e/src/fastbrowse/jev.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "ghalebdweikat-winnow",
+      "name": "winnow",
+      "owner": "GhalebDweikat",
+      "category": "developer-tools",
+      "repoUrl": "https://github.com/GhalebDweikat/winnow",
+      "evidenceUrl": "https://github.com/GhalebDweikat/winnow/blob/51d80b945c74c8384bc47fa817179f668289afd8/sidecar/src/winnow/judge.py",
+      "language": "Python",
+      "license": "MIT",
+      "starsAtCapture": 95,
+      "summary": {
+        "en": "A recoverable context filter for Claude Code tool outputs.",
+        "zh": "可恢复的 Claude Code 工具输出上下文过滤器。",
+        "ja": "Claude Code のツール出力を復元可能な形で絞るツール。"
+      },
+      "decision": {
+        "en": "Judges whether each output block is needed for the current task before passing it on.",
+        "zh": "判断每段输出对当前任务是否必要，再决定是否传递。",
+        "ja": "各出力ブロックが現在の作業に必要か判定してから渡します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/GhalebDweikat/winnow/blob/51d80b945c74c8384bc47fa817179f668289afd8/sidecar/src/winnow/judge.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "mmastrac-djev",
+      "name": "djev",
+      "owner": "mmastrac",
+      "category": "open-models",
+      "repoUrl": "https://github.com/mmastrac/djev",
+      "evidenceUrl": "https://github.com/mmastrac/djev/blob/e5841cf41e9211608e698492658685c36e24e77a/structured_server.py",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "starsAtCapture": 94,
+      "summary": {
+        "en": "A DiffusionGemma server exposing a Jev-style structured decision endpoint.",
+        "zh": "提供 Jev 风格结构化决策接口的 DiffusionGemma 服务。",
+        "ja": "Jev 形式の構造化判断 API を備えた DiffusionGemma サーバー。"
+      },
+      "decision": {
+        "en": "Maps typed questions to bounded answers through a local model server.",
+        "zh": "通过本地模型服务把类型化问题映射为有限答案。",
+        "ja": "ローカルのモデルサーバーで型付き質問を限定した回答へ変換します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/mmastrac/djev/blob/e5841cf41e9211608e698492658685c36e24e77a/structured_server.py"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -4768,6 +5272,34 @@
         "en": "Selects tools, arguments, and reply fragments from bounded pools.",
         "zh": "从有限候选池中选择工具、参数与回复片段。",
         "ja": "限定プールからツール、引数、返答断片を選びます。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "kyle-pena-nlp-jevchat",
+      "name": "jevchat",
+      "owner": "kyle-pena-nlp",
+      "category": "developer-tools",
+      "repoUrl": "https://github.com/kyle-pena-nlp/jevchat",
+      "evidenceUrl": "https://github.com/kyle-pena-nlp/jevchat/blob/d58abd51aef62a7df26c5614188d18df3f4ae1aa/jevchat/client.py",
+      "language": "Python",
+      "license": "Not declared",
+      "starsAtCapture": 91,
+      "summary": {
+        "en": "An experiment that assembles chat text from repeated typed Jev choices.",
+        "zh": "通过反复调用 Jev 类型化选择来拼接聊天文本的实验。",
+        "ja": "Jev の型付き選択を繰り返して文章を組み立てる実験。"
+      },
+      "decision": {
+        "en": "Chooses the next character or stop option from a fixed alphabet.",
+        "zh": "从固定字符集合中选择下一个字符或停止。",
+        "ja": "固定の文字集合から次の文字か停止を選びます。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/kyle-pena-nlp/jevchat/blob/d58abd51aef62a7df26c5614188d18df3f4ae1aa/jevchat/client.py"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -4857,29 +5389,85 @@
       "runtimeVerified": false
     },
     {
-      "id": "jevbench",
-      "name": "JevBench",
-      "owner": "fstandhartinger",
-      "category": "developer-tools",
-      "repoUrl": "https://github.com/fstandhartinger/jevbench",
-      "evidenceUrl": "https://github.com/fstandhartinger/jevbench/blob/75e6224ed8103bbc3485ca74820a2eaf7ce8abe0/jevbench/adapters/typesafe.py",
-      "language": "Python",
-      "license": "MIT",
-      "starsAtCapture": 83,
+      "id": "ellipsis-dev-blink",
+      "name": "Blink",
+      "owner": "ellipsis-dev",
+      "category": "search-data",
+      "repoUrl": "https://github.com/ellipsis-dev/blink",
+      "evidenceUrl": "https://github.com/ellipsis-dev/blink/blob/a621ede75649303a933828c18c27ad800bb43ef0/src/search.ts",
+      "language": "TypeScript",
+      "license": "Not declared",
+      "starsAtCapture": 87,
       "summary": {
-        "en": "A reproducible benchmark comparing JEV with open decision models, classifiers, and rerankers.",
-        "zh": "用于比较 JEV、开放决策模型、分类器与重排模型的可复现基准。",
-        "ja": "JEV、オープン判断モデル、分類器、リランカーを比較する再現可能なベンチマークです。"
+        "en": "A codebase finder that sends Jev-guided walkers through file and folder names.",
+        "zh": "让 Jev 引导搜索路径在文件和目录名之间移动的代码查找工具。",
+        "ja": "Jev に導かれた探索者がファイル名とフォルダ名をたどるコード検索ツール。"
       },
       "decision": {
-        "en": "Uses a dedicated TypeSafe adapter to run the same bounded tasks and preserve model, latency, token, and cost evidence.",
-        "zh": "通过专用 TypeSafe Adapter 执行相同有限任务，并保留模型、延迟、Token 与成本证据。",
-        "ja": "専用 TypeSafe アダプターで同じ有限タスクを実行し、モデル、遅延、トークン、費用の記録を残します。"
+        "en": "Scores likely paths and allocates walkers toward relevant files.",
+        "zh": "为候选路径评分，并把搜索进程分配到相关文件。",
+        "ja": "候補パスを採点し、関連ファイルへ探索を配分します。"
       },
       "source": {
         "type": "github",
         "label": "GitHub source",
-        "url": "https://github.com/fstandhartinger/jevbench/blob/75e6224ed8103bbc3485ca74820a2eaf7ce8abe0/jevbench/adapters/typesafe.py"
+        "url": "https://github.com/ellipsis-dev/blink/blob/a621ede75649303a933828c18c27ad800bb43ef0/src/search.ts"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "akashpriyadarshii-jev-curate",
+      "name": "jev-curate",
+      "owner": "AkashPriyadarshii",
+      "category": "search-data",
+      "repoUrl": "https://github.com/AkashPriyadarshii/jev-curate",
+      "evidenceUrl": "https://github.com/AkashPriyadarshii/jev-curate/blob/55716e1ab42af690e68d58e7cd3309e798abe804/src/client.rs",
+      "language": "Rust",
+      "license": "MIT",
+      "starsAtCapture": 87,
+      "summary": {
+        "en": "A Rust pipeline that uses Jev to screen candidate dataset rows.",
+        "zh": "使用 Jev 筛选候选数据集记录的 Rust 管道。",
+        "ja": "Jev でデータセットの候補行を選別する Rust 製パイプライン。"
+      },
+      "decision": {
+        "en": "Judges record quality against configured criteria before retaining it.",
+        "zh": "按配置的标准判断记录质量，再决定是否保留。",
+        "ja": "設定された基準で品質を判定してから保持を決めます。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/AkashPriyadarshii/jev-curate/blob/55716e1ab42af690e68d58e7cd3309e798abe804/src/client.rs"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "nassim-arifette-jevgrep",
+      "name": "jevgrep",
+      "owner": "nassim-arifette",
+      "category": "search-data",
+      "repoUrl": "https://github.com/nassim-arifette/jevgrep",
+      "evidenceUrl": "https://github.com/nassim-arifette/jevgrep/blob/a4e764ac09a62e696307b61d42eaaf0e13ece9b9/src/evaluation/jev.ts",
+      "language": "TypeScript",
+      "license": "MIT",
+      "starsAtCapture": 84,
+      "summary": {
+        "en": "A semantic code-search tool that scores repository fragments with Jev.",
+        "zh": "用 Jev 给仓库代码片段评分的语义搜索工具。",
+        "ja": "Jev でリポジトリ内のコード断片を採点する意味検索ツール。"
+      },
+      "decision": {
+        "en": "Judges which eligible code excerpts match a developer's question.",
+        "zh": "判断哪些候选代码片段符合开发者的问题。",
+        "ja": "候補のコード断片が開発者の質問に合うか判定します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/nassim-arifette/jevgrep/blob/a4e764ac09a62e696307b61d42eaaf0e13ece9b9/src/evaluation/jev.ts"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -4908,6 +5496,34 @@
         "type": "github",
         "label": "GitHub source",
         "url": "https://github.com/can1357/jegrep/blob/a280f14f6da8163bde67e0c49f58b23517a02882/src/jev.rs"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "jevbench",
+      "name": "JevBench",
+      "owner": "fstandhartinger",
+      "category": "developer-tools",
+      "repoUrl": "https://github.com/fstandhartinger/jevbench",
+      "evidenceUrl": "https://github.com/fstandhartinger/jevbench/blob/75e6224ed8103bbc3485ca74820a2eaf7ce8abe0/jevbench/adapters/typesafe.py",
+      "language": "Python",
+      "license": "MIT",
+      "starsAtCapture": 83,
+      "summary": {
+        "en": "A reproducible benchmark comparing JEV with open decision models, classifiers, and rerankers.",
+        "zh": "用于比较 JEV、开放决策模型、分类器与重排模型的可复现基准。",
+        "ja": "JEV、オープン判断モデル、分類器、リランカーを比較する再現可能なベンチマークです。"
+      },
+      "decision": {
+        "en": "Uses a dedicated TypeSafe adapter to run the same bounded tasks and preserve model, latency, token, and cost evidence.",
+        "zh": "通过专用 TypeSafe Adapter 执行相同有限任务，并保留模型、延迟、Token 与成本证据。",
+        "ja": "専用 TypeSafe アダプターで同じ有限タスクを実行し、モデル、遅延、トークン、費用の記録を残します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/fstandhartinger/jevbench/blob/75e6224ed8103bbc3485ca74820a2eaf7ce8abe0/jevbench/adapters/typesafe.py"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -4964,6 +5580,34 @@
         "en": "Scores transcript sentences with preset questions and scales for meters placed on the video timeline.",
         "zh": "逐句读取转录文本，按预设问题和尺度返回分数，供时间轴上的仪表使用。",
         "ja": "事前に設定された質問を含むトランスクリプト文をスコア化し、ビデオ タイムライン上に配置されたメーターをスケールします。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "akashpriyadarshii-jev-seo",
+      "name": "jev-seo · Rust",
+      "owner": "AkashPriyadarshii",
+      "category": "domain-tools",
+      "repoUrl": "https://github.com/AkashPriyadarshii/jev-seo",
+      "evidenceUrl": "https://github.com/AkashPriyadarshii/jev-seo/blob/1efd829aa445acddc281032c0128f9a7b3dd0f1c/src/engine.rs",
+      "language": "Rust",
+      "license": "MIT",
+      "starsAtCapture": 80,
+      "summary": {
+        "en": "A Rust SEO and GEO CLI with optional Jev judgments alongside deterministic checks.",
+        "zh": "结合确定性检查和 Jev 判断的 Rust SEO、GEO 命令行工具。",
+        "ja": "確定的な検査と Jev の判断を組み合わせた Rust 製 SEO・GEO CLI。"
+      },
+      "decision": {
+        "en": "Judges page-level semantic findings after the crawler collects evidence.",
+        "zh": "爬虫收集证据后，判断页面层面的语义问题。",
+        "ja": "クロールした根拠からページ単位の意味的な問題を判定します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/AkashPriyadarshii/jev-seo/blob/1efd829aa445acddc281032c0128f9a7b3dd0f1c/src/engine.rs"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -5109,6 +5753,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "1panel-dev-laya-server",
+      "name": "Laya Server",
+      "owner": "1Panel-dev",
+      "category": "open-models",
+      "repoUrl": "https://github.com/1Panel-dev/laya-server",
+      "evidenceUrl": "https://github.com/1Panel-dev/laya-server/blob/4914ee362ffb990dcd7cac7a8359ced4b29c4626/backend/server/laya_adapter.py",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "starsAtCapture": 76,
+      "summary": {
+        "en": "A self-hosted API and web interface for Laya typed decisions.",
+        "zh": "为 Laya 类型化决策提供自托管 API 和网页界面的服务。",
+        "ja": "Laya の型付き判断を提供するセルフホスト API と Web UI。"
+      },
+      "decision": {
+        "en": "Maps Jev-compatible request shapes to local Laya predictions.",
+        "zh": "把 Jev 兼容请求格式映射到本地 Laya 预测。",
+        "ja": "Jev 互換の要求形式をローカルの Laya 推論へ変換します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/1Panel-dev/laya-server/blob/4914ee362ffb990dcd7cac7a8359ced4b29c4626/backend/server/laya_adapter.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "jev-lint",
       "name": "JEV Lint",
       "owner": "mizchi",
@@ -5132,6 +5804,34 @@
         "type": "github",
         "label": "GitHub source",
         "url": "https://github.com/mizchi/jev-lint/blob/c9846c8c9ee13a917f3af26294a4fdf1421d21b1/src/jev.ts"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "yikangy873-gif-jev-desktop",
+      "name": "Jev Desktop",
+      "owner": "yikangy873-gif",
+      "category": "browser-computer-use",
+      "repoUrl": "https://github.com/yikangy873-gif/jev-desktop",
+      "evidenceUrl": "https://github.com/yikangy873-gif/jev-desktop/blob/9b02783ed96a81f2529827492de708ca1956c265/plugins/jev-desktop/scripts/client.mjs",
+      "language": "JavaScript",
+      "license": "MIT",
+      "starsAtCapture": 72,
+      "summary": {
+        "en": "A Codex Computer Use plugin for bounded browser and macOS actions.",
+        "zh": "在 Codex Computer Use 中执行有限浏览器与 macOS 动作的插件。",
+        "ja": "Codex Computer Use でブラウザと macOS の操作を限定するプラグイン。"
+      },
+      "decision": {
+        "en": "Selects one compatible action and target from the current accessibility state.",
+        "zh": "根据当前无障碍状态选择兼容的动作和目标。",
+        "ja": "現在のアクセシビリティ情報から操作と対象を選びます。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/yikangy873-gif/jev-desktop/blob/9b02783ed96a81f2529827492de708ca1956c265/plugins/jev-desktop/scripts/client.mjs"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -5221,6 +5921,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "sharziki-semdecide",
+      "name": "SemDecide",
+      "owner": "sharziki",
+      "category": "developer-tools",
+      "repoUrl": "https://github.com/sharziki/semdecide",
+      "evidenceUrl": "https://github.com/sharziki/semdecide/blob/33cf5c03c50e02e59df3f3ea81f0650f6b791545/src/reflex_guard/providers/typesafe.py",
+      "language": "Python",
+      "license": "MIT",
+      "starsAtCapture": 68,
+      "summary": {
+        "en": "A Unix CLI for typed Jev judgments in text and JSONL pipelines.",
+        "zh": "在文本与 JSONL 管道中执行 Jev 类型化判断的 Unix 命令行工具。",
+        "ja": "テキストや JSONL のパイプラインで Jev の型付き判断を使う Unix CLI。"
+      },
+      "decision": {
+        "en": "Returns a predicate, route, or score that shell policy can consume.",
+        "zh": "输出供 Shell 策略使用的谓词、路由或分数。",
+        "ja": "シェルの処理に使える条件判定・振り分け・スコアを返します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/sharziki/semdecide/blob/33cf5c03c50e02e59df3f3ea81f0650f6b791545/src/reflex_guard/providers/typesafe.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "save-token-jev-clean",
       "name": "Save Token JEV Clean",
       "owner": "IAmUnbounded",
@@ -5244,6 +5972,34 @@
         "en": "Scores conversation items for retention while preserving kept content verbatim.",
         "zh": "为对话条目保留价值评分，并原样保留入选内容。",
         "ja": "会話項目の保持価値を評価し、残す内容は原文のまま保ちます。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "iamaamir-system-one",
+      "name": "system-one",
+      "owner": "iamaamir",
+      "category": "sdk-integrations",
+      "repoUrl": "https://github.com/iamaamir/system-one",
+      "evidenceUrl": "https://github.com/iamaamir/system-one/blob/921d86dc45a22e4939888532344f8e25e466262a/system-one-core/src/providers/http.ts",
+      "language": "TypeScript",
+      "license": "Not declared",
+      "starsAtCapture": 62,
+      "summary": {
+        "en": "A provider-neutral TypeScript runtime for typed decisions, including Jev-compatible HTTP endpoints.",
+        "zh": "支持 Jev 兼容 HTTP 接口的 TypeScript 类型化决策运行时。",
+        "ja": "Jev 互換の HTTP 接続先も扱う、型付き判断用の TypeScript ランタイム。"
+      },
+      "decision": {
+        "en": "Builds bounded questions and normalizes provider responses for application code.",
+        "zh": "构造有限问题，并为应用代码归一化服务端响应。",
+        "ja": "限定した質問を組み立て、応答をアプリ向けに正規化します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/iamaamir/system-one/blob/921d86dc45a22e4939888532344f8e25e466262a/system-one-core/src/providers/http.ts"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -5277,6 +6033,118 @@
       "runtimeVerified": false
     },
     {
+      "id": "renagao-jev-dataops",
+      "name": "JEV DataOps",
+      "owner": "RenaGao",
+      "category": "search-data",
+      "repoUrl": "https://github.com/RenaGao/jev-dataops",
+      "evidenceUrl": "https://github.com/RenaGao/jev-dataops/blob/6b7b86a17beb3f8ddbdae2e1813b9a1730362551/jev_dataops/jev.py",
+      "language": "Python",
+      "license": "MIT",
+      "starsAtCapture": 60,
+      "summary": {
+        "en": "A data-curation workbench with an optional Jev screening provider.",
+        "zh": "带有可选 Jev 筛选器的数据整理工作台。",
+        "ja": "Jev による選別を任意で使えるデータ整理ワークベンチ。"
+      },
+      "decision": {
+        "en": "Scores candidate training records before local filtering and review.",
+        "zh": "对候选训练记录评分，再交由本地规则筛选和复核。",
+        "ja": "学習データ候補を採点し、ローカルの選別・確認へ渡します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/RenaGao/jev-dataops/blob/6b7b86a17beb3f8ddbdae2e1813b9a1730362551/jev_dataops/jev.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "achimala-jev-paint",
+      "name": "Jev Paint",
+      "owner": "achimala",
+      "category": "interfaces",
+      "repoUrl": "https://github.com/achimala/jev-paint",
+      "evidenceUrl": "https://github.com/achimala/jev-paint/blob/ecf9c48d290e086bde790d6e24b93324667155e9/web/jev.mjs",
+      "language": "JavaScript",
+      "license": "MIT",
+      "starsAtCapture": 60,
+      "summary": {
+        "en": "An experimental painting app that turns Jev probability distributions into pixels.",
+        "zh": "把 Jev 概率分布转为像素的实验性绘画应用。",
+        "ja": "Jev の確率分布を画素に変える実験的な描画アプリ。"
+      },
+      "decision": {
+        "en": "Scores a fixed color palette for each canvas position before rendering.",
+        "zh": "在渲染前为画布各位置的固定颜色选项评分。",
+        "ja": "描画前にキャンバス各位置の固定色候補を採点します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/achimala/jev-paint/blob/ecf9c48d290e086bde790d6e24b93324667155e9/web/jev.mjs"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "burnigtm-jev-mcp",
+      "name": "jev-mcp · Coding Loop",
+      "owner": "burnigtm",
+      "category": "developer-tools",
+      "repoUrl": "https://github.com/burnigtm/jev-mcp",
+      "evidenceUrl": "https://github.com/burnigtm/jev-mcp/blob/9448f6120015f2f6c6dad7137c7f234545209918/src/typesafe.ts",
+      "language": "TypeScript",
+      "license": "MIT",
+      "starsAtCapture": 59,
+      "summary": {
+        "en": "An MCP server that exposes typed Jev decisions to coding agents.",
+        "zh": "向编码 Agent 提供类型化 Jev 判断的 MCP 服务。",
+        "ja": "コーディング Agent に型付き Jev 判断を提供する MCP サーバー。"
+      },
+      "decision": {
+        "en": "Chooses a prepared tool call or next coding step from bounded options.",
+        "zh": "从有限候选中选择预备好的工具调用或下一步编码动作。",
+        "ja": "用意された候補からツール呼び出しや次の作業を選びます。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/burnigtm/jev-mcp/blob/9448f6120015f2f6c6dad7137c7f234545209918/src/typesafe.ts"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "andududu-jeview",
+      "name": "Jeview",
+      "owner": "andududu",
+      "category": "developer-tools",
+      "repoUrl": "https://github.com/andududu/jeview",
+      "evidenceUrl": "https://github.com/andududu/jeview/blob/495a4e43e9d67e495a66ab0d9e55ac1c5c4040d6/src/jeview.ts",
+      "language": "JavaScript",
+      "license": "MIT",
+      "starsAtCapture": 59,
+      "summary": {
+        "en": "A local proxy that visualizes Jev requests and responses as they happen.",
+        "zh": "实时展示 Jev 请求与响应的本地代理。",
+        "ja": "Jev の要求と応答をリアルタイムに表示するローカルプロキシ。"
+      },
+      "decision": {
+        "en": "Shows submitted questions, returned probabilities, and call history without judging itself.",
+        "zh": "呈现提交的问题、返回概率和调用历史，本身不做判断。",
+        "ja": "質問・確率・呼び出し履歴を表示し、自らは判定しません。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/andududu/jeview/blob/495a4e43e9d67e495a66ab0d9e55ac1c5c4040d6/src/jeview.ts"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "jevmlx",
       "name": "jevmlx",
       "owner": "bnsd55",
@@ -5305,6 +6173,34 @@
       "runtimeVerified": false
     },
     {
+      "id": "eliaalberti-jev-rules",
+      "name": "jev-rules",
+      "owner": "EliaAlberti",
+      "category": "developer-tools",
+      "repoUrl": "https://github.com/EliaAlberti/jev-rules",
+      "evidenceUrl": "https://github.com/EliaAlberti/jev-rules/blob/a2b0dd3cac3ad3a35b3b82c96d00790881da1dcd/plugins/jev-rules/hooks/lib/jev.mjs",
+      "language": "JavaScript",
+      "license": "MIT",
+      "starsAtCapture": 58,
+      "summary": {
+        "en": "A Claude Code plugin that selects which standing rules apply to a prompt.",
+        "zh": "为 Claude Code 选择当前适用常驻规则的插件。",
+        "ja": "Claude Code で現在の依頼に適用する常設ルールを選ぶプラグイン。"
+      },
+      "decision": {
+        "en": "Judges each rule or document against the current task before adding context.",
+        "zh": "根据当前任务判断各条规则或文档是否应进入上下文。",
+        "ja": "各ルールや文書が現在の作業に必要か判定します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/EliaAlberti/jev-rules/blob/a2b0dd3cac3ad3a35b3b82c96d00790881da1dcd/plugins/jev-rules/hooks/lib/jev.mjs"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
       "id": "oxlint-plugin-jev",
       "name": "Oxlint Plugin JEV",
       "owner": "wobsoriano",
@@ -5328,6 +6224,90 @@
         "en": "Returns yes-probabilities for configured semantic findings before reporting them.",
         "zh": "对配置的语义问题返回 yes 概率，再决定是否报告。",
         "ja": "設定した意味的検出に yes 確率を返し、報告可否を決めます。"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "rjmswd-qwenjev",
+      "name": "QwenJev",
+      "owner": "RJMSWD",
+      "category": "open-models",
+      "repoUrl": "https://github.com/RJMSWD/QwenJev",
+      "evidenceUrl": "https://github.com/RJMSWD/QwenJev/blob/b1fde638be0747a71d1acafb1f99d4a7ce67651d/qwen_choice.py",
+      "language": "Python",
+      "license": "Not declared",
+      "starsAtCapture": 57,
+      "summary": {
+        "en": "A local Qwen experiment for closed-set visual decisions.",
+        "zh": "使用本地 Qwen 做封闭选项视觉判断的实验。",
+        "ja": "ローカルの Qwen で画像の閉じた選択肢を判定する実験。"
+      },
+      "decision": {
+        "en": "Chooses one option for an image and question without calling the Jev API.",
+        "zh": "针对图像与问题选择一个选项，不调用 Jev API。",
+        "ja": "画像と質問に対して一つの候補を選び、Jev API は呼びません。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/RJMSWD/QwenJev/blob/b1fde638be0747a71d1acafb1f99d4a7ce67651d/qwen_choice.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "bilune-jev-design",
+      "name": "jev-design",
+      "owner": "bilune",
+      "category": "interfaces",
+      "repoUrl": "https://github.com/bilune/jev-design",
+      "evidenceUrl": "https://github.com/bilune/jev-design/blob/70d1fae7cf58fdc894051dcdc658eddd3ba4084d/src/design/jev/client.ts",
+      "language": "TypeScript",
+      "license": "Not declared",
+      "starsAtCapture": 55,
+      "summary": {
+        "en": "A UI experiment that uses Jev to select predefined visual-system options.",
+        "zh": "用 Jev 选择预定义视觉系统选项的界面实验。",
+        "ja": "Jev で定義済みの視覚設定を選ぶ UI 実験。"
+      },
+      "decision": {
+        "en": "Chooses bounded design settings before local code renders the interface.",
+        "zh": "先从有限设计配置中做选择，再由本地代码渲染界面。",
+        "ja": "限られたデザイン設定を選び、ローカルコードが画面を描画します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/bilune/jev-design/blob/70d1fae7cf58fdc894051dcdc658eddd3ba4084d/src/design/jev/client.ts"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "aayan-dev-aayans-yc-indexor",
+      "name": "YC Indexor",
+      "owner": "Aayan-DEV",
+      "category": "search-data",
+      "repoUrl": "https://github.com/Aayan-DEV/aayans-yc-indexor",
+      "evidenceUrl": "https://github.com/Aayan-DEV/aayans-yc-indexor/blob/b1ed779dd9c5a5a0e36f2c5ae20e3b680d98e9e5/lib/jev/judge.ts",
+      "language": "TypeScript",
+      "license": "MIT",
+      "starsAtCapture": 54,
+      "summary": {
+        "en": "A search app that re-tags YC companies with Jev before ranking results.",
+        "zh": "用 Jev 重新标注 YC 公司并排序搜索结果的应用。",
+        "ja": "Jev で YC 企業を再分類し、検索結果を並べ替えるアプリ。"
+      },
+      "decision": {
+        "en": "Judges whether each company matches the requested attributes and evidence.",
+        "zh": "判断每家公司是否符合查询条件及已有证据。",
+        "ja": "各企業が指定条件と根拠に合うか判定します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/Aayan-DEV/aayans-yc-indexor/blob/b1ed779dd9c5a5a0e36f2c5ae20e3b680d98e9e5/lib/jev/judge.ts"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
@@ -5412,6 +6392,34 @@
         "type": "github",
         "label": "GitHub source",
         "url": "https://github.com/AboveColin/HA-Jev/blob/c3d4881121e4d02eacf272d9340447235c6ecc41/custom_components/jev/coordinator.py"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
+    },
+    {
+      "id": "skeptrunedev-jev-recruiter",
+      "name": "Jev Recruiter",
+      "owner": "skeptrunedev",
+      "category": "domain-tools",
+      "repoUrl": "https://github.com/skeptrunedev/jev-recruiter",
+      "evidenceUrl": "https://github.com/skeptrunedev/jev-recruiter/blob/bed4083bf5a8351ce21089a5ebd0f90498ffdd6c/jev_ultrafast/model.py",
+      "language": "Python",
+      "license": "MIT",
+      "starsAtCapture": 50,
+      "summary": {
+        "en": "A local recruiting workspace built on bounded browser decisions.",
+        "zh": "基于有限浏览器决策的本地招聘研究工作台。",
+        "ja": "限定したブラウザ判断を使うローカルの採用調査ツール。"
+      },
+      "decision": {
+        "en": "Chooses profile-navigation and title-screening steps while retaining source evidence.",
+        "zh": "选择资料导航与职位筛查步骤，并保留来源证据。",
+        "ja": "プロフィール閲覧や職歴の確認手順を選び、根拠を残します。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/skeptrunedev/jev-recruiter/blob/bed4083bf5a8351ce21089a5ebd0f90498ffdd6c/jev_ultrafast/model.py"
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
