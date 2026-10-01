@@ -16,7 +16,7 @@
 
 <p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<p align="center">193 projects · 10 project types · Updated 2026-09-24<br><sub>50+ GitHub stars per repository · Source-reviewed</sub></p>
+<p align="center">229 projects · 10 project types · Updated 2026-09-28<br><sub>50+ GitHub stars per repository · Source-reviewed</sub></p>
 
 <a id="discovery"></a>
 
@@ -68,16 +68,16 @@ npx skills add BeatAPI/awesome-jev
 <a id="categories"></a>
 <a id="all-projects"></a>
 
-## All 193 projects
+## All 229 projects
 
 Browse the full catalogue by project type. Use the scenario guides above when you have a specific task in mind.
 
-[Browser & computer use · 18](#browser-computer-use) · [SDK integrations · 31](#sdk-integrations) · [Routing & optimization · 16](#routing-optimization) · [Open models · 23](#open-models) · [Search & data · 15](#search-data)<br>
-[Safety & review · 16](#safety-review) · [Agent workflows · 15](#agent-workflows) · [Interfaces & automation · 9](#interfaces) · [Developer tools · 35](#developer-tools) · [Domain tools · 15](#domain-tools)
+[Browser & computer use · 21](#browser-computer-use) · [SDK integrations · 32](#sdk-integrations) · [Routing & optimization · 16](#routing-optimization) · [Open models · 31](#open-models) · [Search & data · 20](#search-data)<br>
+[Safety & review · 16](#safety-review) · [Agent workflows · 17](#agent-workflows) · [Interfaces & automation · 14](#interfaces) · [Developer tools · 42](#developer-tools) · [Domain tools · 20](#domain-tools)
 
 <a id="browser-computer-use"></a>
 
-### Browser & computer use (18)
+### Browser & computer use (21)
 
 - **[Cua · JEV Use](https://github.com/trycua/cua)** · 26.0K stars — A computer-use example pairing Cua Driver observation and execution with bounded JEV choices. [Source](https://github.com/trycua/cua/blob/83f142c4290a0f7d9ed545ae8532858c6e4f8145/libs/cua-driver/examples/jev-use/python/jev_adapter.py#L11)
 - **[Jev Ultrafast](https://github.com/browser-use/jev-ultrafast)** · 18.2K stars — A browser agent that uses JEV to choose an action and matching DOM element, calling a text model only when input text is needed. [Source](https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py)
@@ -90,11 +90,14 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 - **[Third Hand](https://github.com/shhivv/third-hand)** · 288 stars — A Swift client stack that calls JEV while driving local computer-use style helpers. [Source](https://github.com/shhivv/third-hand/blob/430394b35dbb44ff8b303bf19da29b0828d92bd2/Sources/ThirdHand/JevClient.swift)
 - **[JEV Voice Browser](https://github.com/moritzkremb/jev-voice-browser)** · 247 stars — Controls a Playwright browser by sending incremental speech transcripts to Jev. [Source](https://github.com/moritzkremb/jev-voice-browser/blob/054db0f3dbf537af63a8117632d3f941ccd520e1/src/jev.js#L123)
 - **[JEV Browser](https://github.com/jkudish/jev-browser)** · 240 stars — Drives a browser from a task and URL, returning the final page, screenshot and action trace. [Source](https://github.com/jkudish/jev-browser/blob/8d90c51bedbe7cd07596bfaa532ded019a31d2a8/src/navigate.ts#L1)
+- **[Laya Ultrafast](https://github.com/ipenywis/laya-ultrafast)** · 217 stars — A local open-weight port of Jev Ultrafast for Apple Silicon browsers. [Source](https://github.com/ipenywis/laya-ultrafast/blob/571431b7d142d54f49ad962d9d083d9b7bb20040/laya_ultrafast/laya.py)
 - **[Arc CUA · TypeSafe Policy](https://github.com/shhivv/arc-cua)** · 128 stars — A fast computer-use action layer with a TypeSafe policy implementation. [Source](https://github.com/shhivv/arc-cua/blob/6d47ce6c906d7d8586d3553e277c1c3611c4f6af/src/arc_cua/policies/typesafe.py)
+- **[CodexQA Jev Browser](https://github.com/openqa-cn/jev-browser)** · 103 stars — A browser skill that indexes page controls for bounded Jev navigation. [Source](https://github.com/openqa-cn/jev-browser/blob/d839d10687d7e84824691efde944c1735228b385/src/jev.ts)
 - **[fastbrowse · Jev](https://github.com/agent-labs-dev/fastbrowse)** · 97 stars — A browser agent that indexes page controls and lets Jev pick the next action while an LLM plans and reads. [Source](https://github.com/agent-labs-dev/fastbrowse/blob/a088eb8b6d83a9643531acd8f5c0c1b0b276953e/src/fastbrowse/jev.py)
 - **[JEV Use](https://github.com/savka777/jev-use)** · 92 stars — A macOS computer-use harness that drives Accessibility controls without a vision model. [Source](https://github.com/savka777/jev-use/blob/8907f85354addfa3d2b78f6a462087e4c73310b8/README.md)
 - **[WindTunnel · JEV Benchmarks](https://github.com/nekuda-ai/WindTunnel)** · 79 stars — A browser-agent benchmark harness with frozen JEV experiments across accessibility and WebMCP interfaces. [Source](https://github.com/nekuda-ai/WindTunnel/blob/5ca8644e23826ebb30108e7bad240b61043bfe67/experiments/jev/run.mjs)
 - **[JEV Browser](https://github.com/Ying-Kai-Liao/jev-browser)** · 76 stars — A browser automation library, CLI, and MCP server pairing LLM plans with JEV actions. [Source](https://github.com/Ying-Kai-Liao/jev-browser/blob/578cff6e701a131733d03256078bb559a45ad188/src/jev.mjs)
+- **[Jev Desktop](https://github.com/yikangy873-gif/jev-desktop)** · 72 stars — A Codex Computer Use plugin for bounded browser and macOS actions. [Source](https://github.com/yikangy873-gif/jev-desktop/blob/9b02783ed96a81f2529827492de708ca1956c265/plugins/jev-desktop/scripts/client.mjs)
 - **[TypeSafe Adblock](https://github.com/realZachi/typesafe-adblock)** · 71 stars — An experimental Chrome extension that asks Jev whether candidate DOM elements are ads, then highlights or removes them. [Source](https://github.com/realZachi/typesafe-adblock/blob/7e067d243d87b7fe4d511653c0ddcd77b9beee18/src/typesafe.js)
 - **[Jev Social](https://github.com/socai-io/jev-social)** · 50 stars — A local social-research app where Jev chooses bounded Instagram, TikTok, and LinkedIn operations and socai executes them in the user's Chrome. [Source](https://github.com/socai-io/jev-social/blob/51830b34906673e796754b70f8e878d166822a9b/src/actions.js)
 
@@ -102,7 +105,7 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 
 <a id="sdk-integrations"></a>
 
-### SDK integrations (31)
+### SDK integrations (32)
 
 - **[LangChain · TypeSafe](https://github.com/langchain-ai/langchain)** · 146.9K stars — An optional JEV classifier integration for Python LangChain workflows. [Source](https://github.com/langchain-ai/langchain/blob/eba445b7563d1709427bd8072892975a6ea59fdc/libs/partners/typesafe/langchain_typesafe/classifier.py)
 - **[Composio · TypeSafe Provider](https://github.com/ComposioHQ/composio)** · 30.3K stars — A TypeSafe provider that uses JEV to choose among tools and bounded argument options. [Source](https://github.com/ComposioHQ/composio/blob/4b5920bf7aa55c8a44657b060d4bd25ce7b13a9a/ts/packages/providers/typesafe/src/decide.ts)
@@ -135,6 +138,7 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 - **[AI](https://github.com/hackclub/ai)** · 133 stars — A Jev forwarding endpoint in the Hack Club AI proxy, using its authentication, limits and usage logging. [Source](https://github.com/hackclub/ai/blob/a76ea2cb159f707a60107935a5b2e0dbdc7455f5/README.md)
 - **[Effect Agent](https://github.com/danieljvdm/effect-agent)** · 121 stars — An Effect Agent TypeSafe decision provider for typed question sets and optional model selection. [Source](https://github.com/danieljvdm/effect-agent/blob/88005e497e9b627eeb16d670f278903c57601da9/README.md)
 - **[Advocaat](https://github.com/pithings/advocaat)** · 90 stars — A small TypeScript client for asking Jev multiple typed questions about the same data. [Source](https://github.com/pithings/advocaat/blob/bc46287fc1102b95852a81d679c6e34a2c44f4a2/README.md)
+- **[system-one](https://github.com/iamaamir/system-one)** · 62 stars — A provider-neutral TypeScript runtime for typed decisions, including Jev-compatible HTTP endpoints. [Source](https://github.com/iamaamir/system-one/blob/921d86dc45a22e4939888532344f8e25e466262a/system-one-core/src/providers/http.ts)
 
 [↑ Back to discovery](#discovery)
 
@@ -163,14 +167,16 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 
 <a id="open-models"></a>
 
-### Open models (23)
+### Open models (31)
 
 - **[Laya](https://github.com/NandhaKishorM/laya)** · 17.1K stars — Multilingual non-autoregressive System 1 decision engine: typed choice/score/noul in one forward pass, with a router across checkpoints. [Source](https://github.com/NandhaKishorM/laya/blob/d113dca2512fb3eaca313534bc54c7162d87c1d4/README.md)
 - **[Kev 0.5B](https://github.com/jaredpalmer/kev)** · 4.5K stars — A tiny trainable Jev-like decision model based on Qwen2.5-0.5B. [Source](https://github.com/jaredpalmer/kev/blob/20fa6268c8ceb226530be2fb5266ab2c36b37724/README.md)
 - **[SemIf](https://github.com/TheoLeeCJ/SemIf)** · 3.9K stars — An independent open-model implementation of the semantic-if interface pattern. [Source](https://github.com/TheoLeeCJ/SemIf/blob/ca3ba65f142967030ecb453346e94d6f476a69df/README.md)
 - **[NanoJev](https://github.com/TianyuCodings/NanoJev)** · 2.0K stars — A 0.6B open replica of the JEV interface with parallel decisions and a training pipeline. [Source](https://github.com/TianyuCodings/NanoJev/blob/71a513bb0163b5634467842b523ee0c0ed6fb1c7/README.md)
 - **[Nimble](https://github.com/bespokelabsai/nimble)** · 1.6K stars — An open toolkit for local typed decisions, data curation, and evaluation. [Source](https://github.com/bespokelabsai/nimble/blob/35fe1f4fdbc64fa3dbbf5ac0042f3f5680c1ad28/README.md)
+- **[Laya CoreML](https://github.com/mizorewww/laya-coreml)** · 1.5K stars — A local Laya typed-decision runtime for Apple Silicon and Core ML. [Source](https://github.com/mizorewww/laya-coreml/blob/4619e0483f07adf39068532e85b42ec2347edb83/laya_coreml/result.py)
 - **[Jevlike](https://github.com/vinnylarouge/jevlike)** · 1.2K stars — An independent starter model that scores a changing list of text or visual options in one pass. [Source](https://github.com/vinnylarouge/jevlike/blob/94f5fd1b0b11d52bbdfdf4e0ee6aa96b568f8452/README.md)
+- **[AnyJev](https://github.com/nokia-applied-research/AnyJev)** · 833 stars — An open framework that adapts language models to typed decision endpoints. [Source](https://github.com/nokia-applied-research/AnyJev/blob/45add301a7aa60ed3420c83d15c061e84e5bce61/anyjev/decider.py)
 - **[LocalJev](https://github.com/githubnext/localjev)** · 731 stars — A local Jev-compatible server with benchmarks across small local models. [Source](https://github.com/githubnext/localjev/blob/3f23e36e1a3bff46c7e83e8e3781d3512bc82021/README.md)
 - **[Splash](https://github.com/incoai/splash)** · 638 stars — A local Apple Silicon inference engine oriented around decision-style models. [Source](https://github.com/incoai/splash/blob/f53d5ab543a7accdc332c060fd594a693f33f529/README.md)
 - **[Von](https://github.com/wfzyx/von)** · 498 stars — An open, local System One decision model with a JEV-compatible interface. [Source](https://github.com/wfzyx/von/blob/14d09878e89b103bfbbe641f9bed02e4d72c8830/README.md)
@@ -184,16 +190,22 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 - **[djev-spark](https://github.com/mmastrac/djev-spark)** · 176 stars — A DGX Spark container recipe for running DiffusionGemma NVFP4 structured decisions. [Source](https://github.com/mmastrac/djev-spark/blob/1444f3e927f83ba508e5b28a4fd4fdd9ecd0976b/README.md)
 - **[LLM2Jev](https://github.com/Yinsongxu/LLM2Jev)** · 142 stars — An adapter that turns local language models into JEV-compatible structured decision engines. [Source](https://github.com/Yinsongxu/LLM2Jev/blob/6fbbf74fc604f92fc9b0b67f0989157bb2908229/src/llm2jev/inference/binary.py)
 - **[Reflex](https://github.com/kshetrajna12/reflex)** · 122 stars — A small open decision model that recreates the JEV/System One interface on Qwen. [Source](https://github.com/kshetrajna12/reflex/blob/e21b3b23afdfeee7021a6604fa38f57e7ff5187f/README.md)
+- **[JevK5](https://github.com/allebee/jevk5)** · 119 stars — An independent open-weight model for choice, score, and yes/no decisions. [Source](https://github.com/allebee/jevk5/blob/1e5ae1b533b9eb80c0cbe3fbd010607d0b4e26ae/jevk5/runtime.py)
+- **[Verdict OpenJev](https://github.com/Heman10x-NGU/Verdict-open-jev)** · 107 stars — An independent ModernBERT-based typed-decision model with calibration experiments. [Source](https://github.com/Heman10x-NGU/Verdict-open-jev/blob/30f15564821626ca5c1ad5b2638c4eb7078787dd/core/engine_encoder.py)
 - **[Open JEV](https://github.com/daseinlabs/open-jev)** · 103 stars — An open JEV-style implementation with custom fine-tuning support. [Source](https://github.com/daseinlabs/open-jev/blob/8a4fbdf712e78c5ef45509a16aacb81facdd79be/README.md)
+- **[Laya vs Jev](https://github.com/virajbhartiya/laya-vs-jev)** · 102 stars — A side-by-side game harness comparing local Laya with hosted Jev. [Source](https://github.com/virajbhartiya/laya-vs-jev/blob/28541781c863fcdf20348e5bb3a2073d672fffe6/laya_mlx/trex/backends.py)
 - **[OpenJev](https://github.com/SiliconLabAI/OpenJev)** · 101 stars — An open-source JEV-compatible implementation for typed decision requests. [Source](https://github.com/SiliconLabAI/OpenJev/blob/a08e969c37b2e4a37f95b3426f983bd94303590c/README.md)
+- **[djev](https://github.com/mmastrac/djev)** · 94 stars — A DiffusionGemma server exposing a Jev-style structured decision endpoint. [Source](https://github.com/mmastrac/djev/blob/e5841cf41e9211608e698492658685c36e24e77a/structured_server.py)
+- **[Laya Server](https://github.com/1Panel-dev/laya-server)** · 76 stars — A self-hosted API and web interface for Laya typed decisions. [Source](https://github.com/1Panel-dev/laya-server/blob/4914ee362ffb990dcd7cac7a8359ced4b29c4626/backend/server/laya_adapter.py)
 - **[jevmlx](https://github.com/bnsd55/jevmlx)** · 59 stars — A local Apple Silicon decision layer that scores constrained fields from MLX logits and speaks System One HTTP. [Source](https://github.com/bnsd55/jevmlx/blob/9d3621516826a5de4480c9fdab0aa6d59e93e113/jevmlx/serve.py)
+- **[QwenJev](https://github.com/RJMSWD/QwenJev)** · 57 stars — A local Qwen experiment for closed-set visual decisions. [Source](https://github.com/RJMSWD/QwenJev/blob/b1fde638be0747a71d1acafb1f99d4a7ce67651d/qwen_choice.py)
 - **[Open Alternative to Jev](https://github.com/ikermoel/open-alternative-jev)** · 51 stars — An open System One-style decider that packs typed questions into one forward pass over local open models. [Source](https://github.com/ikermoel/open-alternative-jev/blob/4a85df1831b537343c9e133b5150fa3a3b1ce98e/so1/decider.py)
 
 [↑ Back to discovery](#discovery)
 
 <a id="search-data"></a>
 
-### Search & data (15)
+### Search & data (20)
 
 - **[OpenViking · JEV Rerank](https://github.com/volcengine/OpenViking)** · 38.5K stars — OpenViking can use JEV as a calibrated reranker for agent memory and context retrieval. [Source](https://github.com/volcengine/OpenViking/blob/b8bed5a1ad3a1c524b5e1fd0fa591df51ca9b7cc/openviking/models/rerank/jev_rerank.py)
 - **[Hindsight · TypeSafe Rerank](https://github.com/vectorize-io/hindsight)** · 25.3K stars — An agent-memory system with a TypeSafe reranker that can prune irrelevant recall candidates. [Source](https://github.com/vectorize-io/hindsight/blob/680406b3dd9cca2108c7f0e204820a09b4e30906/hindsight-api-slim/hindsight_api/engine/cross_encoder.py)
@@ -208,8 +220,13 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 - **[SiftRank · JEV](https://github.com/noperator/siftrank)** · 209 stars — A command-line ranking tool that uses JEV to find relevant items in large collections. [Source](https://github.com/noperator/siftrank/blob/03e7afe3289a204ea3dcc51613cea91877a651de/pkg/siftrank/jev_provider.go)
 - **[jev-semgrep](https://github.com/uehaj/jev-semgrep)** · 130 stars — Meaning-based grep with multilingual AND, OR, NOT, and probability thresholds. [Source](https://github.com/uehaj/jev-semgrep/blob/ba6ef50f85d0c5d6caa4db102ee4db4a08c85dd2/README.md)
 - **[Neo4JEV](https://github.com/jexp/neo4jev)** · 100 stars — A Neo4j graph navigator that uses JEV to classify the next relationship. [Source](https://github.com/jexp/neo4jev/blob/d157bbe496eb91813475156942bef1c6badfb342/src/neo4jev/navigator.py)
+- **[Blink](https://github.com/ellipsis-dev/blink)** · 87 stars — A codebase finder that sends Jev-guided walkers through file and folder names. [Source](https://github.com/ellipsis-dev/blink/blob/a621ede75649303a933828c18c27ad800bb43ef0/src/search.ts)
+- **[jev-curate](https://github.com/AkashPriyadarshii/jev-curate)** · 87 stars — A Rust pipeline that uses Jev to screen candidate dataset rows. [Source](https://github.com/AkashPriyadarshii/jev-curate/blob/55716e1ab42af690e68d58e7cd3309e798abe804/src/client.rs)
+- **[jevgrep](https://github.com/nassim-arifette/jevgrep)** · 84 stars — A semantic code-search tool that scores repository fragments with Jev. [Source](https://github.com/nassim-arifette/jevgrep/blob/a4e764ac09a62e696307b61d42eaaf0e13ece9b9/src/evaluation/jev.ts)
 - **[jegrep](https://github.com/can1357/jegrep)** · 83 stars — Semantic grep for live code trees: describe what you need, get files and original line ranges without building an index. [Source](https://github.com/can1357/jegrep/blob/a280f14f6da8163bde67e0c49f58b23517a02882/src/jev.rs)
 - **[Pg TypeSafe](https://github.com/giuliosmall/pg_typesafe)** · 82 stars — A pre-alpha PostgreSQL C extension for calling Jev from SQL for classification, yes/no judgments, and scoring. [Source](https://github.com/giuliosmall/pg_typesafe/blob/4b5bfc1df11b18c3f07bb10804eeb47e4508ec6a/typesafe.c)
+- **[JEV DataOps](https://github.com/RenaGao/jev-dataops)** · 60 stars — A data-curation workbench with an optional Jev screening provider. [Source](https://github.com/RenaGao/jev-dataops/blob/6b7b86a17beb3f8ddbdae2e1813b9a1730362551/jev_dataops/jev.py)
+- **[YC Indexor](https://github.com/Aayan-DEV/aayans-yc-indexor)** · 54 stars — A search app that re-tags YC companies with Jev before ranking results. [Source](https://github.com/Aayan-DEV/aayans-yc-indexor/blob/b1ed779dd9c5a5a0e36f2c5ae20e3b680d98e9e5/lib/jev/judge.ts)
 
 [↑ Back to discovery](#discovery)
 
@@ -238,7 +255,7 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 
 <a id="agent-workflows"></a>
 
-### Agent workflows (15)
+### Agent workflows (17)
 
 - **[Jev Model Router](https://github.com/davila7/claude-code-templates)** · 31.2K stars — A Claude Code mod that classifies subagent model and reasoning-effort needs. [Source](https://github.com/davila7/claude-code-templates/blob/61bfcd1586bf1076f6d3cfa0436317c912811e6c/cli-tool/components/mods/productivity/jev-model-router/hooks/jev-model-router.ts)
 - **[Openwork](https://github.com/different-ai/openwork)** · 23.7K stars — An open-source cowork-style agent workspace that can run JEV-backed reviews inside CI and skill workflows. [Source](https://github.com/different-ai/openwork/blob/80c74d2160034fa1738fc6be78dd24ddfeccfc59/.github/scripts/jev-test-coverage-review.mjs)
@@ -248,9 +265,11 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 - **[Agent Beacon · Jev Evaluator](https://github.com/asymptote-labs/agent-beacon)** · 1.1K stars — Cross-harness agent memory that can ask Jev to score bounded, redacted session projections before promoting lessons. [Source](https://github.com/asymptote-labs/agent-beacon/blob/29c504ea4f0163f1281cc6774a0b1d3d9d9436ee/cli/beacon/internal/learning/evaluator.go)
 - **[Distill · JEV Runtime](https://github.com/samuelfaj/distill)** · 684 stars — A coding-agent runtime with JEV lanes for routing, compaction, memory, and tool-result handling. [Source](https://github.com/samuelfaj/distill/blob/d5f031153cb817f023138a9a0b3fce5516f727c4/crates/codegen/distill-shell/src/jev.rs)
 - **[Smithers](https://github.com/smithersai/smithers)** · 420 stars — An agentic TypeScript workflow framework with a first-class JEV classify path. [Source](https://github.com/smithersai/smithers/blob/394ada6a3fb815b4b62cfc7bc2242e238d42ff44/apps/server/src/jev.ts)
+- **[JevHarness](https://github.com/TianyuCodings/JevHarness)** · 315 stars — A framework for creating and evaluating task-specific Jev decision harnesses. [Source](https://github.com/TianyuCodings/JevHarness/blob/34d5c9602f6f73792e2c625cc31dd9ed7b4f39b5/auto_jev/providers.py)
 - **[Compact Adviser](https://github.com/kunchenguid/compact-adviser)** · 180 stars — A coding-agent skill/plugin that advises when to compact context to save tokens. [Source](https://github.com/kunchenguid/compact-adviser/blob/d1655faa16a22b68bff60c3d7deb0123e1e52a53/packages/codex-plugin/skills/compact-adviser/SKILL.md)
 - **[jev-gateway](https://github.com/vinilana/jev-gateway)** · 179 stars — A gateway for inserting Jev decisions into Claude Code and Codex tool flows. [Source](https://github.com/vinilana/jev-gateway/blob/9463952bf118773fb955427d2725a98f76546233/README.md)
 - **[JEV Pruner](https://github.com/tamaratran/jev-pruner)** · 140 stars — A Claude Code plugin that trims long Bash output with TypeSafe JEV before the model sees it. [Source](https://github.com/tamaratran/jev-pruner/blob/47d017c34eab7690b95f075ce6f4839247c5dc0a/src/jev.ts)
+- **[system1-agents](https://github.com/ThinkFlowLab/system1-agents)** · 128 stars — An agent framework with interchangeable Jev, Laya, and Cua-S1 decision backends. [Source](https://github.com/ThinkFlowLab/system1-agents/blob/222e656a1a53d7d19c815d8ac66defaad557b1c5/s1a/decision_models/jev.py)
 - **[JEV DSH Decision](https://github.com/Devin-AXIS/jev-dsh-decision)** · 115 stars — A structured JEV decision plugin for DeepSeek Harness and compatible coding-agent hosts. [Source](https://github.com/Devin-AXIS/jev-dsh-decision/blob/adc88caa9bf174d367e79a5f254c7936bcef088e/service/jev.mjs)
 - **[Skillranker](https://github.com/Dicklesworthstone/skillranker)** · 114 stars — A Rust CLI that ranks agent skills against live session context with JEV. [Source](https://github.com/Dicklesworthstone/skillranker/blob/16743e9f9dee04850d01015d8f5c863a4ed4d0ff/README.md)
 - **[Bluenoise](https://github.com/rokcso/bluenoise)** · 90 stars — An X/Twitter filtering extension using local rules by default, with optional Jev checks for unmatched replies. [Source](https://github.com/rokcso/bluenoise/blob/ef81ea7a7c3677501d6de8f9235a4d6a866b573a/entrypoints/background.ts)
@@ -260,23 +279,28 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 
 <a id="interfaces"></a>
 
-### Interfaces & automation (9)
+### Interfaces & automation (14)
 
 - **[json-render · JEV Compose](https://github.com/vercel-labs/json-render)** · 18.1K stars — A JEV UI-composition experiment that selects from predefined components and properties. [Source](https://github.com/vercel-labs/json-render/blob/3ad381881194e7011ad3ccd6d668033495a06c29/apps/web/lib/jev/compose.ts)
 - **[JEV Chat Jarvis](https://github.com/jev-chat/jev-chat-jarvis)** · 4.1K stars — An Android conversation copilot that reads visible chat context and proposes replies without auto-sending. [Source](https://github.com/jev-chat/jev-chat-jarvis/blob/d8720521fa13aa5172a891cba95c5dd8aeb44a11/app/src/main/java/com/jev/probe/jev/JevClient.kt)
 - **[Aiavatarkit](https://github.com/uezo/aiavatarkit)** · 678 stars — An optional AIAvatarKit component uses Jev to judge turn endings from speech transcripts. [Source](https://github.com/uezo/aiavatarkit/blob/38b617b8b9269939734e70ef503d7ea6976acdbd/aiavatar/sts/vad/turn_end_gates/jev.py#L172)
 - **[TipTour macOS](https://github.com/milind-soni/tiptour-macos)** · 654 stars — A local macOS computer-use companion driven by Jev or Gemini Live. [Source](https://github.com/milind-soni/tiptour-macos/blob/52582467c883d66484542f3be8e259340eb524f1/README.md)
+- **[Jev Chat · Windows](https://github.com/jev-chat/jev-chat-windows)** · 613 stars — A Windows reply assistant that reads chat screenshots with local OCR. [Source](https://github.com/jev-chat/jev-chat-windows/blob/946d3d1409b5f340d2b2c2e2a067d4c143638d5a/core/jev_client.py)
+- **[Jev Chat · macOS](https://github.com/jev-chat/jev-chat-jarvis-mac)** · 417 stars — A macOS overlay that reads visible chats and suggests replies. [Source](https://github.com/jev-chat/jev-chat-jarvis-mac/blob/01312b05655566a4ba4479899373a6826e95867d/src/judge_jev.py)
 - **[Notra](https://github.com/usenotra/notra)** · 213 stars — A product that turns work artifacts into publishable content with agent skill hooks. [Source](https://github.com/usenotra/notra/blob/f792a620ef1066b34665ec84c6f55fc9ca5d9954/README.md)
 - **[OpenWhisper](https://github.com/Knuckles92/OpenWhisper)** · 187 stars — A dictation and meeting-notes app with optional Jev checks for topic changes, note-taker instructions and sensitive text. [Source](https://github.com/Knuckles92/OpenWhisper/blob/9e83653df183096104769e302a3c907cb277c551/README.md)
+- **[jev-workflow-builder](https://github.com/CTNicholas/jev-workflow-builder)** · 148 stars — A visual multiplayer builder for workflows that call Jev and text models. [Source](https://github.com/CTNicholas/jev-workflow-builder/blob/9a652d22216028a64ccaa7468754e45e1860618b/app/workflow/server/typesafe.ts)
 - **[JEV Chat](https://github.com/w3cj/jev-chat)** · 91 stars — A tool-using chat interface where JEV chooses only from code-supplied reply and tool options. [Source](https://github.com/w3cj/jev-chat/blob/e543aba8c21b57a28a748ef41966502130f0f69e/apps/server/src/jev/pools.ts)
 - **[Youtube Sponsor Detection](https://github.com/trungdq88/youtube-sponsor-detection)** · 91 stars — YouTube extension detecting sponsored segments from live audio and transcripts using Jev, skipping promotional blocks automatically. [Source](https://github.com/trungdq88/youtube-sponsor-detection/blob/de01f0568d043035889a296a61ce21e0accc8b16/extension/lib/jev.js#L1-L541)
 - **[Jevmeter](https://github.com/ChetasLua/jevmeter)** · 81 stars — Creates edited videos with score meters by asking Jev to rate transcript sentences against selected rubrics. [Source](https://github.com/ChetasLua/jevmeter/blob/cbf8e117b5b8835e3294c3a8ee652c7dfa737a9a/jevmeter/score.py)
+- **[Jev Paint](https://github.com/achimala/jev-paint)** · 60 stars — An experimental painting app that turns Jev probability distributions into pixels. [Source](https://github.com/achimala/jev-paint/blob/ecf9c48d290e086bde790d6e24b93324667155e9/web/jev.mjs)
+- **[jev-design](https://github.com/bilune/jev-design)** · 55 stars — A UI experiment that uses Jev to select predefined visual-system options. [Source](https://github.com/bilune/jev-design/blob/70d1fae7cf58fdc894051dcdc658eddd3ba4084d/src/design/jev/client.ts)
 
 [↑ Back to discovery](#discovery)
 
 <a id="developer-tools"></a>
 
-### Developer tools (35)
+### Developer tools (42)
 
 - **[Fast Jev Compaction](https://github.com/tamaratran/fast-jev-compaction)** · 6.3K stars — Compacts Claude Code tool history while keeping retained text verbatim. [Source](https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/client.ts)
 - **[TypeSafe Skills](https://github.com/typesafe-ai/skills)** · 1.9K stars — Official agent skills for building against TypeSafe’s System One / JEV API. [Source](https://github.com/typesafe-ai/skills/blob/65a39f393687675ce170e6094757de20370365b9/skills/typesafe-ai/SKILL.md)
@@ -288,6 +312,7 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 - **[Awesome JEV (HeyJunPenn)](https://github.com/heyjunpenn/awesome-jev)** · 589 stars — A multilingual, community-maintained catalogue of open-source JEV projects. [Source](https://github.com/heyjunpenn/awesome-jev/blob/eabb8446bdadd6744adce2e30871ef0691cf34e5/README.md)
 - **[Jev Review](https://github.com/devagrawal09/jev-review)** · 556 stars — Reviews a Git diff or a codebase in stages and displays review leads in a local dashboard. [Source](https://github.com/devagrawal09/jev-review/blob/31f89602797fb7bea007f8a480bf368bf564954e/src/review/judgments.ts#L38)
 - **[Foreman](https://github.com/thruwire/foreman)** · 517 stars — An independent supervisor loop that reads worker diffs, logs and tests, asks Jev Nouls about stuck / off-track / verify, then applies a Python policy. [Source](https://github.com/thruwire/foreman/blob/209182dac7a3467033fd093ab4ca47d21279984a/src/foreman/foreman/jev.py)
+- **[Awesome Jev · Decision Atlas](https://github.com/kydlikebtc/awesome-jev)** · 504 stars — A source-linked catalogue and MCP search tool organized by decision pattern. [Source](https://github.com/kydlikebtc/awesome-jev/blob/3212513241726286fff1fa28bb3ff6e657aac488/src/awesome_jev_mcp/server.py)
 - **[Awesome TypeSafe](https://github.com/AbdelStark/awesome-typesafe)** · 476 stars — A curated list of official and community resources for TypeSafe, System One, and JEV. [Source](https://github.com/AbdelStark/awesome-typesafe/blob/d44dc0a1e26d41bc7f543d39b4b62ae5cb9f13c8/README.md)
 - **[Awesome TypeSafe JEV](https://github.com/AbdelStark/awesome-typesafe-jev)** · 476 stars — A source-backed field guide to TypeSafe JEV projects, SDKs, demos, and evaluations. [Source](https://github.com/AbdelStark/awesome-typesafe-jev/blob/9384099af36cd439b7f0bd4311560ac02eeabe7c/README.md)
 - **[Awesome Jev Skills](https://github.com/wuyoscar/jev-skill)** · 437 stars — A collection of agent skills and workflows with a standard-library JEV decision client. [Source](https://github.com/wuyoscar/jev-skill/blob/4d6efbc5b87a4172524ad4ab4590aef077fdc13b/skills/jev/scripts/jev.py)
@@ -310,31 +335,42 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 - **[Awesome JEV (kraayenjon)](https://github.com/kraayenjon/awesome-jev)** · 113 stars — A curated guide to JEV use cases, projects, SDKs, tools, and learning resources. [Source](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md)
 - **[Stanley Code](https://github.com/devagrawal09/stanley-code)** · 113 stars — Bounded JEV workflows for coding agents with a dedicated adapter. [Source](https://github.com/devagrawal09/stanley-code/blob/fd092558ebea389c81d44f9b10e826d9a72afaa3/src/adapters/jev.ts)
 - **[JEV Shell History](https://github.com/mrnugget/jev-shell-history)** · 104 stars — Fish-style Zsh history suggestion tool ranked by Jev, ordering candidate commands from local history based on context. [Source](https://github.com/mrnugget/jev-shell-history/blob/4b2b75d26c0ccf5726263904514a22a8e11659ea/src/suggest.ts#L1-L196)
+- **[winnow](https://github.com/GhalebDweikat/winnow)** · 95 stars — A recoverable context filter for Claude Code tool outputs. [Source](https://github.com/GhalebDweikat/winnow/blob/51d80b945c74c8384bc47fa817179f668289afd8/sidecar/src/winnow/judge.py)
+- **[jevchat](https://github.com/kyle-pena-nlp/jevchat)** · 91 stars — An experiment that assembles chat text from repeated typed Jev choices. [Source](https://github.com/kyle-pena-nlp/jevchat/blob/d58abd51aef62a7df26c5614188d18df3f4ae1aa/jevchat/client.py)
 - **[JevBench](https://github.com/fstandhartinger/jevbench)** · 83 stars — A reproducible benchmark comparing JEV with open decision models, classifiers, and rerankers. [Source](https://github.com/fstandhartinger/jevbench/blob/75e6224ed8103bbc3485ca74820a2eaf7ce8abe0/jevbench/adapters/typesafe.py)
 - **[Awesome JEV (AppitStudio)](https://github.com/AppitStudio/awesome-jev)** · 78 stars — A curated JEV resource list with runnable typed-decision examples. [Source](https://github.com/AppitStudio/awesome-jev/blob/5d654f24aecf992617bbc45e76f32a36eba62f65/README.md)
+- **[SemDecide](https://github.com/sharziki/semdecide)** · 68 stars — A Unix CLI for typed Jev judgments in text and JSONL pipelines. [Source](https://github.com/sharziki/semdecide/blob/33cf5c03c50e02e59df3f3ea81f0650f6b791545/src/reflex_guard/providers/typesafe.py)
 - **[Awesome JEV ZH](https://github.com/yzfly/awesome-jev-zh)** · 60 stars — A Chinese JEV ecosystem guide with curated projects, practical tutorials, pricing, and independent caveats. [Source](https://github.com/yzfly/awesome-jev-zh/blob/cdb8a78cb3ac4cec36ebe305b73a4e0b4f5cba21/README.md)
+- **[jev-mcp · Coding Loop](https://github.com/burnigtm/jev-mcp)** · 59 stars — An MCP server that exposes typed Jev decisions to coding agents. [Source](https://github.com/burnigtm/jev-mcp/blob/9448f6120015f2f6c6dad7137c7f234545209918/src/typesafe.ts)
+- **[Jeview](https://github.com/andududu/jeview)** · 59 stars — A local proxy that visualizes Jev requests and responses as they happen. [Source](https://github.com/andududu/jeview/blob/495a4e43e9d67e495a66ab0d9e55ac1c5c4040d6/src/jeview.ts)
+- **[jev-rules](https://github.com/EliaAlberti/jev-rules)** · 58 stars — A Claude Code plugin that selects which standing rules apply to a prompt. [Source](https://github.com/EliaAlberti/jev-rules/blob/a2b0dd3cac3ad3a35b3b82c96d00790881da1dcd/plugins/jev-rules/hooks/lib/jev.mjs)
 
 [↑ Back to discovery](#discovery)
 
 <a id="domain-tools"></a>
 
-### Domain tools (15)
+### Domain tools (20)
 
 - **[AI Hedge Fund · JEV Adapter](https://github.com/virattt/ai-hedge-fund)** · 63.7K stars — An educational hedge-fund prototype with an optional JEV adapter for structured strategy judgments. [Source](https://github.com/virattt/ai-hedge-fund/blob/154a8b2f46dca0f40764d814e4e747b0ad71f4c4/hedge_fund/llm/client.py)
 - **[QuantDinger · JEV Gate](https://github.com/OpenByteInc/QuantDinger)** · 12.0K stars — An open-source trading OS with a JEV decision gate before selected live entries. [Source](https://github.com/OpenByteInc/QuantDinger/blob/12c04eb2cdb8a9d08dc84502f5261ec3f1c56bf7/backend_api_python/app/services/ai_decision_filter.py)
 - **[JEV Trader](https://github.com/jarrodwatts/jev-trader)** · 2.1K stars — A market-making experiment that can request one JEV trade decision per Monad block. [Source](https://github.com/jarrodwatts/jev-trader/blob/b587759e459ea049590102e54a0b07800864cdc3/src/model.ts)
 - **[Astra + JEV Minecraft Agent](https://github.com/rmalde/minecraft-agent)** · 524 stars — A Minecraft agent where a planner sets objectives and JEV selects legal game actions. [Source](https://github.com/rmalde/minecraft-agent/blob/78b40ed59514e5e2abde33a05ce398ecb2c39e05/models.mjs)
 - **[TypeSafe Mario](https://github.com/fhshaik/typesafe-mario)** · 355 stars — An experimental NES Mario controller that gives Jev structured emulator RAM and telemetry instead of screenshots. [Source](https://github.com/fhshaik/typesafe-mario/blob/ca22449ed187118d19326d1f54b01b6636578aa4/README.md)
+- **[Crush Monitor](https://github.com/FerryCorleone/crush-monitor)** · 244 stars — A local chat-analysis app using Jev for emotion, intent, and reply checks. [Source](https://github.com/FerryCorleone/crush-monitor/blob/c4fc2974b4eb33e5fa117aa0a8fbb5935a7dae86/server/provider.ts)
+- **[Kill My Idea](https://github.com/monteduro/killmyidea)** · 233 stars — A startup-idea checker that asks Jev bounded scoring questions. [Source](https://github.com/monteduro/killmyidea/blob/84f37b2e96922ccab12dcf44af2bf071bbdbf4c0/src/lib/typesafe.ts)
 - **[quackd · Jev Stepper](https://github.com/rokbenko/quackd)** · 229 stars — A robot orchestration CLI with an optional System One stepper that chooses among permitted discrete robot calls. [Source](https://github.com/rokbenko/quackd/blob/1250c05fd29fc388868366678917119d63146242/quackd/agent/decision/systemone.py)
 - **[Embodied JEV](https://github.com/FBddcz/embodied-jev)** · 191 stars — An embodied-agent evaluation stack comparing JEV with local and general-model decision policies. [Source](https://github.com/FBddcz/embodied-jev/blob/687210b62f3fad831295ebb1b83dab0b4e013baa/src/embodied_jev/policies.py)
 - **[Jevpilot](https://github.com/standardagents/jevpilot)** · 169 stars — A browser driving simulator where Jev chooses among locally generated paths and speeds. [Source](https://github.com/standardagents/jevpilot/blob/e1beeb13b9a928fb76f167f86af584f4ce9cf180/README.md)
+- **[jev-seo · Python](https://github.com/AgriciDaniel/jev-seo)** · 153 stars — A live SEO audit that combines crawl evidence with narrow Jev judgments. [Source](https://github.com/AgriciDaniel/jev-seo/blob/55a184a3b0d09565a4c84268f725a47784e62528/jevseo/jev.py)
 - **[Dasheng](https://github.com/wquguru/dasheng)** · 135 stars — A reading-practice app that combines streaming ASR with per-word JEV judgments. [Source](https://github.com/wquguru/dasheng/blob/1bacff4a075527e6c02da242a72d117e7cb3286b/lib/jev.js)
 - **[JEV Drone](https://github.com/RomanSlack/jev-drone)** · 134 stars — A MuJoCo drone experiment deriving scene features from camera buffers for Jev tactical advice. [Source](https://github.com/RomanSlack/jev-drone/blob/cbeb53ce4f17a06ea490ae43effcdad231143610/tactics.py#L184)
 - **[JEV Trade](https://github.com/aowang-ai/jev-trade)** · 110 stars — A live Hyperliquid trading agent with JEV as a bounded decision layer. [Source](https://github.com/aowang-ai/jev-trade/blob/df2c9656324a8a75996eb0612de7adcfe3ce6f89/src/model.ts)
 - **[JEV Eval Agent](https://github.com/vinilana/jev-eval-agent)** · 105 stars — Agent tool evaluation harness comparing standard LLM tool selection against Jev routing across 100 mocked tools. [Source](https://github.com/vinilana/jev-eval-agent/blob/037de1120c84b4b63cdf748e2acf258ff66d7731/agent/lib/jev-router.ts#L1-L154)
 - **[Formanator](https://github.com/timrogers/formanator)** · 99 stars — A CLI and MCP client for benefit claims with optional JEV receipt classification. [Source](https://github.com/timrogers/formanator/blob/548740edef37a4169eef163e4988e64f43a560ec/src/typesafe.rs)
+- **[jev-seo · Rust](https://github.com/AkashPriyadarshii/jev-seo)** · 80 stars — A Rust SEO and GEO CLI with optional Jev judgments alongside deterministic checks. [Source](https://github.com/AkashPriyadarshii/jev-seo/blob/1efd829aa445acddc281032c0128f9a7b3dd0f1c/src/engine.rs)
 - **[Prism Liquidity Agent](https://github.com/irfndi/prism-liquidity-agent)** · 79 stars — An autonomous liquidity agent that uses JEV inside its rebalancing decision service. [Source](https://github.com/irfndi/prism-liquidity-agent/blob/22c67bdbe30bab608226832256a5013ad826b707/engine/jev-service.ts)
 - **[HA-Jev](https://github.com/AboveColin/HA-Jev)** · 50 stars — A Home Assistant integration that turns typed Jev questions about house state into sensors and automation actions. [Source](https://github.com/AboveColin/HA-Jev/blob/c3d4881121e4d02eacf272d9340447235c6ecc41/custom_components/jev/coordinator.py)
+- **[Jev Recruiter](https://github.com/skeptrunedev/jev-recruiter)** · 50 stars — A local recruiting workspace built on bounded browser decisions. [Source](https://github.com/skeptrunedev/jev-recruiter/blob/bed4083bf5a8351ce21089a5ebd0f90498ffdd6c/jev_ultrafast/model.py)
 
 [↑ Back to discovery](#discovery)
 
