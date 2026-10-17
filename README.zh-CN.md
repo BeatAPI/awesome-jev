@@ -16,7 +16,7 @@
 
 <p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<p align="center">228 个项目 · 10 种项目类型 · 更新于 2026-09-28<br><sub>每个仓库 50+ Star · 已核对源码</sub></p>
+<p align="center">229 个项目 · 10 种项目类型 · 更新于 2026-09-28<br><sub>每个仓库 50+ Star · 已核对源码</sub></p>
 
 <a id="discovery"></a>
 
@@ -68,11 +68,11 @@ npx skills add BeatAPI/awesome-jev
 <a id="categories"></a>
 <a id="all-projects"></a>
 
-## 全部 228 个项目
+## 全部 229 个项目
 
 下面按项目类型浏览完整目录。如果已经有具体需求，可以先看上方的场景指南。
 
-[浏览器与电脑操作 · 20](#browser-computer-use) · [SDK 与框架集成 · 32](#sdk-integrations) · [路由与优化 · 16](#routing-optimization) · [开放模型 · 31](#open-models) · [搜索与数据 · 20](#search-data)<br>
+[浏览器与电脑操作 · 20](#browser-computer-use) · [SDK 与框架集成 · 32](#sdk-integrations) · [路由与优化 · 16](#routing-optimization) · [开放模型 · 32](#open-models) · [搜索与数据 · 20](#search-data)<br>
 [安全与审查 · 16](#safety-review) · [Agent 工作流 · 17](#agent-workflows) · [界面与自动化 · 14](#interfaces) · [开发者工具 · 42](#developer-tools) · [垂直工具 · 20](#domain-tools)
 
 <a id="browser-computer-use"></a>
@@ -166,7 +166,7 @@ npx skills add BeatAPI/awesome-jev
 
 <a id="open-models"></a>
 
-### 开放模型 (31)
+### 开放模型 (32)
 
 - **[Laya](https://github.com/NandhaKishorM/laya)** · 17.1K Star — 多语言非自回归 System 1 决策引擎：单次前向完成类型化 choice/score/noul，并由路由在检查点间选型。 [源码证据](https://github.com/NandhaKishorM/laya/blob/d113dca2512fb3eaca313534bc54c7162d87c1d4/README.md)
 - **[Kev 0.5B](https://github.com/jaredpalmer/kev)** · 4.5K Star — 基于 Qwen2.5-0.5B、可在 MacBook 上训练运行的轻量决策模型。 [源码证据](https://github.com/jaredpalmer/kev/blob/20fa6268c8ceb226530be2fb5266ab2c36b37724/README.md)
@@ -199,6 +199,7 @@ npx skills add BeatAPI/awesome-jev
 - **[jevmlx](https://github.com/bnsd55/jevmlx)** · 59 Star — 在 Apple Silicon 本地从 MLX logits 为受限字段打分，并提供 System One HTTP 接口。 [源码证据](https://github.com/bnsd55/jevmlx/blob/9d3621516826a5de4480c9fdab0aa6d59e93e113/jevmlx/serve.py)
 - **[QwenJev](https://github.com/RJMSWD/QwenJev)** · 57 Star — 使用本地 Qwen 做封闭选项视觉判断的实验。 [源码证据](https://github.com/RJMSWD/QwenJev/blob/b1fde638be0747a71d1acafb1f99d4a7ce67651d/qwen_choice.py)
 - **[Open Alternative to Jev](https://github.com/ikermoel/open-alternative-jev)** · 51 Star — 开源 System One 风格决策器，把类型化问题打包进本地开放模型的一次前向。 [源码证据](https://github.com/ikermoel/open-alternative-jev/blob/4a85df1831b537343c9e133b5150fa3a3b1ce98e/so1/decider.py)
+- **[WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep)** · 3 Star — 开源权重的决策模型，回答选择、评分、是非和多标签问题，并为每个选项给出概率；提供兼容 Jev 的 /v1/systemone 服务，也有可在浏览器中运行的 ONNX 版本。 [源码证据](https://github.com/SamratDuttaOfficial/WaterSheep/blob/3ccf02b3839fd2d72e6fb29750488010c7d76360/watersheep/cli.py#L24-L31)
 
 [↑ 返回检索入口](#discovery)
 

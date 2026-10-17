@@ -16,7 +16,7 @@
 
 <p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<p align="center">228 projects · 10 project types · Updated 2026-09-28<br><sub>50+ GitHub stars per repository · Source-reviewed</sub></p>
+<p align="center">229 projects · 10 project types · Updated 2026-09-28<br><sub>50+ GitHub stars per repository · Source-reviewed</sub></p>
 
 <a id="discovery"></a>
 
@@ -68,11 +68,11 @@ npx skills add BeatAPI/awesome-jev
 <a id="categories"></a>
 <a id="all-projects"></a>
 
-## All 228 projects
+## All 229 projects
 
 Browse the full catalogue by project type. Use the scenario guides above when you have a specific task in mind.
 
-[Browser & computer use · 20](#browser-computer-use) · [SDK integrations · 32](#sdk-integrations) · [Routing & optimization · 16](#routing-optimization) · [Open models · 31](#open-models) · [Search & data · 20](#search-data)<br>
+[Browser & computer use · 20](#browser-computer-use) · [SDK integrations · 32](#sdk-integrations) · [Routing & optimization · 16](#routing-optimization) · [Open models · 32](#open-models) · [Search & data · 20](#search-data)<br>
 [Safety & review · 16](#safety-review) · [Agent workflows · 17](#agent-workflows) · [Interfaces & automation · 14](#interfaces) · [Developer tools · 42](#developer-tools) · [Domain tools · 20](#domain-tools)
 
 <a id="browser-computer-use"></a>
@@ -166,7 +166,7 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 
 <a id="open-models"></a>
 
-### Open models (31)
+### Open models (32)
 
 - **[Laya](https://github.com/NandhaKishorM/laya)** · 17.1K stars — Multilingual non-autoregressive System 1 decision engine: typed choice/score/noul in one forward pass, with a router across checkpoints. [Source](https://github.com/NandhaKishorM/laya/blob/d113dca2512fb3eaca313534bc54c7162d87c1d4/README.md)
 - **[Kev 0.5B](https://github.com/jaredpalmer/kev)** · 4.5K stars — A tiny trainable Jev-like decision model based on Qwen2.5-0.5B. [Source](https://github.com/jaredpalmer/kev/blob/20fa6268c8ceb226530be2fb5266ab2c36b37724/README.md)
@@ -199,6 +199,7 @@ Browse the full catalogue by project type. Use the scenario guides above when yo
 - **[jevmlx](https://github.com/bnsd55/jevmlx)** · 59 stars — A local Apple Silicon decision layer that scores constrained fields from MLX logits and speaks System One HTTP. [Source](https://github.com/bnsd55/jevmlx/blob/9d3621516826a5de4480c9fdab0aa6d59e93e113/jevmlx/serve.py)
 - **[QwenJev](https://github.com/RJMSWD/QwenJev)** · 57 stars — A local Qwen experiment for closed-set visual decisions. [Source](https://github.com/RJMSWD/QwenJev/blob/b1fde638be0747a71d1acafb1f99d4a7ce67651d/qwen_choice.py)
 - **[Open Alternative to Jev](https://github.com/ikermoel/open-alternative-jev)** · 51 stars — An open System One-style decider that packs typed questions into one forward pass over local open models. [Source](https://github.com/ikermoel/open-alternative-jev/blob/4a85df1831b537343c9e133b5150fa3a3b1ce98e/so1/decider.py)
+- **[WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep)** · 3 stars — Open-weight decision model that answers choice, score, yes/no and multi-label questions with a probability for every option, with a Jev-compatible /v1/systemone server and an ONNX build for the browser. [Source](https://github.com/SamratDuttaOfficial/WaterSheep/blob/3ccf02b3839fd2d72e6fb29750488010c7d76360/watersheep/cli.py#L24-L31)
 
 [↑ Back to discovery](#discovery)
 

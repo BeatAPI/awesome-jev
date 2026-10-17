@@ -16,7 +16,7 @@
 
 <p align="center"><a href="./README.md">English</a> · <a href="./README.zh-CN.md">简体中文</a> · <a href="./README.ja.md">日本語</a></p>
 
-<p align="center">228 プロジェクト · 10 種類 · 更新 2026-09-28<br><sub>各リポジトリ 50★以上 · ソース確認済み</sub></p>
+<p align="center">229 プロジェクト · 10 種類 · 更新 2026-09-28<br><sub>各リポジトリ 50★以上 · ソース確認済み</sub></p>
 
 <a id="discovery"></a>
 
@@ -68,11 +68,11 @@ npx skills add BeatAPI/awesome-jev
 <a id="categories"></a>
 <a id="all-projects"></a>
 
-## 全 228 プロジェクト
+## 全 229 プロジェクト
 
 種類別に全カタログを確認できます。具体的な目的がある場合は、上の用途別ガイドから始めてください。
 
-[ブラウザ・PC 操作 · 20](#browser-computer-use) · [SDK・フレームワーク · 32](#sdk-integrations) · [ルーティング · 16](#routing-optimization) · [オープンモデル · 31](#open-models) · [検索・データ · 20](#search-data)<br>
+[ブラウザ・PC 操作 · 20](#browser-computer-use) · [SDK・フレームワーク · 32](#sdk-integrations) · [ルーティング · 16](#routing-optimization) · [オープンモデル · 32](#open-models) · [検索・データ · 20](#search-data)<br>
 [安全性・レビュー · 16](#safety-review) · [Agent ワークフロー · 17](#agent-workflows) · [UI・自動化 · 14](#interfaces) · [開発者ツール · 42](#developer-tools) · [業務特化ツール · 20](#domain-tools)
 
 <a id="browser-computer-use"></a>
@@ -166,7 +166,7 @@ npx skills add BeatAPI/awesome-jev
 
 <a id="open-models"></a>
 
-### オープンモデル (31)
+### オープンモデル (32)
 
 - **[Laya](https://github.com/NandhaKishorM/laya)** · 17.1K Star — 多言語・非自己回帰の System 1 意思決定エンジン。1 回の前向き計算で型付き choice/score/noul を出し、ルータがチェックポイントを選びます。 [根拠](https://github.com/NandhaKishorM/laya/blob/d113dca2512fb3eaca313534bc54c7162d87c1d4/README.md)
 - **[Kev 0.5B](https://github.com/jaredpalmer/kev)** · 4.5K Star — Qwen2.5-0.5B に基づく、小さなトレーニング可能な JEV のような意思決定モデル。 [根拠](https://github.com/jaredpalmer/kev/blob/20fa6268c8ceb226530be2fb5266ab2c36b37724/README.md)
@@ -199,6 +199,7 @@ npx skills add BeatAPI/awesome-jev
 - **[jevmlx](https://github.com/bnsd55/jevmlx)** · 59 Star — Apple Silicon 上で MLX logits から制約付きフィールドを採点し、System One HTTP を提供するローカル層。 [根拠](https://github.com/bnsd55/jevmlx/blob/9d3621516826a5de4480c9fdab0aa6d59e93e113/jevmlx/serve.py)
 - **[QwenJev](https://github.com/RJMSWD/QwenJev)** · 57 Star — ローカルの Qwen で画像の閉じた選択肢を判定する実験。 [根拠](https://github.com/RJMSWD/QwenJev/blob/b1fde638be0747a71d1acafb1f99d4a7ce67651d/qwen_choice.py)
 - **[Open Alternative to Jev](https://github.com/ikermoel/open-alternative-jev)** · 51 Star — 型付き質問をローカル開放モデルの一回 forward に詰める、オープンな System One 風 Decider。 [根拠](https://github.com/ikermoel/open-alternative-jev/blob/4a85df1831b537343c9e133b5150fa3a3b1ce98e/so1/decider.py)
+- **[WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep)** · 3 Star — 選択・スコア・はい/いいえ・マルチラベルの質問に答え、すべての選択肢に確率を返すオープンウェイトの意思決定モデル。Jev 互換の /v1/systemone サーバーと、ブラウザで動く ONNX 版があります。 [根拠](https://github.com/SamratDuttaOfficial/WaterSheep/blob/3ccf02b3839fd2d72e6fb29750488010c7d76360/watersheep/cli.py#L24-L31)
 
 [↑ 検索入口に戻る](#discovery)
 

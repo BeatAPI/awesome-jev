@@ -6423,6 +6423,35 @@
       },
       "verification": "source-reviewed",
       "runtimeVerified": false
+    },
+    {
+      "id": "watersheep",
+      "name": "WaterSheep",
+      "owner": "SamratDuttaOfficial",
+      "category": "open-models",
+      "repoUrl": "https://github.com/SamratDuttaOfficial/WaterSheep",
+      "evidenceUrl": "https://github.com/SamratDuttaOfficial/WaterSheep/blob/3ccf02b3839fd2d72e6fb29750488010c7d76360/watersheep/cli.py#L24-L31",
+      "modelUrl": "https://huggingface.co/samratduttaofficial/WaterSheep",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "starsAtCapture": 3,
+      "summary": {
+        "en": "Open-weight decision model that answers choice, score, yes/no and multi-label questions with a probability for every option, with a Jev-compatible /v1/systemone server and an ONNX build for the browser.",
+        "zh": "开源权重的决策模型，回答选择、评分、是非和多标签问题，并为每个选项给出概率；提供兼容 Jev 的 /v1/systemone 服务，也有可在浏览器中运行的 ONNX 版本。",
+        "ja": "選択・スコア・はい/いいえ・マルチラベルの質問に答え、すべての選択肢に確率を返すオープンウェイトの意思決定モデル。Jev 互換の /v1/systemone サーバーと、ブラウザで動く ONNX 版があります。"
+      },
+      "decision": {
+        "en": "Picks among the options a caller defines and returns a probability for each, so code can act on the answer or hold back below a threshold.",
+        "zh": "在调用方定义的选项中作出选择，并为每个选项给出概率，代码可以据此执行，或在低于阈值时暂缓。",
+        "ja": "呼び出し側が定義した選択肢から選び、それぞれに確率を返すので、コードはその答えで動くか、しきい値未満なら保留できます。"
+      },
+      "source": {
+        "type": "github",
+        "label": "GitHub source",
+        "url": "https://github.com/SamratDuttaOfficial/WaterSheep/blob/3ccf02b3839fd2d72e6fb29750488010c7d76360/README.md"
+      },
+      "verification": "source-reviewed",
+      "runtimeVerified": false
     }
   ]
 }
