@@ -35,6 +35,14 @@
 
 [源码证据](https://github.com/lahfir/agent-desktop/blob/7a8e4a10281c7319733aa200fd79501f34529716/scripts/jev/act.mjs)
 
+### [Jev Social](https://github.com/socai-io/jev-social)
+
+本地社交媒体研究应用：Jev 选择有限的 Instagram、TikTok 与 LinkedIn 操作，由 socai 在用户的 Chrome 中执行。
+
+**值得参考什么:** 参考如何把有限的社交搜索、读取选择与 socai CLI 执行及来源证据分开。
+
+[源码证据](https://github.com/socai-io/jev-social/blob/51830b34906673e796754b70f8e878d166822a9b/src/actions.js)
+
 这些项目分别展示该模式的一部分，并非一套开箱即用的完整应用。源码核对不代表运行、性能或 BeatAPI 接入兼容性已经验证。
 
 [试用免费 JEV API](https://docs.beatapi.io/decisions#free-calls) · [用 Agent 搜索](../docs/agent-search.zh.md)

@@ -218,6 +218,14 @@
             "zh": "参考通过无障碍数据选择原生桌面控件。",
             "ja": "アクセシビリティ情報からネイティブの操作対象を選ぶ方法。"
           }
+        },
+        {
+          "projectId": "jev-social",
+          "reference": {
+            "en": "Separating bounded social search and read choices from socai CLI execution and source-linked evidence.",
+            "zh": "参考如何把有限的社交搜索、读取选择与 socai CLI 执行及来源证据分开。",
+            "ja": "限定されたソーシャル検索・読取の選択を、socai CLI の実行と出典付き証拠から分離する方法。"
+          }
         }
       ]
     },
